@@ -1,12 +1,9 @@
-# acid-pass
-Acid-pass (pronounced "SSID"-pass) is a Sailfish application to show your stored Wi-Fi password.
+# BarWal
+BarWal is a (bar)code wallet for Sailfish OS.
 
-**Warning**
-It takes root privileges to find the passwords. This can be misused if someone else gets access to your device!
-The access code should prevent unauthorised use of the application itself by others. It has some other basic protections to make it a little bit harder to abuse it.
-In short: use at own risk.
+It used zint for generating the images
 
-App can be downloaded from [openrepos.net] (https://openrepos.net/content/ade/acid-pass)
+Supported codes:
 
 1: Code 11
 2: Standard 2of5
