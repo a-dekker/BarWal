@@ -1,0 +1,15 @@
+# Rename this file as acid-pass.changes to include changelog
+# entries in your RPM file.
+#
+# Add new changelog entries following the format below.
+# Add newest entries to the top of the list.
+# Separate entries from eachother with a blank line.
+
+# * date Author's Name <author's email> version-release
+# - Summary of changes
+
+* Sun Jun 13 2021 Arno Dekker <jack.tar@example.com> 0.0.1-1
+- Initial version
+* Sun Jun 13 2021 Arno Dekker <jack.tar@example.com> 0.0.2-1
+- Make background white for proper qr-code scanning
+- Small layout fix in adding barcode page

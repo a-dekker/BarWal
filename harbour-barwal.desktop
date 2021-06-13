@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Name=BarWal
+Icon=harbour-barwal
+Exec=harbour-barwal
+[X-HarbourBackup]
+BackupPathList=.local/share/harbour-barwal/
