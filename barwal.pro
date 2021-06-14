@@ -43,7 +43,7 @@ OTHER_FILES += qml/barwal.qml \
 
 INSTALLS += translations
 
-TRANSLATIONS = translations/harbour-barwal-de.ts
+TRANSLATIONS = translations/harbour-barwal-sv.ts
 
 # only include these files for translation:
 lupdate_only {

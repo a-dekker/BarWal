@@ -32,42 +32,53 @@
 <context>
     <name>AddBarcodeGroupPage</name>
     <message>
-        <location filename="../qml/pages/AddBarcodeGroupPage.qml" line="14"/>
+        <location filename="../qml/pages/AddBarcodeGroupPage.qml" line="47"/>
         <source>Create group</source>
         <translation>Skapa grupp</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodeGroupPage.qml" line="21"/>
+        <location filename="../qml/pages/AddBarcodeGroupPage.qml" line="54"/>
         <source>Name</source>
         <translation>Namn</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AddBarcodeGroupPage.qml" line="62"/>
+        <location filename="../qml/pages/AddBarcodeGroupPage.qml" line="72"/>
+        <source>Could not add group!</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>AddBarcodePage</name>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="14"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="42"/>
         <source>Create code</source>
         <translation>Skapa kod</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="19"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="47"/>
         <source>Barcode type</source>
         <translation>Kodtyp</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="312"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="340"/>
         <source>Name</source>
         <translation>Namn</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="322"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="350"/>
         <source>Description</source>
         <translation>Beskrivning</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="331"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="359"/>
         <source>Code</source>
         <translation>Kod</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="374"/>
+        <source>Could not add barcode!</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
