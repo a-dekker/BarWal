@@ -45,7 +45,7 @@
         <location filename="../qml/pages/AddBarcodeGroupPage.qml" line="62"/>
         <location filename="../qml/pages/AddBarcodeGroupPage.qml" line="72"/>
         <source>Could not add group!</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde inte lägga till grupp!</translation>
     </message>
 </context>
 <context>
@@ -78,7 +78,7 @@
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="374"/>
         <source>Could not add barcode!</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde inte lägga till kod!</translation>
     </message>
 </context>
 <context>
