@@ -107,6 +107,20 @@ Page {
                                                                       mainapp.groupName)
                                                       })
                     }
+                    MenuItem {
+                        text: qsTr("Details")
+                        onClicked:  pageStack.push(Qt.resolvedUrl(
+                                                      "BarcodeInfoPage.qml"), {
+                                                      "barcode_name": barcodeList.model.get(
+                                                                          index).Name,
+                                                      "barcode_description": barcodeList.model.get(
+                                                                                 index).Description,
+                                                      "barcode_code": barcodeList.model.get(
+                                                                          index).Code,
+                                                      "barcode_type": barcodeList.model.get(
+                                                                          index).Type
+                                                  })
+                    }
                 }
             }
 

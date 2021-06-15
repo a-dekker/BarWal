@@ -8,6 +8,8 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Tue Jun 15 2021 Arno Dekker <jack.tar@example.com> 0.0.5-1
+- Added barcode details to context menu
 * Tue Jun 15 2021 Arno Dekker <jack.tar@example.com> 0.0.4-1
 - Updated Swedish
 - Hungarian translation added

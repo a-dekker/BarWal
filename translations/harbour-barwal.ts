@@ -82,6 +82,34 @@
     </message>
 </context>
 <context>
+    <name>BarcodeInfoPage</name>
+    <message>
+        <location filename="../qml/pages/BarcodeInfoPage.qml" line="30"/>
+        <source>Barcode info</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/BarcodeInfoPage.qml" line="43"/>
+        <source>Barcode name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/BarcodeInfoPage.qml" line="64"/>
+        <source>Barcode description</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/BarcodeInfoPage.qml" line="85"/>
+        <source>Barcode type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/BarcodeInfoPage.qml" line="106"/>
+        <source>Barcode group</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>BarcodesPage</name>
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="41"/>
@@ -104,12 +132,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="123"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="111"/>
+        <source>Details</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/BarcodesPage.qml" line="137"/>
         <source>No barcodes defined</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="124"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="138"/>
         <source>Choose &quot;Add code&quot; from the pulley menu.</source>
         <translation type="unfinished"></translation>
     </message>

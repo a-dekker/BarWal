@@ -33,11 +33,12 @@ OTHER_FILES += qml/barwal.qml \
     qml/pages/About.qml \
     qml/pages/MainPage.qml \
     qml/pages/AddBarcodePage.qml \
-    qml/AddBarcodeGroupPage.qml \
-    qml/BarcodeDisplayPage.qml \
-    qml/BarcodesPage.qml \
-    qml/EditBarcodeGroupPage.qml \
-    qml/EditBarcodePage.qml \
+    qml/pages/AddBarcodeGroupPage.qml \
+    qml/pages/BarcodeDisplayPage.qml \
+    qml/pages/BarcodesPage.qml \
+    qml/pagesEditBarcodeGroupPage.qml \
+    qml/pages/EditBarcodePage.qml \
+    qml/pages/BarcodeInfoPage.qml \
     qml/localdb.js
 
 
