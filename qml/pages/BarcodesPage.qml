@@ -17,6 +17,7 @@ Page {
 
     onStatusChanged: {
         if (status === PageStatus.Activating) {
+            mainapp.barcodeDisplayed = false
             if (mainapp.barcodesChanged) {
                 barcodeList.model.clear()
                 DB.readBarcodes(mainapp.groupName)

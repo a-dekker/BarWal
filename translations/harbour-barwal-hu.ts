@@ -84,32 +84,32 @@
 <context>
     <name>BarcodesPage</name>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="40"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="41"/>
         <source>About</source>
         <translation>Névjegy</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="44"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="45"/>
         <source>Add code</source>
         <translation>Kód hozzáadása</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="86"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="87"/>
         <source>Edit</source>
         <translation>Szerkesztés</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="100"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="101"/>
         <source>Remove</source>
         <translation>Eltávolítás</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="122"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="123"/>
         <source>No barcodes defined</source>
         <translation>Nincsenek vonalkódok meghatározva</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="123"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="124"/>
         <source>Choose &quot;Add code&quot; from the pulley menu.</source>
         <translation>Válaszd a &quot;Kód hozzáadása&quot; lehetőséget a lehúzható menüből.</translation>
     </message>

@@ -59,12 +59,17 @@ CoverBackground {
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.margins: 15
         Label {
-            anchors.horizontalCenter: parent.horizontalCenter
-            text: "BarWal"
+            horizontalAlignment: Qt.AlignHCenter
+            text: mainapp.barcodeDisplayed ? mainapp.codeDescription : "BarWal"
+            wrapMode: Text.Wrap
+            width: parent.width
         }
         Image {
-            source: largeScreen ? "/usr/share/icons/hicolor/128x128/apps/harbour-barwal.png" : "/usr/share/icons/hicolor/86x86/apps/harbour-barwal.png"
+            source: mainapp.barcodeDisplayed ? "/tmp/barcode.png" : largeScreen ? "/usr/share/icons/hicolor/128x128/apps/harbour-barwal.png" : "/usr/share/icons/hicolor/86x86/apps/harbour-barwal.png"
             anchors.horizontalCenter: parent.horizontalCenter
+            cache: false
+            fillMode: Image.PreserveAspectFit
+            width: mainapp.barcodeDisplayed ? parent.width / 1.5 : largeScreen ? 128 : 86
         }
     }
 }

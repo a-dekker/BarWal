@@ -8,13 +8,17 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
-* Sun Jun 13 2021 Arno Dekker <jack.tar@example.com> 0.0.1-1
-- Initial version
-* Sun Jun 13 2021 Arno Dekker <jack.tar@example.com> 0.0.2-1
-- Make background white for proper qr-code scanning
-- Small layout fix in adding barcode page
-* Sun Jun 13 2021 Arno Dekker <jack.tar@example.com> 0.0.3-1
+* Tue Jun 15 2021 Arno Dekker <jack.tar@example.com> 0.0.4-1
+- Updated Swedish
+- Hungarian translation added
+- Show barcode image on coverpage if displayed in app
+* Mon Jun 14 2021 Arno Dekker <jack.tar@example.com> 0.0.3-1
 - Added Swedish translation
 - Forward possible zint errors as notifications
 - Display error screen instead of a previous valid barcode is case of an invalid barcode
 - Send banner message if adding group or barcode failed
+* Sun Jun 13 2021 Arno Dekker <jack.tar@example.com> 0.0.2-1
+- Make background white for proper qr-code scanning
+- Small layout fix in adding barcode page
+* Sun Jun 13 2021 Arno Dekker <jack.tar@example.com> 0.0.1-1
+- Initial version

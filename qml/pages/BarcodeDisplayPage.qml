@@ -61,6 +61,7 @@ Page {
 
     Component.onCompleted: {
         getFileInfo()
+        mainapp.barcodeDisplayed = true
     }
 
     SilicaFlickable {

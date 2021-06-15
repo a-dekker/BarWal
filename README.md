@@ -3,7 +3,7 @@ BarWal is a (bar)code wallet for Sailfish OS.
 
 It used zint for generating the images
 
-Supported codes:
+*Supported codes:*
 
 1: Code 11
 2: Standard 2of5
