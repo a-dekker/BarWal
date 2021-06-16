@@ -375,6 +375,32 @@ function readBarcodeGroups() {
   });
 }
 
+function readBarcodeList() {
+  var db = connectDB();
+
+  db.transaction(function (tx) {
+    var result = tx.executeSql(
+      "SELECT Description FROM zint_codes ORDER BY Description COLLATE NOCASE;"
+    );
+    for (var i = 0; i < result.rows.length; i++) {
+      editCodePage.appendBarcodeFromList(result.rows.item(i).Description, i);
+    }
+  });
+}
+
+function readBarcodeOnlyList() {
+  var db = connectDB();
+
+  db.transaction(function (tx) {
+    var result = tx.executeSql(
+      "SELECT Description FROM zint_codes ORDER BY Description COLLATE NOCASE;"
+    );
+    for (var i = 0; i < result.rows.length; i++) {
+      addCodePage.appendBarcodeOnlyFromList(result.rows.item(i).Description);
+    }
+  });
+}
+
 function removeBarcode(name) {
   var db = connectDB();
 

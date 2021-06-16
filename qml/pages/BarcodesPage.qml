@@ -94,6 +94,8 @@ Page {
                                                                           index).ComboIndex,
                                                       "barcode_description": barcodeList.model.get(
                                                                                  index).Description,
+                                                      "barcode_type": barcodeList.model.get(
+                                                                          index).Type,
                                                       "barcode_code": barcodeList.model.get(
                                                                           index).Code
                                                   })

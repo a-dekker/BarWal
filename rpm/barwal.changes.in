@@ -8,6 +8,8 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Wed Jun 16 2021 Arno Dekker <jack.tar@example.com> 0.0.6-1
+- And barcode list should now be sorted without breaking the currently stored barcodes
 * Wed Jun 16 2021 Arno Dekker <jack.tar@example.com> 0.0.5-2
 - Also show barcode string in details
 * Wed Jun 16 2021 Arno Dekker <jack.tar@example.com> 0.0.5-1

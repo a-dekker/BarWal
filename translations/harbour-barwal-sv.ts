@@ -61,32 +61,32 @@
 <context>
     <name>AddBarcodePage</name>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="42"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="55"/>
         <source>Create code</source>
         <translation>Skapa kod</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="47"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="60"/>
         <source>Barcode type</source>
         <translation>Kodtyp</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="340"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="74"/>
         <source>Name</source>
         <translation>Namn</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="350"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="84"/>
         <source>Description</source>
         <translation>Beskrivning</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="359"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="93"/>
         <source>Code</source>
         <translation>Kod</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="374"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="108"/>
         <source>Could not add barcode!</source>
         <translation>Kunde inte lägga till kod!</translation>
     </message>
@@ -147,22 +147,22 @@
         <translation>Redigera</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="102"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="104"/>
         <source>Remove</source>
         <translation>Ta bort</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="112"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="114"/>
         <source>Details</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="140"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="142"/>
         <source>No barcodes defined</source>
         <translation>Inga koder definierade</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="141"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="143"/>
         <source>Choose &quot;Add code&quot; from the pulley menu.</source>
         <translation>Välj &quot;Lägg till kod&quot; från toppmenyn.</translation>
     </message>
@@ -178,22 +178,22 @@
 <context>
     <name>EditBarcodePage</name>
     <message>
-        <location filename="../qml/pages/EditBarcodePage.qml" line="23"/>
+        <location filename="../qml/pages/EditBarcodePage.qml" line="41"/>
         <source>Barcode type</source>
         <translation>Kodtyp</translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditBarcodePage.qml" line="317"/>
+        <location filename="../qml/pages/EditBarcodePage.qml" line="55"/>
         <source>Name</source>
         <translation>Namn</translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditBarcodePage.qml" line="326"/>
+        <location filename="../qml/pages/EditBarcodePage.qml" line="64"/>
         <source>Description</source>
         <translation>Beskrivning</translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditBarcodePage.qml" line="335"/>
+        <location filename="../qml/pages/EditBarcodePage.qml" line="73"/>
         <source>Code</source>
         <translation>Kod</translation>
     </message>
