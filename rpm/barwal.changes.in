@@ -8,7 +8,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
-* Tue Jun 15 2021 Arno Dekker <jack.tar@example.com> 0.0.5-1
+* Wed Jun 16 2021 Arno Dekker <jack.tar@example.com> 0.0.5-2
+- Also show barcode string in details
+* Wed Jun 16 2021 Arno Dekker <jack.tar@example.com> 0.0.5-1
 - Added barcode details to context menu
 - Data conversion to remove zint codes from barcode names itself
 * Tue Jun 15 2021 Arno Dekker <jack.tar@example.com> 0.0.4-1

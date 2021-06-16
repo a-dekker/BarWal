@@ -109,17 +109,22 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodeInfoPage.qml" line="105"/>
+        <location filename="../qml/pages/BarcodeInfoPage.qml" line="84"/>
+        <source>Barcode string</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/BarcodeInfoPage.qml" line="126"/>
         <source>Barcode type</source>
         <translation type="unfinished">Vonalkód típusa</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodeInfoPage.qml" line="126"/>
+        <location filename="../qml/pages/BarcodeInfoPage.qml" line="147"/>
         <source>Referring zint code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodeInfoPage.qml" line="84"/>
+        <location filename="../qml/pages/BarcodeInfoPage.qml" line="105"/>
         <source>Barcode group</source>
         <translation type="unfinished"></translation>
     </message>

@@ -81,6 +81,27 @@ Page {
 
                 Label {
                     width: parent.width * 0.5
+                    text: qsTr("Barcode string")
+                    horizontalAlignment: Text.AlignRight
+                    color: Theme.primaryColor
+                    font.pixelSize: Theme.fontSizeMedium
+                    wrapMode: Text.Wrap
+                }
+
+                Label {
+                    width: parent.width * 0.5
+                    text: barcode_code
+                    color: Theme.highlightColor
+                    font.pixelSize: Theme.fontSizeMedium
+                    wrapMode: Text.Wrap
+                }
+            }
+            Row {
+                width: parent.width
+                spacing: Theme.paddingMedium
+
+                Label {
+                    width: parent.width * 0.5
                     text: qsTr("Barcode group")
                     horizontalAlignment: Text.AlignRight
                     color: Theme.primaryColor
