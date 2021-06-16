@@ -5,13 +5,14 @@ import "../localdb.js" as DB
 Page {
     id: barcodePage
     // To enable PullDownMenu, place our content in a SilicaFlickable
-    function appendBarcode(name, type, description, code, comboindex) {
+    function appendBarcode(name, type, description, code, comboindex, zintcode) {
         barcodeList.model.append({
                                      "Name": name,
                                      "Type": type,
                                      "Description": description,
                                      "Code": code,
-                                     "ComboIndex": comboindex
+                                     "ComboIndex": comboindex,
+                                     "ZintCode": zintcode
                                  })
     }
 
@@ -73,7 +74,7 @@ Page {
                 }
                 onClicked: {
                     mainapp.code = Code
-                    mainapp.codeType = Type.split(":")[0]
+                    mainapp.codeType = ZintCode
                     mainapp.codeDescription = Name
                     pageStack.push(Qt.resolvedUrl("BarcodeDisplayPage.qml"))
                 }
@@ -118,7 +119,9 @@ Page {
                                                       "barcode_code": barcodeList.model.get(
                                                                           index).Code,
                                                       "barcode_type": barcodeList.model.get(
-                                                                          index).Type
+                                                                          index).Type,
+                                                      "zint_code": barcodeList.model.get(
+                                                                          index).ZintCode
                                                   })
                     }
                 }

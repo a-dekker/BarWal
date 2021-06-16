@@ -10,8 +10,7 @@ Page {
         contentWidth: parent.width
         contentHeight: col.height
 
-        VerticalScrollDecorator {
-        }
+        VerticalScrollDecorator {}
 
         Column {
             id: col
@@ -65,6 +64,16 @@ Page {
             }
             Label {
                 text: "© Arno Dekker 2021"
+                anchors.horizontalCenter: parent.horizontalCenter
+            }
+            Label {
+                x: Theme.paddingLarge
+                color: Theme.primaryColor
+                font.pixelSize: Theme.fontSizeTiny
+                text: qsTr("Using ") + "<a href=\"https://sourceforge.net/p/zint/code/ci/master/tree/\">zint</a>" + qsTr(
+                          " as backend")
+                linkColor: Theme.highlightColor
+                onLinkActivated: Qt.openUrlExternally(link)
                 anchors.horizontalCenter: parent.horizontalCenter
             }
         }

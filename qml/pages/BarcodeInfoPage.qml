@@ -8,6 +8,7 @@ Page {
     property string barcode_description: ""
     property string barcode_code: ""
     property string barcode_type: ""
+    property string zint_code: ""
     property bool largeScreen: Screen.sizeCategory === Screen.Large
                                || Screen.sizeCategory === Screen.ExtraLarge
 
@@ -80,6 +81,27 @@ Page {
 
                 Label {
                     width: parent.width * 0.5
+                    text: qsTr("Barcode group")
+                    horizontalAlignment: Text.AlignRight
+                    color: Theme.primaryColor
+                    font.pixelSize: Theme.fontSizeMedium
+                    wrapMode: Text.Wrap
+                }
+
+                Label {
+                    width: parent.width * 0.5
+                    text: mainapp.groupName
+                    color: Theme.highlightColor
+                    font.pixelSize: Theme.fontSizeMedium
+                    wrapMode: Text.Wrap
+                }
+            }
+            Row {
+                width: parent.width
+                spacing: Theme.paddingMedium
+
+                Label {
+                    width: parent.width * 0.5
                     text: qsTr("Barcode type")
                     horizontalAlignment: Text.AlignRight
                     color: Theme.primaryColor
@@ -101,7 +123,7 @@ Page {
 
                 Label {
                     width: parent.width * 0.5
-                    text: qsTr("Barcode group")
+                    text: qsTr("Referring zint code")
                     horizontalAlignment: Text.AlignRight
                     color: Theme.primaryColor
                     font.pixelSize: Theme.fontSizeMedium
@@ -110,7 +132,7 @@ Page {
 
                 Label {
                     width: parent.width * 0.5
-                    text: mainapp.groupName
+                    text: zint_code
                     color: Theme.highlightColor
                     font.pixelSize: Theme.fontSizeMedium
                     wrapMode: Text.Wrap

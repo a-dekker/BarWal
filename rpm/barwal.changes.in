@@ -10,6 +10,7 @@
 
 * Tue Jun 15 2021 Arno Dekker <jack.tar@example.com> 0.0.5-1
 - Added barcode details to context menu
+- Data conversion to remove zint codes from barcode names itself
 * Tue Jun 15 2021 Arno Dekker <jack.tar@example.com> 0.0.4-1
 - Updated Swedish
 - Hungarian translation added

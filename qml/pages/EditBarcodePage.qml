@@ -24,289 +24,289 @@ Dialog {
             currentIndex: barcode_index
             menu: ContextMenu {
                 MenuItem {
-                    text: "1: Code 11"
+                    text: "Code 11"
                 }
                 MenuItem {
-                    text: "2: Standard 2of5"
+                    text: "Standard 2of5"
                 }
                 MenuItem {
-                    text: "3: Interleaved 2of5"
+                    text: "Interleaved 2of5"
                 }
                 MenuItem {
-                    text: "4: IATA 2of5"
+                    text: "IATA 2of5"
                 }
                 MenuItem {
-                    text: "6: Data Logic"
+                    text: "Data Logic"
                 }
                 MenuItem {
-                    text: "7: Industrial 2of5"
+                    text: "Industrial 2of5"
                 }
                 MenuItem {
-                    text: "8: Code 39"
+                    text: "Code 39"
                 }
                 MenuItem {
-                    text: "9: Extended Code 39"
+                    text: "Extended Code 39"
                 }
                 MenuItem {
-                    text: "13: EAN"
+                    text: "EAN"
                 }
                 MenuItem {
-                    text: "14: EAN + Check"
+                    text: "EAN + Check"
                 }
                 MenuItem {
-                    text: "16: GS1-128"
+                    text: "GS1-128"
                 }
                 MenuItem {
-                    text: "18: Codabar"
+                    text: "Codabar"
                 }
                 MenuItem {
-                    text: "20: Code 128"
+                    text: "Code 128"
                 }
                 MenuItem {
-                    text: "21: Leitcode"
+                    text: "Leitcode"
                 }
                 MenuItem {
-                    text: "22: Identcode"
+                    text: "Identcode"
                 }
                 MenuItem {
-                    text: "23: Code 16k"
+                    text: "Code 16k"
                 }
                 MenuItem {
-                    text: "24: Code 49"
+                    text: "Code 49"
                 }
                 MenuItem {
-                    text: "25: Code 93"
+                    text: "Code 93"
                 }
                 MenuItem {
-                    text: "28: Flattermarken"
+                    text: "Flattermarken"
                 }
                 MenuItem {
-                    text: "29: GS1 DataBar Omni"
+                    text: "GS1 DataBar Omni"
                 }
                 MenuItem {
-                    text: "30: GS1 DataBar Ltd"
+                    text: "GS1 DataBar Ltd"
                 }
                 MenuItem {
-                    text: "31: GS1 DataBar Exp"
+                    text: "GS1 DataBar Exp"
                 }
                 MenuItem {
-                    text: "32: Telepen Alpha"
+                    text: "Telepen Alpha"
                 }
                 MenuItem {
-                    text: "34: UPC-A"
+                    text: "UPC-A"
                 }
                 MenuItem {
-                    text: "35: UPC-A + Check"
+                    text: "UPC-A + Check"
                 }
                 MenuItem {
-                    text: "37: UPC-E"
+                    text: "UPC-E"
                 }
                 MenuItem {
-                    text: "38: UPC-E + Check"
+                    text: "UPC-E + Check"
                 }
                 MenuItem {
-                    text: "40: Postnet"
+                    text: "Postnet"
                 }
                 MenuItem {
-                    text: "47: MSI Plessey"
+                    text: "MSI Plessey"
                 }
                 MenuItem {
-                    text: "49: FIM"
+                    text: "FIM"
                 }
                 MenuItem {
-                    text: "50: Logmars"
+                    text: "Logmars"
                 }
                 MenuItem {
-                    text: "51: Pharma One-Track"
+                    text: "Pharma One-Track"
                 }
                 MenuItem {
-                    text: "52: PZN"
+                    text: "PZN"
                 }
                 MenuItem {
-                    text: "53: Pharma Two-Track"
+                    text: "Pharma Two-Track"
                 }
                 MenuItem {
-                    text: "55: PDF417"
+                    text: "PDF417"
                 }
                 MenuItem {
-                    text: "56: Compact PDF417"
+                    text: "Compact PDF417"
                 }
                 MenuItem {
-                    text: "57: Maxicode"
+                    text: "Maxicode"
                 }
                 MenuItem {
-                    text: "58: QR Code"
+                    text: "QR Code"
                 }
                 MenuItem {
-                    text: "60: Code 128-B"
+                    text: "Code 128-B"
                 }
                 MenuItem {
-                    text: "63: AP Standard Customer"
+                    text: "AP Standard Customer"
                 }
                 MenuItem {
-                    text: "66: AP Reply Paid"
+                    text: "AP Reply Paid"
                 }
                 MenuItem {
-                    text: "67: AP Routing"
+                    text: "AP Routing"
                 }
                 MenuItem {
-                    text: "68: AP Redirection"
+                    text: "AP Redirection"
                 }
                 MenuItem {
-                    text: "69: ISBN"
+                    text: "ISBN"
                 }
                 MenuItem {
-                    text: "70: RM4SCC"
+                    text: "RM4SCC"
                 }
                 MenuItem {
-                    text: "71: Data Matrix"
+                    text: "Data Matrix"
                 }
                 MenuItem {
-                    text: "72: EAN-14"
+                    text: "EAN-14"
                 }
                 MenuItem {
-                    text: "73: VIN"
+                    text: "VIN"
                 }
                 MenuItem {
-                    text: "74: Codablock-F"
+                    text: "Codablock-F"
                 }
                 MenuItem {
-                    text: "75: NVE-18"
+                    text: "NVE-18"
                 }
                 MenuItem {
-                    text: "76: Japanese Post"
+                    text: "Japanese Post"
                 }
                 MenuItem {
-                    text: "77: Korea Post"
+                    text: "Korea Post"
                 }
                 MenuItem {
-                    text: "79: GS1 DataBar Stack"
+                    text: "GS1 DataBar Stack"
                 }
                 MenuItem {
-                    text: "80: GS1 DataBar Stack Omni"
+                    text: "GS1 DataBar Stack Omni"
                 }
                 MenuItem {
-                    text: "81: GS1 DataBar Exp Stack"
+                    text: "GS1 DataBar Exp Stack"
                 }
                 MenuItem {
-                    text: "82: Planet"
+                    text: "Planet"
                 }
                 MenuItem {
-                    text: "84: MicroPDF"
+                    text: "MicroPDF"
                 }
                 MenuItem {
-                    text: "85: USPS Intelligent Mail"
+                    text: "USPS Intelligent Mail"
                 }
                 MenuItem {
-                    text: "86: UK Plessey"
+                    text: "UK Plessey"
                 }
                 MenuItem {
-                    text: "87: Telepen Numeric"
+                    text: "Telepen Numeric"
                 }
                 MenuItem {
-                    text: "89: ITF-14"
+                    text: "ITF-14"
                 }
                 MenuItem {
-                    text: "90: KIX Code"
+                    text: "KIX Code"
                 }
                 MenuItem {
-                    text: "92: Aztec Code"
+                    text: "Aztec Code"
                 }
                 MenuItem {
-                    text: "93: DAFT Code"
+                    text: "DAFT Code"
                 }
                 MenuItem {
-                    text: "96: DPD Code"
+                    text: "DPD Code"
                 }
                 MenuItem {
-                    text: "97: Micro QR Code"
+                    text: "Micro QR Code"
                 }
                 MenuItem {
-                    text: "98: HIBC Code 128"
+                    text: "HIBC Code 128"
                 }
                 MenuItem {
-                    text: "99: HIBC Code 39"
+                    text: "HIBC Code 39"
                 }
                 MenuItem {
-                    text: "102: HIBC Data Matrix"
+                    text: "HIBC Data Matrix"
                 }
                 MenuItem {
-                    text: "104: HIBC QR Code"
+                    text: "HIBC QR Code"
                 }
                 MenuItem {
-                    text: "106: HIBC PDF417"
+                    text: "HIBC PDF417"
                 }
                 MenuItem {
-                    text: "108: HIBC MicroPDF417"
+                    text: "HIBC MicroPDF417"
                 }
                 MenuItem {
-                    text: "110: HIBC Codablock-F"
+                    text: "HIBC Codablock-F"
                 }
                 MenuItem {
-                    text: "112: HIBC Aztec Code"
+                    text: "HIBC Aztec Code"
                 }
                 MenuItem {
-                    text: "115: DotCode"
+                    text: "DotCode"
                 }
                 MenuItem {
-                    text: "116: Han Xin Code"
+                    text: "Han Xin Code"
                 }
                 MenuItem {
-                    text: "121: RM Mailmark"
+                    text: "RM Mailmark"
                 }
                 MenuItem {
-                    text: "128: Aztec Runes"
+                    text: "Aztec Runes"
                 }
                 MenuItem {
-                    text: "129: Code 32"
+                    text: "Code 32"
                 }
                 MenuItem {
-                    text: "130: Comp EAN"
+                    text: "Comp EAN"
                 }
                 MenuItem {
-                    text: "131: Comp GS1-128"
+                    text: "Comp GS1-128"
                 }
                 MenuItem {
-                    text: "132: Comp DataBar Omni"
+                    text: "Comp DataBar Omni"
                 }
                 MenuItem {
-                    text: "133: Comp DataBar Ltd"
+                    text: "Comp DataBar Ltd"
                 }
                 MenuItem {
-                    text: "134: Comp DataBar Exp"
+                    text: "Comp DataBar Exp"
                 }
                 MenuItem {
-                    text: "135: Comp UPC-A"
+                    text: "Comp UPC-A"
                 }
                 MenuItem {
-                    text: "136: Comp UPC-E"
+                    text: "Comp UPC-E"
                 }
                 MenuItem {
-                    text: "137: Comp DataBar Stack"
+                    text: "Comp DataBar Stack"
                 }
                 MenuItem {
-                    text: "138: Comp DataBar Stack Omni"
+                    text: "Comp DataBar Stack Omni"
                 }
                 MenuItem {
-                    text: "139: Comp DataBar Exp Stack"
+                    text: "Comp DataBar Exp Stack"
                 }
                 MenuItem {
-                    text: "140: Channel Code"
+                    text: "Channel Code"
                 }
                 MenuItem {
-                    text: "141: Code One"
+                    text: "Code One"
                 }
                 MenuItem {
-                    text: "142: Grid Matrix"
+                    text: "Grid Matrix"
                 }
                 MenuItem {
-                    text: "143: UPNQR"
+                    text: "UPNQR"
                 }
                 MenuItem {
-                    text: "144: Ultracode"
+                    text: "Ultracode"
                 }
                 MenuItem {
-                    text: "145: rMQR"
+                    text: "rMQR"
                 }
             }
         }
