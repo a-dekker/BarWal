@@ -31,12 +31,12 @@
     <message>
         <location filename="../qml/pages/About.qml" line="73"/>
         <source>Using </source>
-        <translation type="unfinished"></translation>
+        <translation>Använder </translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="73"/>
         <source> as backend</source>
-        <translation type="unfinished"></translation>
+        <translation> som serverdel</translation>
     </message>
 </context>
 <context>
@@ -96,37 +96,37 @@
     <message>
         <location filename="../qml/pages/BarcodeInfoPage.qml" line="29"/>
         <source>Barcode info</source>
-        <translation type="unfinished"></translation>
+        <translation>Kodinfo</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodeInfoPage.qml" line="42"/>
         <source>Barcode name</source>
-        <translation type="unfinished"></translation>
+        <translation>Kodnamn</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodeInfoPage.qml" line="63"/>
         <source>Barcode description</source>
-        <translation type="unfinished"></translation>
+        <translation>Kodbeskrivning</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodeInfoPage.qml" line="84"/>
         <source>Barcode string</source>
-        <translation type="unfinished"></translation>
+        <translation>Kodsträng</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodeInfoPage.qml" line="126"/>
         <source>Barcode type</source>
-        <translation type="unfinished">Kodtyp</translation>
+        <translation>Kodtyp</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodeInfoPage.qml" line="147"/>
         <source>Referring zint code</source>
-        <translation type="unfinished"></translation>
+        <translation>Refererande zint-kod</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodeInfoPage.qml" line="105"/>
         <source>Barcode group</source>
-        <translation type="unfinished"></translation>
+        <translation>Kodgrupp</translation>
     </message>
 </context>
 <context>
@@ -154,7 +154,7 @@
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="114"/>
         <source>Details</source>
-        <translation type="unfinished"></translation>
+        <translation>Detaljerad info</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="142"/>
