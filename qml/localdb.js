@@ -346,7 +346,7 @@ function readBarcodes(group) {
 
   db.transaction(function (tx) {
     var result = tx.executeSql(
-      "SELECT barcode.Name, barcode.Type, barcode.Description, barcode.Code, barcode.ComboIndex, zint_codes.ZintCode FROM barcode left OUTER join zint_codes on barcode.Type = zint_codes.Description where barcode.GroupName = ? ORDER BY barcode.Name COLLATE NOCASE;",
+      "SELECT barcode.Name, barcode.Type, barcode.Description, barcode.Code, zint_codes.ZintCode FROM barcode left OUTER join zint_codes on barcode.Type = zint_codes.Description where barcode.GroupName = ? ORDER BY barcode.Name COLLATE NOCASE;",
       [group]
     );
     for (var i = 0; i < result.rows.length; i++) {
@@ -355,7 +355,6 @@ function readBarcodes(group) {
         result.rows.item(i).Type,
         result.rows.item(i).Description,
         result.rows.item(i).Code,
-        result.rows.item(i).ComboIndex,
         result.rows.item(i).ZintCode
       );
     }
@@ -449,15 +448,7 @@ function writeBarcodeGroup(groupname, icon) {
 }
 
 // insert barcode
-function writeBarcode(
-  name,
-  type,
-  description,
-  code,
-  groupname,
-  icon,
-  comboindex
-) {
+function writeBarcode(name, type, description, code, groupname, icon) {
   var db = connectDB();
   var result;
   icon = null;
@@ -465,8 +456,8 @@ function writeBarcode(
   try {
     db.transaction(function (tx) {
       tx.executeSql(
-        "INSERT INTO barcode (Name, Type, Description, Code, GroupName, Icon, ComboIndex) VALUES (?, ?, ?, ?, ?, ?, ?);",
-        [name, type, description, code, groupname, icon, comboindex]
+        "INSERT INTO barcode (Name, Type, Description, Code, GroupName, Icon) VALUES (?, ?, ?, ?, ?, ?);",
+        [name, type, description, code, groupname, icon]
       );
       tx.executeSql("COMMIT;");
       result = tx.executeSql("SELECT Name FROM barcode WHERE Name=?;", [name]);
@@ -486,7 +477,6 @@ function updateBarcode(
   code,
   groupname,
   icon,
-  comboindex,
   name_org
 ) {
   var db = connectDB();
@@ -496,17 +486,14 @@ function updateBarcode(
   try {
     db.transaction(function (tx) {
       tx.executeSql(
-        "UPDATE barcode set Name = ?, Type = ?, Description = ?, Code = ?, ComboIndex = ? where Name = ?;",
-        [name, type, description, code, comboindex, name_org]
+        "UPDATE barcode set Name = ?, Type = ?, Description = ?, Code = ? where Name = ?;",
+        [name, type, description, code, name_org]
       );
-      // and delete
       tx.executeSql("COMMIT;");
       result = tx.executeSql("SELECT Name FROM barcode WHERE GroupName=?;", [
         name,
       ]);
     });
-
-    return result.rows.item(0).Name;
   } catch (sqlErr) {
     return "ERROR";
   }

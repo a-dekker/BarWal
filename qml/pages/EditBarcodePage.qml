@@ -81,8 +81,7 @@ Dialog {
     onAccepted: {
         DB.updateBarcode(name.text.trim(), barcodetype.currentItem.text,
                          description.text.trim(), code.text.trim(),
-                         mainapp.groupName, "", barcodetype.currentIndex,
-                         barcode_name)
+                         mainapp.groupName, "", barcode_name)
         mainapp.barcodesChanged = true
     }
 }

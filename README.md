@@ -1,102 +1,102 @@
 # BarWal
-BarWal is a (bar)code wallet for Sailfish OS.
+BarWal is a (bar)code wallet app for Sailfish OS.
 
-It used zint for generating the images
+It uses [zint](https://openrepos.net/content/ade/zint) for generating the images
 
 *Supported codes:*
 
-1: Code 11
-2: Standard 2of5
-3: Interleaved 2of5
-4: IATA 2of5
-6: Data Logic
-7: Industrial 2of5
-8: Code 39
-9: Extended Code 39
-13: EAN
-14: EAN + Check
-16: GS1-128
-18: Codabar
-20: Code 128
-21: Leitcode
-22: Identcode
-23: Code 16k
-24: Code 49
-25: Code 93
-28: Flattermarken
-29: GS1 DataBar Omni
-30: GS1 DataBar Ltd
-31: GS1 DataBar Exp
-32: Telepen Alpha
-34: UPC-A
-35: UPC-A + Check
-37: UPC-E
-38: UPC-E + Check
-40: Postnet
-47: MSI Plessey
-49: FIM
-50: Logmars
-51: Pharma One-Track
-52: PZN
-53: Pharma Two-Track
-55: PDF417
-56: Compact PDF417
-57: Maxicode
-58: QR Code
-60: Code 128-B
-63: AP Standard Customer
-66: AP Reply Paid
-67: AP Routing
-68: AP Redirection
-69: ISBN
-70: RM4SCC
-71: Data Matrix
-72: EAN-14
-73: VIN
-74: Codablock-F
-75: NVE-18
-76: Japanese Post
-77: Korea Post
-79: GS1 DataBar Stack
-80: GS1 DataBar Stack Omni
-81: GS1 DataBar Exp Stack
-82: Planet
-84: MicroPDF
-85: USPS Intelligent Mail
-86: UK Plessey
-87: Telepen Numeric
-89: ITF-14
-90: KIX Code
-92: Aztec Code
-93: DAFT Code
-96: DPD Code
-97: Micro QR Code
-98: HIBC Code 128
-99: HIBC Code 39
-102: HIBC Data Matrix
-104: HIBC QR Code
-106: HIBC PDF417
-108: HIBC MicroPDF417
-110: HIBC Codablock-F
-112: HIBC Aztec Code
-115: DotCode
-116: Han Xin Code
-121: RM Mailmark
-128: Aztec Runes
-129: Code 32
-130: Comp EAN
-131: Comp GS1-128
-132: Comp DataBar Omni
-133: Comp DataBar Ltd
-134: Comp DataBar Exp
-135: Comp UPC-A
-136: Comp UPC-E
-137: Comp DataBar Stack
-138: Comp DataBar Stack Omni
-139: Comp DataBar Exp Stack
-140: Channel Code
-141: Code One
-142: Grid Matrix
-143: UPNQR
-144: Ultracode
-145: rMQR
+- Code 11
+- Standard 2of5
+- Interleaved 2of5
+- IATA 2of5
+- Data Logic
+- Industrial 2of5
+- Code 39
+- Extended Code 39
+- EAN
+- EAN + Check
+- GS1-128
+- Codabar
+- Code 128
+- Leitcode
+- Identcode
+- Code 16k
+- Code 49
+- Code 93
+- Flattermarken
+- GS1 DataBar Omni
+- GS1 DataBar Ltd
+- GS1 DataBar Exp
+- Telepen Alpha
+- UPC-A
+- UPC-A + Check
+- UPC-E
+- UPC-E + Check
+- Postnet
+- MSI Plessey
+- FIM
+- Logmars
+- Pharma One-Track
+- PZN
+- Pharma Two-Track
+- PDF417
+- Compact PDF417
+- Maxicode
+- QR Code
+- Code 128-B
+- AP Standard Customer
+- AP Reply Paid
+- AP Routing
+- AP Redirection
+- ISBN
+- RM4SCC
+- Data Matrix
+- EAN-14
+- VIN
+- Codablock-F
+- NVE-18
+- Japanese Post
+- Korea Post
+- GS1 DataBar Stack
+- GS1 DataBar Stack Omni
+- GS1 DataBar Exp Stack
+- Planet
+- MicroPDF
+- USPS Intelligent Mail
+- UK Plessey
+- Telepen Numeric
+- ITF-14
+- KIX Code
+- Aztec Code
+- DAFT Code
+- DPD Code
+- Micro QR Code
+- HIBC Code 128
+- HIBC Code 39
+- HIBC Data Matrix
+- HIBC QR Code
+- HIBC PDF417
+- HIBC MicroPDF417
+- HIBC Codablock-F
+- HIBC Aztec Code
+- DotCode
+- Han Xin Code
+- RM Mailmark
+- Aztec Runes
+- Code 32
+- Comp EAN
+- Comp GS1-128
+- Comp DataBar Omni
+- Comp DataBar Ltd
+- Comp DataBar Exp
+- Comp UPC-A
+- Comp UPC-E
+- Comp DataBar Stack
+- Comp DataBar Stack Omni
+- Comp DataBar Exp Stack
+- Channel Code
+- Code One
+- Grid Matrix
+- UPNQR
+- Ultracode
+- rMQR

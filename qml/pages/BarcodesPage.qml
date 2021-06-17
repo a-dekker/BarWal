@@ -5,13 +5,12 @@ import "../localdb.js" as DB
 Page {
     id: barcodePage
     // To enable PullDownMenu, place our content in a SilicaFlickable
-    function appendBarcode(name, type, description, code, comboindex, zintcode) {
+    function appendBarcode(name, type, description, code, zintcode) {
         barcodeList.model.append({
                                      "Name": name,
                                      "Type": type,
                                      "Description": description,
                                      "Code": code,
-                                     "ComboIndex": comboindex,
                                      "ZintCode": zintcode
                                  })
     }
@@ -90,8 +89,6 @@ Page {
                                                       "EditBarcodePage.qml"), {
                                                       "barcode_name": barcodeList.model.get(
                                                                           index).Name,
-                                                      "barcode_index": barcodeList.model.get(
-                                                                          index).ComboIndex,
                                                       "barcode_description": barcodeList.model.get(
                                                                                  index).Description,
                                                       "barcode_type": barcodeList.model.get(

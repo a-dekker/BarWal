@@ -132,37 +132,37 @@
 <context>
     <name>BarcodesPage</name>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="42"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="41"/>
         <source>About</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="46"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="45"/>
         <source>Add code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="88"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="87"/>
         <source>Edit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="104"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="101"/>
         <source>Remove</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="114"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="111"/>
         <source>Details</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="142"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="139"/>
         <source>No barcodes defined</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="143"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="140"/>
         <source>Choose &quot;Add code&quot; from the pulley menu.</source>
         <translation type="unfinished"></translation>
     </message>
