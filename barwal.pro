@@ -39,8 +39,11 @@ OTHER_FILES += qml/barwal.qml \
     qml/pagesEditBarcodeGroupPage.qml \
     qml/pages/EditBarcodePage.qml \
     qml/pages/BarcodeInfoPage.qml \
+    qml/icons/aztec-icon.png \
+    qml/icons/barcode-icon.png \
+    qml/icons/datamatrix-icon.png \
+    qml/icons/qrcode-icon.png \
     qml/localdb.js
-
 
 INSTALLS += translations
 

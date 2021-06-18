@@ -48,18 +48,63 @@ Page {
                 }
             }
             VerticalScrollDecorator {}
+
             model: ListModel {}
             delegate: ListItem {
                 id: listItem
+                function img_src() {
+                    switch (ZintCode) {
+                    case 58:
+                        return "../icons/qrcode-icon.png"
+                    case 145:
+                        return "../icons/qrcode-icon.png"
+                    case 104:
+                        return "../icons/qrcode-icon.png"
+                    case 97:
+                        return "../icons/qrcode-icon.png"
+                    case 71:
+                        return "../icons/datamatrix-icon.png"
+                    case 92:
+                        return "../icons/aztec-icon.png"
+                    default:
+                        return "../icons/barcode-icon.png"
+                    }
+                }
+
                 contentHeight: Theme.itemSizeMedium // two line delegate
                 Item {
-                    anchors.horizontalCenter: parent.horizontalCenter
                     anchors.verticalCenter: parent.verticalCenter
+                    Image {
+                        id: image
+                        source: img_src()
+                        x: Theme.paddingLarge
+                        sourceSize: Qt.size(Theme.itemSizeSmall,
+                                            Theme.itemSizeSmall)
+                        anchors.verticalCenter: parent.verticalCenter
+                        opacity: parent.enabled ? 1.0 : 0.4
+                        layer.effect: ShaderEffect {
+                            property color color: Theme.primaryColor
+
+                            fragmentShader: "
+                            varying mediump vec2 qt_TexCoord0;
+                            uniform highp float qt_Opacity;
+                            uniform lowp sampler2D source;
+                            uniform highp vec4 color;
+                            void main() {
+                                highp vec4 pixelColor = texture2D(source, qt_TexCoord0);
+                                gl_FragColor = vec4(mix(pixelColor.rgb/max(pixelColor.a, 0.00390625), color.rgb/max(color.a, 0.00390625), color.a) * pixelColor.a, pixelColor.a) * qt_Opacity;
+                            }
+                            "
+                        }
+                        layer.enabled: true
+                        layer.samplerName: "source"
+                    }
                     Label {
                         id: barcode
                         anchors.bottom: sublabel.top
                         text: Name
-                        anchors.horizontalCenter: parent.horizontalCenter
+                        anchors.left: image.right
+                        anchors.leftMargin: Theme.paddingMedium
                         font.pixelSize: Theme.fontSizeMedium
                         color: listItem.highlighted ? Theme.highlightColor : Theme.primaryColor
                     }
@@ -68,7 +113,8 @@ Page {
                         text: Description
                         font.pixelSize: Theme.fontSizeSmall
                         color: listItem.highlighted ? Theme.highlightColor : Theme.secondaryColor
-                        anchors.horizontalCenter: parent.horizontalCenter
+                        anchors.leftMargin: Theme.paddingMedium
+                        anchors.left: image.right
                     }
                 }
                 onClicked: {
@@ -83,6 +129,22 @@ Page {
                 menu: ContextMenu {
                     id: menu
 
+                    MenuItem {
+                        text: qsTr("Details")
+                        onClicked: pageStack.push(Qt.resolvedUrl(
+                                                      "BarcodeInfoPage.qml"), {
+                                                      "barcode_name": barcodeList.model.get(
+                                                                          index).Name,
+                                                      "barcode_description": barcodeList.model.get(
+                                                                                 index).Description,
+                                                      "barcode_code": barcodeList.model.get(
+                                                                          index).Code,
+                                                      "barcode_type": barcodeList.model.get(
+                                                                          index).Type,
+                                                      "zint_code": barcodeList.model.get(
+                                                                       index).ZintCode
+                                                  })
+                    }
                     MenuItem {
                         text: qsTr("Edit")
                         onClicked: pageStack.push(Qt.resolvedUrl(
@@ -106,22 +168,6 @@ Page {
                                                           DB.readBarcodes(
                                                                       mainapp.groupName)
                                                       })
-                    }
-                    MenuItem {
-                        text: qsTr("Details")
-                        onClicked:  pageStack.push(Qt.resolvedUrl(
-                                                      "BarcodeInfoPage.qml"), {
-                                                      "barcode_name": barcodeList.model.get(
-                                                                          index).Name,
-                                                      "barcode_description": barcodeList.model.get(
-                                                                                 index).Description,
-                                                      "barcode_code": barcodeList.model.get(
-                                                                          index).Code,
-                                                      "barcode_type": barcodeList.model.get(
-                                                                          index).Type,
-                                                      "zint_code": barcodeList.model.get(
-                                                                          index).ZintCode
-                                                  })
                     }
                 }
             }

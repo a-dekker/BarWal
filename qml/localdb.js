@@ -30,6 +30,9 @@ function initializeDB() {
     tx.executeSql(
       "CREATE TABLE IF NOT EXISTS zint_codes(ZintCode INT, Description TEXT)"
     );
+    tx.executeSql(
+      "CREATE UNIQUE INDEX IF NOT EXISTS code ON zint_codes(ZintCode)"
+    );
     var rs = tx.executeSql("SELECT * FROM zint_codes");
     if (rs.rows.length === 0) {
       initZintCodes();

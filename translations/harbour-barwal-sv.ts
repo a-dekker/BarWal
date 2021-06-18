@@ -142,27 +142,27 @@
         <translation>Lägg till kod</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="87"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="149"/>
         <source>Edit</source>
         <translation>Redigera</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="101"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="163"/>
         <source>Remove</source>
         <translation>Ta bort</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="111"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="133"/>
         <source>Details</source>
         <translation>Detaljerad info</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="139"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="185"/>
         <source>No barcodes defined</source>
         <translation>Inga koder definierade</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="140"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="186"/>
         <source>Choose &quot;Add code&quot; from the pulley menu.</source>
         <translation>Välj &quot;Lägg till kod&quot; från toppmenyn.</translation>
     </message>
