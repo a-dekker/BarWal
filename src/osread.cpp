@@ -22,6 +22,15 @@ void Launcher::launch_async(const QString &program) {
 QString Launcher::launch(const QString &program) {
     m_process->start(program);
     m_process->waitForFinished(-1);
+    QByteArray bytes = m_process->readAllStandardOutput();
+    // QByteArray bytes = m_process->readAllStandardError();
+    QString output = QString::fromLocal8Bit(bytes);
+    return output;
+}
+
+QString Launcher::launch_stderr(const QString &program) {
+    m_process->start(program);
+    m_process->waitForFinished(-1);
     QByteArray bytes = m_process->readAllStandardError();
     QString output = QString::fromLocal8Bit(bytes);
     return output;

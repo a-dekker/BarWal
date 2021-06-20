@@ -46,58 +46,7 @@ Dialog {
         id: notification
         itemCount: 1
     }
-    Column {
-        id: col
-        spacing: 5
-        width: parent.width
-        DialogHeader {
-            id: header
-            acceptText: qsTr("Create code")
-        }
 
-        ComboBox {
-            id: barcodetype
-            label: qsTr("Barcode type")
-            menu: ContextMenu {
-                Repeater {
-                    model: dataModel
-                    MenuItem {
-                        text: model.Name
-                    }
-                }
-            }
-        }
-
-        TextField {
-            id: name
-            focus: true
-            placeholderText: qsTr("Name")
-            label: placeholderText
-            width: parent.width
-            text: ""
-            EnterKey.iconSource: "image://theme/icon-m-enter-next"
-            EnterKey.onClicked: description.focus = true
-        }
-
-        TextField {
-            id: description
-            placeholderText: qsTr("Description")
-            label: placeholderText
-            width: parent.width
-            text: ""
-            EnterKey.iconSource: "image://theme/icon-m-enter-next"
-            EnterKey.onClicked: code.focus = true
-        }
-        TextField {
-            id: code
-            placeholderText: qsTr("Code")
-            label: placeholderText
-            width: parent.width
-            text: ""
-
-            EnterKey.onClicked: accept()
-        }
-    }
     onAccepted: {
         var result = DB.writeBarcode(name.text.trim(),
                                      barcodetype.currentItem.text,
@@ -108,5 +57,68 @@ Dialog {
             banner("ERROR", qsTr("Could not add barcode!"))
         }
         mainapp.barcodesChanged = true
+    }
+
+    SilicaFlickable {
+        anchors.fill: parent
+        contentWidth: parent.width
+        contentHeight: col.height
+
+        clip: true
+
+        ScrollDecorator {}
+
+        Column {
+            id: col
+            spacing: 5
+            width: parent.width
+            DialogHeader {
+                id: header
+                acceptText: qsTr("Create code")
+            }
+
+            ComboBox {
+                id: barcodetype
+                label: qsTr("Barcode type")
+                menu: ContextMenu {
+                    Repeater {
+                        model: dataModel
+                        MenuItem {
+                            text: model.Name
+                        }
+                    }
+                }
+            }
+
+            TextField {
+                id: name
+                focus: true
+                placeholderText: qsTr("Name")
+                label: placeholderText
+                width: parent.width
+                text: ""
+                EnterKey.iconSource: "image://theme/icon-m-enter-next"
+                EnterKey.onClicked: description.focus = true
+            }
+
+            TextField {
+                id: description
+                placeholderText: qsTr("Description")
+                label: placeholderText
+                width: parent.width
+                text: ""
+                EnterKey.iconSource: "image://theme/icon-m-enter-next"
+                EnterKey.onClicked: code.focus = true
+            }
+            TextField {
+                id: code
+                placeholderText: qsTr("Code")
+                label: placeholderText
+                width: parent.width
+                text: ""
+
+                EnterKey.onClicked: accept()
+            }
+        }
     }
 }

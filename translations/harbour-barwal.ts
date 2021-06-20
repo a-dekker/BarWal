@@ -42,18 +42,18 @@
 <context>
     <name>AddBarcodeGroupPage</name>
     <message>
-        <location filename="../qml/pages/AddBarcodeGroupPage.qml" line="47"/>
+        <location filename="../qml/pages/AddBarcodeGroupPage.qml" line="43"/>
         <source>Create group</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodeGroupPage.qml" line="54"/>
+        <location filename="../qml/pages/AddBarcodeGroupPage.qml" line="50"/>
         <source>Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodeGroupPage.qml" line="62"/>
-        <location filename="../qml/pages/AddBarcodeGroupPage.qml" line="72"/>
+        <location filename="../qml/pages/AddBarcodeGroupPage.qml" line="58"/>
+        <location filename="../qml/pages/AddBarcodeGroupPage.qml" line="68"/>
         <source>Could not add group!</source>
         <translation type="unfinished"></translation>
     </message>
@@ -61,32 +61,32 @@
 <context>
     <name>AddBarcodePage</name>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="55"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="77"/>
         <source>Create code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="60"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="82"/>
         <source>Barcode type</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="74"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="96"/>
         <source>Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="84"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="106"/>
         <source>Description</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="93"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="115"/>
         <source>Code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="108"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="57"/>
         <source>Could not add barcode!</source>
         <translation type="unfinished"></translation>
     </message>
@@ -132,37 +132,37 @@
 <context>
     <name>BarcodesPage</name>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="41"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="42"/>
         <source>About</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="45"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="46"/>
         <source>Add code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="149"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="157"/>
         <source>Edit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="163"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="171"/>
         <source>Remove</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="133"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="141"/>
         <source>Details</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="185"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="193"/>
         <source>No barcodes defined</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="186"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="194"/>
         <source>Choose &quot;Add code&quot; from the pulley menu.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -178,23 +178,48 @@
 <context>
     <name>EditBarcodePage</name>
     <message>
-        <location filename="../qml/pages/EditBarcodePage.qml" line="41"/>
+        <location filename="../qml/pages/EditBarcodePage.qml" line="95"/>
         <source>Barcode type</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditBarcodePage.qml" line="55"/>
+        <location filename="../qml/pages/EditBarcodePage.qml" line="109"/>
         <source>Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditBarcodePage.qml" line="64"/>
+        <location filename="../qml/pages/EditBarcodePage.qml" line="118"/>
         <source>Description</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditBarcodePage.qml" line="73"/>
+        <location filename="../qml/pages/EditBarcodePage.qml" line="127"/>
         <source>Code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EditBarcodePage.qml" line="143"/>
+        <source>Import custom icon</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EditBarcodePage.qml" line="152"/>
+        <source>Importing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EditBarcodePage.qml" line="161"/>
+        <source>&lt;ul&gt;&lt;li&gt;Will import &lt;b&gt;barwal_icon.png&lt;/b&gt; from Pictures&lt;/li&gt;&lt;li&gt;Icon has to be max 128x128px&lt;/li&gt;&lt;li&gt;Width should be exactly 128px&lt;/li&gt;&lt;/ul&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EditBarcodePage.qml" line="169"/>
+        <source>Remove custom icon</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EditBarcodePage.qml" line="171"/>
+        <source>Removing</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

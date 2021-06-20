@@ -14,6 +14,7 @@ class Launcher : public QObject {
     explicit Launcher(QObject *parent = 0);
     ~Launcher();
     Q_INVOKABLE QString launch(const QString &program);
+    Q_INVOKABLE QString launch_stderr(const QString &program);
     Q_INVOKABLE void launch_async(const QString &program);
     QString message() const;
     void setMessage(const QString &value);

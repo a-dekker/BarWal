@@ -5,13 +5,14 @@ import "../localdb.js" as DB
 Page {
     id: barcodePage
     // To enable PullDownMenu, place our content in a SilicaFlickable
-    function appendBarcode(name, type, description, code, zintcode) {
+    function appendBarcode(name, type, description, code, zintcode, icon) {
         barcodeList.model.append({
                                      "Name": name,
                                      "Type": type,
                                      "Description": description,
                                      "Code": code,
-                                     "ZintCode": zintcode
+                                     "ZintCode": zintcode,
+                                     "Icon": icon
                                  })
     }
 
@@ -52,25 +53,43 @@ Page {
             model: ListModel {}
             delegate: ListItem {
                 id: listItem
-                function img_src() {
-                    switch (ZintCode) {
-                    case 58:
-                        return "../icons/qrcode-icon.png"
-                    case 145:
-                        return "../icons/qrcode-icon.png"
-                    case 104:
-                        return "../icons/qrcode-icon.png"
-                    case 97:
-                        return "../icons/qrcode-icon.png"
-                    case 71:
-                        return "../icons/datamatrix-icon.png"
-                    case 92:
-                        return "../icons/aztec-icon.png"
-                    default:
-                        return "../icons/barcode-icon.png"
-                    }
-                }
 
+                function img_src() {
+                    var imgUrl
+                    if (Icon !== "") {
+                        imgUrl = "data:image/png;base64," + Icon
+                    } else {
+                        switch (ZintCode) {
+                        case 58:
+                            imgUrl = "../icons/qrcode-icon"
+                            break
+                        case 145:
+                            imgUrl = "../icons/qrcode-icon"
+                            break
+                        case 104:
+                            imgUrl = "../icons/qrcode-icon"
+                            break
+                        case 97:
+                            imgUrl = "../icons/qrcode-icon"
+                            break
+                        case 71:
+                            imgUrl = "../icons/datamatrix-icon"
+                            break
+                        case 92:
+                            imgUrl = "../icons/aztec-icon"
+                            break
+                        default:
+                            imgUrl = "../icons/barcode-icon"
+                            break
+                        }
+                        if (mainapp.isLightTheme) {
+                            imgUrl = imgUrl + "-black.png"
+                        } else {
+                            imgUrl = imgUrl + ".png"
+                        }
+                    }
+                    return imgUrl
+                }
                 contentHeight: Theme.itemSizeMedium // two line delegate
                 Item {
                     anchors.verticalCenter: parent.verticalCenter
@@ -82,22 +101,6 @@ Page {
                                             Theme.itemSizeSmall)
                         anchors.verticalCenter: parent.verticalCenter
                         opacity: parent.enabled ? 1.0 : 0.4
-                        layer.effect: ShaderEffect {
-                            property color color: Theme.primaryColor
-
-                            fragmentShader: "
-                            varying mediump vec2 qt_TexCoord0;
-                            uniform highp float qt_Opacity;
-                            uniform lowp sampler2D source;
-                            uniform highp vec4 color;
-                            void main() {
-                                highp vec4 pixelColor = texture2D(source, qt_TexCoord0);
-                                gl_FragColor = vec4(mix(pixelColor.rgb/max(pixelColor.a, 0.00390625), color.rgb/max(color.a, 0.00390625), color.a) * pixelColor.a, pixelColor.a) * qt_Opacity;
-                            }
-                            "
-                        }
-                        layer.enabled: true
-                        layer.samplerName: "source"
                     }
                     Label {
                         id: barcode
@@ -121,6 +124,11 @@ Page {
                     mainapp.code = Code
                     mainapp.codeType = ZintCode
                     mainapp.codeDescription = Name
+                    if (Icon !== "") {
+                        mainapp.iconsource = image.source
+                    } else {
+                        mainapp.iconsource = ""
+                    }
                     pageStack.push(Qt.resolvedUrl("BarcodeDisplayPage.qml"))
                 }
 

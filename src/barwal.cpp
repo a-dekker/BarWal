@@ -59,6 +59,8 @@ int main(int argc, char *argv[])
     if (appinfo.bytesAvailable() > 0) {
         appversion = appinfo.readAll();
     }
+    QString homepath;
+    homepath = QDir::homePath();
     qmlRegisterType<Launcher>("harbour.barwal.Launcher", 1 , 0 , "App");
     qmlRegisterType<Settings>("harbour.barwal.Settings", 1 , 0 , "MySettings");
     // To display the view, call "show()" (will show fullscreen on device).
@@ -68,6 +70,7 @@ int main(int argc, char *argv[])
     QLocale::setDefault(QLocale::c());
 
     QQuickView* view = SailfishApp::createView();
+    view->rootContext()->setContextProperty("homedir", homepath);
     view->rootContext()->setContextProperty("version", appversion);
     view->setSource(SailfishApp::pathTo("qml/barwal.qml"));
     view->show();

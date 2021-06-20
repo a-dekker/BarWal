@@ -8,10 +8,6 @@ Page {
 
     property string imagePath: ""
 
-    RemorsePopup {
-        id: remorse
-    }
-
     App {
         id: bar
     }
@@ -49,7 +45,7 @@ Page {
                 + "5" + " -b " + mainapp.codeType + " -d " + mainapp.code
 
         console.log(toolCmd)
-        var zint_result = bar.launch(toolCmd)
+        var zint_result = bar.launch_stderr(toolCmd)
         if (zint_result !== "") {
             banner("ERROR", zint_result)
             imagePath = "image://theme/icon-l-attention"
@@ -74,6 +70,12 @@ Page {
             id: pageHead
             title: mainapp.codeDescription
             description: mainapp.code
+                extraContent.children: [
+                    Image {
+                        anchors.verticalCenter: parent.verticalCenter
+                        source: mainapp.iconsource
+                    }
+                ]
         }
         Rectangle {
             color: "white"

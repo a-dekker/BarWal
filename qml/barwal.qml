@@ -42,6 +42,13 @@ ApplicationWindow {
     property string code: ""
     property string codeType: ""
     property string codeDescription: ""
+    property string iconsource: ""
+    property bool isLightTheme: {
+        if (Theme.colorScheme === Theme.LightOnDark)
+            return false
+        else
+            return true
+    }
 
     initialPage: Component {
         MainPage {}

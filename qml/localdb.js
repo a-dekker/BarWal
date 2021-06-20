@@ -349,7 +349,22 @@ function readBarcodes(group) {
 
   db.transaction(function (tx) {
     var result = tx.executeSql(
-      "SELECT barcode.Name, barcode.Type, barcode.Description, barcode.Code, zint_codes.ZintCode FROM barcode left OUTER join zint_codes on barcode.Type = zint_codes.Description where barcode.GroupName = ? ORDER BY barcode.Name COLLATE NOCASE;",
+      "SELECT \
+           barcode.Name, \
+           barcode.Type, \
+           barcode.Description, \
+           barcode.Code, \
+           zint_codes.ZintCode, \
+           coalesce(barcode.Icon, '') Icon \
+        FROM \
+           barcode \
+           left OUTER join \
+              zint_codes \
+              on barcode.Type = zint_codes.Description \
+        where \
+           barcode.GroupName = ? \
+        ORDER BY \
+           barcode.Name COLLATE NOCASE",
       [group]
     );
     for (var i = 0; i < result.rows.length; i++) {
@@ -358,7 +373,8 @@ function readBarcodes(group) {
         result.rows.item(i).Type,
         result.rows.item(i).Description,
         result.rows.item(i).Code,
-        result.rows.item(i).ZintCode
+        result.rows.item(i).ZintCode,
+        result.rows.item(i).Icon
       );
     }
   });
@@ -515,5 +531,29 @@ function updateBarcodeGroup(name, name_org) {
       [name, name_org]
     );
     tx.executeSql("COMMIT;");
+  });
+}
+
+// import icon as base64
+function updateIcon(name, base64_image) {
+  var db = connectDB();
+
+  db.transaction(function (tx) {
+    var result = tx.executeSql(
+      "update barcode set Icon = ? where Name = ?;",
+      [base64_image, name]
+    );
+  });
+}
+
+// remove icon
+function removeIcon(name) {
+  var db = connectDB();
+
+  db.transaction(function (tx) {
+    var result = tx.executeSql(
+      "update barcode set Icon = null where Name = ?;",
+      [name]
+    );
   });
 }

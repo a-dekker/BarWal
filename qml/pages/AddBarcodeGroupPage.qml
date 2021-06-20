@@ -6,10 +6,6 @@ import "../localdb.js" as DB
 Dialog {
     canAccept: groupName.text.trim().length > 0
 
-    RemorsePopup {
-        id: remorse
-    }
-
     function banner(notificationType, message) {
         notification.close()
         var notificationCategory

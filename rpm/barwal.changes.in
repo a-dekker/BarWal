@@ -8,6 +8,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Sun Jun 20 2021 Arno Dekker <jack.tar@example.com> 0.0.8-1
+- Option for custom icons in barcode list
+- Small layout fixes
 * Fri Jun 18 2021 Arno Dekker <jack.tar@example.com> 0.0.7-1
 - Updated Swedish
 - Added icons to barcode list
