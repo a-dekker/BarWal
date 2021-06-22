@@ -180,47 +180,47 @@
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="95"/>
         <source>Barcode type</source>
-        <translation type="unfinished">Kodtyp</translation>
+        <translation>Kodtyp</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="109"/>
         <source>Name</source>
-        <translation type="unfinished">Namn</translation>
+        <translation>Namn</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="118"/>
         <source>Description</source>
-        <translation type="unfinished">Beskrivning</translation>
+        <translation>Beskrivning</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="127"/>
         <source>Code</source>
-        <translation type="unfinished">Kod</translation>
+        <translation>Kod</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="143"/>
         <source>Import custom icon</source>
-        <translation type="unfinished"></translation>
+        <translation>Importera anpassad ikon</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="152"/>
         <source>Importing</source>
-        <translation type="unfinished"></translation>
+        <translation>Importerar</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="161"/>
         <source>&lt;ul&gt;&lt;li&gt;Will import &lt;b&gt;barwal_icon.png&lt;/b&gt; from Pictures&lt;/li&gt;&lt;li&gt;Icon has to be max 128x128px&lt;/li&gt;&lt;li&gt;Width should be exactly 128px&lt;/li&gt;&lt;/ul&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;ul&gt;&lt;li&gt;Importerar &lt;b&gt;barwal_icon.png&lt;/b&gt; från Galleri.&lt;/li&gt;&lt;li&gt;Ikonen kan vara max 128x128px.&lt;/li&gt;&lt;li&gt;Bredden skall vara exakt 128px.&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="169"/>
         <source>Remove custom icon</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort anpassad ikon</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="171"/>
         <source>Removing</source>
-        <translation type="unfinished"></translation>
+        <translation>Tar bort</translation>
     </message>
 </context>
 <context>
