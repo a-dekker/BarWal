@@ -38,7 +38,7 @@ modification, are permitted provided that the following conditions are met:
 #include <QtGui>
 #include <QQuickView>
 #include "osread.h"
-#include "settings.h"
+// #include "settings.h"
 #include <sailfishapp.h>
 
 int main(int argc, char *argv[])
@@ -62,7 +62,7 @@ int main(int argc, char *argv[])
     QString homepath;
     homepath = QDir::homePath();
     qmlRegisterType<Launcher>("harbour.barwal.Launcher", 1 , 0 , "App");
-    qmlRegisterType<Settings>("harbour.barwal.Settings", 1 , 0 , "MySettings");
+    // qmlRegisterType<Settings>("harbour.barwal.Settings", 1 , 0 , "MySettings");
     // To display the view, call "show()" (will show fullscreen on device).
 
     QGuiApplication* app = SailfishApp::application(argc, argv);

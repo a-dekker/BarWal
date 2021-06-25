@@ -74,6 +74,7 @@ Page {
                     Image {
                         anchors.verticalCenter: parent.verticalCenter
                         source: mainapp.iconsource
+                        sourceSize: Qt.size(Theme.itemSizeSmall, Theme.itemSizeSmall)
                     }
                 ]
         }

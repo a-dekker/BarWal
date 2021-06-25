@@ -539,10 +539,10 @@ function updateIcon(name, base64_image) {
   var db = connectDB();
 
   db.transaction(function (tx) {
-    var result = tx.executeSql(
-      "update barcode set Icon = ? where Name = ?;",
-      [base64_image, name]
-    );
+    var result = tx.executeSql("update barcode set Icon = ? where Name = ?;", [
+      base64_image,
+      name,
+    ]);
   });
 }
 

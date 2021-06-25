@@ -58,6 +58,12 @@ CoverBackground {
         anchors.verticalCenter: parent.verticalCenter
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.margins: 15
+        Image {
+            anchors.horizontalCenter: parent.horizontalCenter
+            source: mainapp.iconsource
+            sourceSize: Qt.size(Theme.itemSizeSmall, Theme.itemSizeSmall)
+            visible: mainapp.orientation === Orientation.Portrait
+        }
         Label {
             horizontalAlignment: Qt.AlignHCenter
             text: mainapp.barcodeDisplayed ? mainapp.codeDescription : "BarWal"

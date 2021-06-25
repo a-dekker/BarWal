@@ -8,6 +8,10 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Fri Jun 25 2021 Arno Dekker <jack.tar@example.com> 0.0.9-1
+- Updated Swedish
+- Show custom icon on coverpage
+- Consistent resizing of custom icon
 * Sun Jun 20 2021 Arno Dekker <jack.tar@example.com> 0.0.8-1
 - Option for custom icons in barcode list
 - Small layout fixes
