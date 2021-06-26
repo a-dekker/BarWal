@@ -8,6 +8,8 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Sat Jun 26 2021 Arno Dekker <jack.tar@example.com> 0.0.9-2
+- Fixed custom icon issues on coverpage
 * Fri Jun 25 2021 Arno Dekker <jack.tar@example.com> 0.0.9-1
 - Updated Swedish
 - Show custom icon on coverpage

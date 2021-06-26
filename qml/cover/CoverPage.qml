@@ -44,6 +44,13 @@ CoverBackground {
         to: 90
     }
     RotationAnimation on rotation {
+        running: mainapp.orientation === Orientation.LandscapeInverted && active
+                 && Screen.sizeCategory < 2
+        duration: 1000
+        from: 270
+        to: 270
+    }
+    RotationAnimation on rotation {
         running: mainapp.orientation === Orientation.Portrait && active
                  && Screen.sizeCategory < 2
         duration: 1000
@@ -63,6 +70,7 @@ CoverBackground {
             source: mainapp.iconsource
             sourceSize: Qt.size(Theme.itemSizeSmall, Theme.itemSizeSmall)
             visible: mainapp.orientation === Orientation.Portrait
+                     && mainapp.barcodeDisplayed
         }
         Label {
             horizontalAlignment: Qt.AlignHCenter
