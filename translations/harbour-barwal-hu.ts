@@ -31,12 +31,12 @@
     <message>
         <location filename="../qml/pages/About.qml" line="73"/>
         <source>Using </source>
-        <translation type="unfinished"></translation>
+        <translation>A</translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="73"/>
         <source> as backend</source>
-        <translation type="unfinished"></translation>
+        <translation>-et használja backendként</translation>
     </message>
 </context>
 <context>
@@ -96,37 +96,37 @@
     <message>
         <location filename="../qml/pages/BarcodeInfoPage.qml" line="29"/>
         <source>Barcode info</source>
-        <translation type="unfinished"></translation>
+        <translation>Vonalkód infó</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodeInfoPage.qml" line="42"/>
         <source>Barcode name</source>
-        <translation type="unfinished"></translation>
+        <translation>Vonalkód neve</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodeInfoPage.qml" line="63"/>
         <source>Barcode description</source>
-        <translation type="unfinished"></translation>
+        <translation>Vonalkód leírása</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodeInfoPage.qml" line="84"/>
         <source>Barcode string</source>
-        <translation type="unfinished"></translation>
+        <translation>Vonalkód karakterlánc</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodeInfoPage.qml" line="126"/>
         <source>Barcode type</source>
-        <translation type="unfinished">Vonalkód típusa</translation>
+        <translation>Vonalkód típusa</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodeInfoPage.qml" line="147"/>
         <source>Referring zint code</source>
-        <translation type="unfinished"></translation>
+        <translation>Hivatkozó zint kód</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodeInfoPage.qml" line="105"/>
         <source>Barcode group</source>
-        <translation type="unfinished"></translation>
+        <translation>Vonalkód csoport</translation>
     </message>
 </context>
 <context>
@@ -154,7 +154,7 @@
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="141"/>
         <source>Details</source>
-        <translation type="unfinished"></translation>
+        <translation>Részletek</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="193"/>
@@ -180,47 +180,47 @@
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="95"/>
         <source>Barcode type</source>
-        <translation type="unfinished">Vonalkód típusa</translation>
+        <translation>Vonalkód típusa</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="109"/>
         <source>Name</source>
-        <translation type="unfinished">Név</translation>
+        <translation>Név</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="118"/>
         <source>Description</source>
-        <translation type="unfinished">Leírás</translation>
+        <translation>Leírás</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="127"/>
         <source>Code</source>
-        <translation type="unfinished">Kód</translation>
+        <translation>Kód</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="143"/>
         <source>Import custom icon</source>
-        <translation type="unfinished"></translation>
+        <translation>Egyéni ikon importálása</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="152"/>
         <source>Importing</source>
-        <translation type="unfinished"></translation>
+        <translation>Importálás</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="161"/>
         <source>&lt;ul&gt;&lt;li&gt;Will import &lt;b&gt;barwal_icon.png&lt;/b&gt; from Pictures&lt;/li&gt;&lt;li&gt;Icon has to be max 128x128px&lt;/li&gt;&lt;li&gt;Width should be exactly 128px&lt;/li&gt;&lt;/ul&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;ul&gt;&lt;li&gt;Importálja a &lt;b&gt;barwal_icon.png&lt;/b&gt; fájlt a Képekből&lt;/li&gt;&lt;li&gt;Az ikon legfeljebb 128x128px méretű lehet&lt;/li&gt;&lt;li&gt;A szélesség pontosan 128px legyen&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="169"/>
         <source>Remove custom icon</source>
-        <translation type="unfinished"></translation>
+        <translation>Egyéni ikon eltávolítása</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="171"/>
         <source>Removing</source>
-        <translation type="unfinished"></translation>
+        <translation>Eltávolítás</translation>
     </message>
 </context>
 <context>
