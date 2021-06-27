@@ -42,7 +42,7 @@ Page {
 
     function getFileInfo() {
         var toolCmd = "/usr/bin/zint" + " -o " + "/tmp/barcode.png" + " --scale "
-                + "5" + " -b " + mainapp.codeType + " -d " + mainapp.code
+                + "5" + " -b " + mainapp.codeType + " -d " + '"' + mainapp.code + '"'
 
         console.log(toolCmd)
         var zint_result = bar.launch_stderr(toolCmd)
