@@ -238,12 +238,12 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="48"/>
         <source>Clear auto-open group</source>
-        <translation type="unfinished"></translation>
+        <translation>Rensa automatisk gruppöppning</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="50"/>
         <source>Removing</source>
-        <translation type="unfinished">Tar bort</translation>
+        <translation>Tar bort</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="76"/>
@@ -258,7 +258,7 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="95"/>
         <source>Auto open this group on start</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna denna grupp automatiskt vid start</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="137"/>
