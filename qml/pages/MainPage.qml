@@ -5,9 +5,10 @@ import "../localdb.js" as DB
 Page {
     id: groupPage
     // To enable PullDownMenu, place our content in a SilicaFlickable
-    function appendGroup(groupname) {
+    function appendGroup(groupname, isdefault) {
         barcodeGroupList.model.append({
-                                          "GroupName": groupname
+                                          "GroupName": groupname,
+                                          "IsDefault": isdefault
                                       })
     }
 
@@ -19,6 +20,9 @@ Page {
                 mainapp.groupsChanged = false
             }
         }
+    }
+    RemorsePopup {
+        id: remorse
     }
 
     SilicaFlickable {
@@ -39,6 +43,14 @@ Page {
                     text: qsTr("Add Group")
                     onClicked: pageStack.push(Qt.resolvedUrl(
                                                   "AddBarcodeGroupPage.qml"))
+                }
+                MenuItem {
+                    text: qsTr("Clear auto-open group")
+                    onClicked: {
+                        remorse.execute(qsTr("Removing"), function () {
+                            DB.removeGroupDefault()
+                        })
+                    }
                 }
             }
             VerticalScrollDecorator {}
@@ -66,7 +78,7 @@ Page {
                                        Qt.resolvedUrl(
                                            "EditBarcodeGroupPage.qml"), {
                                            "barcode_group": barcodeGroupList.model.get(
-                                                               index).GroupName
+                                                                index).GroupName
                                        })
                     }
                     MenuItem {
@@ -79,16 +91,45 @@ Page {
                                                           DB.readBarcodeGroups()
                                                       })
                     }
+                    MenuItem {
+                        text: qsTr("Auto open this group on start")
+                        onClicked: Remorse.itemAction(listItem, "Auto open",
+                                                      function () {
+                                                          DB.setGroupDefault(
+                                                                      GroupName)
+                                                      })
+                    }
                 }
             }
 
             function loadBarcodeGroups() {
                 DB.readBarcodeGroups()
             }
+            Timer {
+                id: waitTimer
+                interval: 500
+                repeat: false
+                onTriggered: {
+                    if (mainapp.groupName !== "") {
+                        pageStack.push(Qt.resolvedUrl("BarcodesPage.qml"))
+                    }
+                }
+            }
+
+            function loadDefaultGroup() {
+                for (var i = 0; i < barcodeGroupList.model.count; ++i) {
+                    if (barcodeGroupList.model.get(i).IsDefault === 1) {
+                        mainapp.groupName = barcodeGroupList.model.get(
+                                    i).GroupName
+                    }
+                }
+            }
 
             Component.onCompleted: {
                 DB.initializeDB()
                 loadBarcodeGroups()
+                loadDefaultGroup()
+                waitTimer.start()
             }
 
             ViewPlaceholder {

@@ -22,7 +22,7 @@ function initializeDB() {
     );
     tx.executeSql("CREATE UNIQUE INDEX IF NOT EXISTS uid ON barcode(Name)");
     tx.executeSql(
-      "CREATE TABLE IF NOT EXISTS barcode_group(GroupName TEXT, Icon BLOB)"
+      "CREATE TABLE IF NOT EXISTS barcode_group(GroupName TEXT, Icon BLOB, IsDefault INTEGER)"
     );
     tx.executeSql(
       "CREATE UNIQUE INDEX IF NOT EXISTS gid ON barcode_group(GroupName)"
@@ -41,6 +41,11 @@ function initializeDB() {
     tx.executeSql(
       "UPDATE barcode set Type = substr(Type,instr(Type,':')+2) where Type like '%: %'"
     );
+    try {
+      tx.executeSql("ALTER TABLE barcode_group ADD COLUMN IsDefault INTEGER");
+    } catch (sqlErr) {
+      return "Column already exists";
+    }
   });
   return db;
 }
@@ -385,10 +390,13 @@ function readBarcodeGroups() {
 
   db.transaction(function (tx) {
     var result = tx.executeSql(
-      "SELECT GroupName FROM barcode_group ORDER BY GroupName COLLATE NOCASE;"
+      "SELECT GroupName, IsDefault FROM barcode_group ORDER BY GroupName COLLATE NOCASE;"
     );
     for (var i = 0; i < result.rows.length; i++) {
-      groupPage.appendGroup(result.rows.item(i).GroupName);
+      groupPage.appendGroup(
+        result.rows.item(i).GroupName,
+        result.rows.item(i).IsDefault
+      );
     }
   });
 }
@@ -450,7 +458,7 @@ function writeBarcodeGroup(groupname, icon) {
   try {
     db.transaction(function (tx) {
       tx.executeSql(
-        "INSERT INTO barcode_group (GroupName, Icon) VALUES (?, ?);",
+        "INSERT INTO barcode_group (GroupName, Icon, IsDefault) VALUES (?, ?, 0);",
         [groupname, icon]
       );
       tx.executeSql("COMMIT;");
@@ -555,5 +563,29 @@ function removeIcon(name) {
       "update barcode set Icon = null where Name = ?;",
       [name]
     );
+  });
+}
+
+// set default group for auto open
+function setGroupDefault(name) {
+  var db = connectDB();
+
+  db.transaction(function (tx) {
+    var result = tx.executeSql("update barcode_group set isDefault = 0");
+  });
+  db.transaction(function (tx) {
+    var result = tx.executeSql(
+      "update barcode_group set isDefault = 1 where GroupName = ?;",
+      [name]
+    );
+  });
+}
+
+// remove auto open group
+function removeGroupDefault() {
+  var db = connectDB();
+
+  db.transaction(function (tx) {
+    var result = tx.executeSql("update barcode_group set isDefault = 0");
   });
 }

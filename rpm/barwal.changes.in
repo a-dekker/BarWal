@@ -8,7 +8,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
-* Sus Jun 27 2021 Arno Dekker <jack.tar@example.com> 0.1.0-3
+* Mon Jun 28 2021 Arno Dekker <jack.tar@example.com> 0.1.0-4
+- Added option to auto open barcode group on start
+* Sun Jun 27 2021 Arno Dekker <jack.tar@example.com> 0.1.0-3
 - Fix space issue barcode strings
 * Sus Jun 27 2021 Arno Dekker <jack.tar@example.com> 0.1.0-2
 - Updated Hungarian

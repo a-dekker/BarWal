@@ -226,37 +226,52 @@
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="35"/>
+        <location filename="../qml/pages/MainPage.qml" line="39"/>
         <source>About</source>
         <translation>Over</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="39"/>
+        <location filename="../qml/pages/MainPage.qml" line="43"/>
         <source>Add Group</source>
         <translation>Groep toevoegen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="64"/>
+        <location filename="../qml/pages/MainPage.qml" line="48"/>
+        <source>Clear auto-open group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="50"/>
+        <source>Removing</source>
+        <translation type="unfinished">Verwijderen</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="76"/>
         <source>Edit</source>
         <translation>Bewerken</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="73"/>
+        <location filename="../qml/pages/MainPage.qml" line="85"/>
         <source>Remove</source>
         <translation>Verwijderen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="96"/>
+        <location filename="../qml/pages/MainPage.qml" line="95"/>
+        <source>Auto open this group on start</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="137"/>
         <source>No groups defined</source>
         <translation>Geen groepen gedefinieerd</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="97"/>
+        <location filename="../qml/pages/MainPage.qml" line="138"/>
         <source>Choose &quot;Add Group&quot; from the pulley menu.</source>
         <translation>Kids &quot;Groep toevoegen&quot; in het menu.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="31"/>
+        <location filename="../qml/pages/MainPage.qml" line="35"/>
         <source>BarWal</source>
         <translation>BarWal</translation>
     </message>
