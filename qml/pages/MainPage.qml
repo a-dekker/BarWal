@@ -4,6 +4,9 @@ import "../localdb.js" as DB
 
 Page {
     id: groupPage
+
+    property bool hasStartGroup: false
+
     // To enable PullDownMenu, place our content in a SilicaFlickable
     function appendGroup(groupname, isdefault) {
         barcodeGroupList.model.append({
@@ -45,9 +48,11 @@ Page {
                                                   "AddBarcodeGroupPage.qml"))
                 }
                 MenuItem {
+                    enabled: hasStartGroup
                     text: qsTr("Clear auto-open group")
                     onClicked: {
                         remorse.execute(qsTr("Removing"), function () {
+                            hasStartGroup = false
                             DB.removeGroupDefault()
                         })
                     }
@@ -95,6 +100,7 @@ Page {
                         text: qsTr("Auto open this group on start")
                         onClicked: Remorse.itemAction(listItem, "Auto open",
                                                       function () {
+                                                          hasStartGroup = true
                                                           DB.setGroupDefault(
                                                                       GroupName)
                                                       })
@@ -119,6 +125,7 @@ Page {
             function loadDefaultGroup() {
                 for (var i = 0; i < barcodeGroupList.model.count; ++i) {
                     if (barcodeGroupList.model.get(i).IsDefault === 1) {
+                        hasStartGroup = true
                         mainapp.groupName = barcodeGroupList.model.get(
                                     i).GroupName
                     }
