@@ -47,6 +47,7 @@ OTHER_FILES += qml/barwal.qml \
     qml/icons/barcode-icon-black.png \
     qml/icons/datamatrix-icon-black.png \
     qml/icons/qrcode-icon-black.png \
+    qml/cover/cover_background.png \
     qml/localdb.js
 
 INSTALLS += translations

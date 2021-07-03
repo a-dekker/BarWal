@@ -51,4 +51,11 @@ void Launcher::setMessage(const QString &value) {
     outputReceived();
 }
 
+
+bool Launcher::fileExists(const QString &path)
+{
+    QFile file(path);
+    return file.exists();
+}
+
 Launcher::~Launcher() {}

@@ -17,6 +17,9 @@ Page {
 
     onStatusChanged: {
         if (status === PageStatus.Activating) {
+            if (mainapp.barcodeGroupWasOpend) {
+                mainapp.groupName = ""
+            }
             if (mainapp.groupsChanged) {
                 barcodeGroupList.model.clear()
                 DB.readBarcodeGroups()

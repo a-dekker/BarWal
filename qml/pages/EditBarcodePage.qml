@@ -13,6 +13,7 @@ Dialog {
     property string barcode_description: ""
     property string barcode_code: ""
     property string barcode_type: ""
+    property string barcode_icon: ""
     property var dataModel: ListModel {}
 
     function appendBarcodeFromList(name, linecount) {
@@ -141,6 +142,7 @@ Dialog {
                 anchors.horizontalCenter: parent.horizontalCenter
                 width: (parent.width * .80)
                 text: qsTr("Import custom icon")
+                enabled: bar.fileExists(homedir + "/Pictures/barwal_icon.png")
                 onClicked: {
                     var base64_result = bar.launch(
                                 "/usr/bin/base64 " + homedir + "/Pictures/barwal_icon.png")
@@ -152,6 +154,7 @@ Dialog {
                         remorse.execute(qsTr("Importing"), function () {
                             DB.updateIcon(barcode_name, base64_result)
                             mainapp.barcodesChanged = true
+                            barcode_icon = base64_result
                         })
                     }
                 }
@@ -167,6 +170,7 @@ Dialog {
                 anchors.horizontalCenter: parent.horizontalCenter
                 width: (parent.width * .80)
                 text: qsTr("Remove custom icon")
+                enabled: barcode_icon !== ""
                 onClicked: {
                     remorse.execute(qsTr("Removing"), function () {
                         DB.removeIcon(barcode_name)

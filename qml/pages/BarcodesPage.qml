@@ -19,6 +19,7 @@ Page {
     onStatusChanged: {
         if (status === PageStatus.Activating) {
             mainapp.barcodeDisplayed = false
+            mainapp.barcodeGroupWasOpend = true
             if (mainapp.barcodesChanged) {
                 barcodeList.model.clear()
                 DB.readBarcodes(mainapp.groupName)
@@ -164,7 +165,9 @@ Page {
                                                       "barcode_type": barcodeList.model.get(
                                                                           index).Type,
                                                       "barcode_code": barcodeList.model.get(
-                                                                          index).Code
+                                                                          index).Code,
+                                                      "barcode_icon": barcodeList.model.get(
+                                                                       index).Icon
                                                   })
                     }
                     MenuItem {

@@ -34,56 +34,88 @@ import Sailfish.Silica 1.0
 
 CoverBackground {
     id: covB
-    property bool largeScreen: screen.width >= 1080
 
-    RotationAnimation on rotation {
-        running: mainapp.orientation === Orientation.Landscape && active
-                 && Screen.sizeCategory < 2
-        duration: 1000
-        from: 90
-        to: 90
-    }
-    RotationAnimation on rotation {
-        running: mainapp.orientation === Orientation.LandscapeInverted && active
-                 && Screen.sizeCategory < 2
-        duration: 1000
-        from: 270
-        to: 270
-    }
-    RotationAnimation on rotation {
-        running: mainapp.orientation === Orientation.Portrait && active
-                 && Screen.sizeCategory < 2
-        duration: 1000
-        from: 0
-        to: 0
-    }
-    property bool active: status === Cover.Active || Cover.Activating
+    BackgroundItem {
+        anchors.fill: parent
 
-    Column {
-        width: parent.width
-        spacing: Theme.paddingMedium
-        anchors.verticalCenter: parent.verticalCenter
-        anchors.horizontalCenter: parent.horizontalCenter
-        anchors.margins: 15
         Image {
-            anchors.horizontalCenter: parent.horizontalCenter
-            source: mainapp.iconsource
-            sourceSize: Qt.size(Theme.itemSizeSmall, Theme.itemSizeSmall)
-            visible: mainapp.orientation === Orientation.Portrait
-                     && mainapp.barcodeDisplayed
-        }
-        Label {
-            horizontalAlignment: Qt.AlignHCenter
-            text: mainapp.barcodeDisplayed ? mainapp.codeDescription : "BarWal"
-            wrapMode: Text.Wrap
-            width: parent.width
-        }
-        Image {
-            source: mainapp.barcodeDisplayed ? "/tmp/barcode.png" : largeScreen ? "/usr/share/icons/hicolor/128x128/apps/harbour-barwal.png" : "/usr/share/icons/hicolor/86x86/apps/harbour-barwal.png"
-            anchors.horizontalCenter: parent.horizontalCenter
-            cache: false
+            id: coverBgImage
+            anchors.fill: parent
             fillMode: Image.PreserveAspectFit
-            width: mainapp.barcodeDisplayed ? parent.width / 1.5 : largeScreen ? 128 : 86
+            source: "cover_background.png"
+            opacity: 0.2
+            horizontalAlignment: Image.AlignHCenter
+            verticalAlignment: Image.AlignVCenter
+            visible: !mainapp.barcodeDisplayed
+            layer.effect: ShaderEffect {
+                property color color: Theme.primaryColor
+
+                fragmentShader: "
+                varying mediump vec2 qt_TexCoord0;
+                uniform highp float qt_Opacity;
+                uniform lowp sampler2D source;
+                uniform highp vec4 color;
+                void main() {
+                highp vec4 pixelColor = texture2D(source, qt_TexCoord0);
+                gl_FragColor = vec4(mix(pixelColor.rgb/max(pixelColor.a, 0.00390625), color.rgb/max(color.a, 0.00390625), color.a) * pixelColor.a, pixelColor.a) * qt_Opacity;
+                }
+                "
+                }
+            layer.enabled: true
+            layer.samplerName: "source"
         }
+    }
+
+    Label {
+        id: coverHeader
+        text: "BarWal"
+        width: parent.width
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.top: parent.top
+        anchors.topMargin: Theme.paddingMedium
+        horizontalAlignment: Text.Center
+        color: Theme.highlightColor
+        font.pixelSize: Theme.fontSizeSmall
+    }
+    Label {
+        id: subHeader
+        anchors.top: coverHeader.bottom
+        anchors.horizontalCenter: parent.horizontalCenter
+        text: "-" + mainapp.groupName + "-"
+        width: parent.width
+        visible: mainapp.groupName !== ""
+        horizontalAlignment: Text.Center
+        wrapMode: Text.Wrap
+        color: Theme.secondaryHighlightColor
+        font.pixelSize: Theme.fontSizeSmall
+    }
+    Image {
+        id: barcodeIcon
+        anchors.top: subHeader.bottom
+        anchors.margins: Theme.paddingMedium
+        anchors.horizontalCenter: parent.horizontalCenter
+        source: mainapp.iconsource
+        sourceSize: Qt.size(Theme.itemSizeSmall, Theme.itemSizeSmall)
+        visible: mainapp.barcodeDisplayed
+    }
+    Label {
+        id: barcodeText
+        anchors.top: barcodeIcon.bottom
+        anchors.horizontalCenter: parent.horizontalCenter
+        horizontalAlignment: Text.Center
+        text: mainapp.codeDescription
+        wrapMode: Text.Wrap
+        width: parent.width
+        visible: barcodeDisplayed
+    }
+    Image {
+        anchors.top: barcodeText.bottom
+        anchors.topMargin: Theme.paddingMedium
+        source: mainapp.barcodeDisplayed ? "/tmp/barcode.png" : "/usr/share/icons/hicolor/128x128/apps/harbour-barwal.png"
+        anchors.horizontalCenter: parent.horizontalCenter
+        cache: false
+        fillMode: Image.PreserveAspectFit
+        width: parent.width / 1.5
+        visible: mainapp.barcodeDisplayed
     }
 }

@@ -3,6 +3,7 @@
 
 #include <QObject>
 #include <QProcess>
+#include <QFile>
 
 class Launcher : public QObject {
     Q_OBJECT
@@ -16,6 +17,7 @@ class Launcher : public QObject {
     Q_INVOKABLE QString launch(const QString &program);
     Q_INVOKABLE QString launch_stderr(const QString &program);
     Q_INVOKABLE void launch_async(const QString &program);
+    Q_INVOKABLE bool fileExists(const QString &path);
     QString message() const;
     void setMessage(const QString &value);
    public slots:

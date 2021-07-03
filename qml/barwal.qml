@@ -43,6 +43,7 @@ ApplicationWindow {
     property string codeType: ""
     property string codeDescription: ""
     property string iconsource: ""
+    property bool barcodeGroupWasOpend: false
     property bool isLightTheme: {
         if (Theme.colorScheme === Theme.LightOnDark)
             return false
