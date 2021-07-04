@@ -8,7 +8,10 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
-* Tue Jun ?? 2021 Arno Dekker <jack.tar@example.com> 0.1.0-7
+* Sun Jul 04 2021 Arno Dekker <jack.tar@example.com> 0.1.0-8
+- Polish language updated
+- Show custom icon in details and editpage
+* Sat Jul 03 2021 Arno Dekker <jack.tar@example.com> 0.1.0-7
 - Some more tinkering with the coverpage
 - Only enable import/remove icon button  when relevant
 * Tue Jun 29 2021 Arno Dekker <jack.tar@example.com> 0.1.0-6

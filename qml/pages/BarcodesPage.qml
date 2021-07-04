@@ -151,7 +151,9 @@ Page {
                                                       "barcode_type": barcodeList.model.get(
                                                                           index).Type,
                                                       "zint_code": barcodeList.model.get(
-                                                                       index).ZintCode
+                                                                       index).ZintCode,
+                                                      "barcode_icon": barcodeList.model.get(
+                                                                       index).Icon
                                                   })
                     }
                     MenuItem {

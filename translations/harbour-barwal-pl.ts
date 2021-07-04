@@ -94,37 +94,37 @@
 <context>
     <name>BarcodeInfoPage</name>
     <message>
-        <location filename="../qml/pages/BarcodeInfoPage.qml" line="29"/>
+        <location filename="../qml/pages/BarcodeInfoPage.qml" line="30"/>
         <source>Barcode info</source>
         <translation>Informacje o kodzie</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodeInfoPage.qml" line="42"/>
+        <location filename="../qml/pages/BarcodeInfoPage.qml" line="51"/>
         <source>Barcode name</source>
         <translation>Nazwa</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodeInfoPage.qml" line="63"/>
+        <location filename="../qml/pages/BarcodeInfoPage.qml" line="72"/>
         <source>Barcode description</source>
         <translation>Opis</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodeInfoPage.qml" line="84"/>
+        <location filename="../qml/pages/BarcodeInfoPage.qml" line="93"/>
         <source>Barcode string</source>
         <translation>Numer</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodeInfoPage.qml" line="126"/>
+        <location filename="../qml/pages/BarcodeInfoPage.qml" line="135"/>
         <source>Barcode type</source>
         <translation>Typ</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodeInfoPage.qml" line="147"/>
+        <location filename="../qml/pages/BarcodeInfoPage.qml" line="156"/>
         <source>Referring zint code</source>
         <translation>Referencyjny kod zint</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodeInfoPage.qml" line="105"/>
+        <location filename="../qml/pages/BarcodeInfoPage.qml" line="114"/>
         <source>Barcode group</source>
         <translation>Grupa</translation>
     </message>
@@ -147,22 +147,22 @@
         <translation>Szczegóły</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="158"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="160"/>
         <source>Edit</source>
         <translation>Edytuj</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="174"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="176"/>
         <source>Remove</source>
         <translation>Usuń</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="196"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="198"/>
         <source>No barcodes defined</source>
         <translation>Brak zdefiniowanych kodów</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="197"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="199"/>
         <source>Choose &quot;Add code&quot; from the pulley menu.</source>
         <translation>Wybierz &quot;Dodaj kod&quot; z menu rozwijanego.</translation>
     </message>
@@ -198,27 +198,27 @@
         <translation>Kod</translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditBarcodePage.qml" line="144"/>
+        <location filename="../qml/pages/EditBarcodePage.qml" line="145"/>
         <source>Import custom icon</source>
         <translation>Importuj własną ikonę</translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditBarcodePage.qml" line="154"/>
+        <location filename="../qml/pages/EditBarcodePage.qml" line="155"/>
         <source>Importing</source>
         <translation>Importowanie</translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditBarcodePage.qml" line="164"/>
+        <location filename="../qml/pages/EditBarcodePage.qml" line="165"/>
         <source>&lt;ul&gt;&lt;li&gt;Will import &lt;b&gt;barwal_icon.png&lt;/b&gt; from Pictures&lt;/li&gt;&lt;li&gt;Icon has to be max 128x128px&lt;/li&gt;&lt;li&gt;Width should be exactly 128px&lt;/li&gt;&lt;/ul&gt;</source>
         <translation>&lt;ul&gt;&lt;li&gt;Importuję &lt;b&gt;barwal_icon.png&lt;/b&gt; z Obrazy &lt;/li&gt;&lt;li&gt;Maks. rozmiar ikony: 128x128px&lt;/li&gt;&lt;li&gt;Szerokość powinna wynosić dokładnie 128px&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditBarcodePage.qml" line="172"/>
+        <location filename="../qml/pages/EditBarcodePage.qml" line="180"/>
         <source>Remove custom icon</source>
         <translation>Usuń własną ikonę</translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditBarcodePage.qml" line="175"/>
+        <location filename="../qml/pages/EditBarcodePage.qml" line="183"/>
         <source>Removing</source>
         <translation>Eltávolítás</translation>
     </message>

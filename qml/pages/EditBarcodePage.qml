@@ -139,8 +139,9 @@ Dialog {
                 horizontalAlignment: Qt.AlignHCenter
             }
             Button {
-                anchors.horizontalCenter: parent.horizontalCenter
-                width: (parent.width * .80)
+                anchors.left: parent.left
+                anchors.leftMargin: Theme.horizontalPageMargin
+                width: removeButton.width
                 text: qsTr("Import custom icon")
                 enabled: bar.fileExists(homedir + "/Pictures/barwal_icon.png")
                 onClicked: {
@@ -166,16 +167,32 @@ Dialog {
                 font.pixelSize: Theme.fontSizeSmall
                 width: (parent.width * .90)
             }
-            Button {
-                anchors.horizontalCenter: parent.horizontalCenter
-                width: (parent.width * .80)
-                text: qsTr("Remove custom icon")
-                enabled: barcode_icon !== ""
-                onClicked: {
-                    remorse.execute(qsTr("Removing"), function () {
-                        DB.removeIcon(barcode_name)
-                        mainapp.barcodesChanged = true
-                    })
+            Row {
+                spacing: (width / 2) * 0.1
+                width: parent.width
+                anchors.right: parent.right
+                anchors.rightMargin: Theme.horizontalPageMargin
+                anchors.left: parent.left
+                anchors.leftMargin: Theme.horizontalPageMargin
+                Button {
+                    id: removeButton
+                    width: parent.width * .85 - barcodeIcon.width
+                    text: qsTr("Remove custom icon")
+                    enabled: barcode_icon !== ""
+                    onClicked: {
+                        remorse.execute(qsTr("Removing"), function () {
+                            DB.removeIcon(barcode_name)
+                            mainapp.barcodesChanged = true
+                            barcode_icon = ""
+                        })
+                    }
+                }
+                Image {
+                    id: barcodeIcon
+                    source: barcode_icon !== "" ? "data:image/png;base64," + barcode_icon :  "image://theme/icon-l-image"
+                    sourceSize: Qt.size(Theme.itemSizeSmall,
+                                        Theme.itemSizeSmall)
+                    anchors.verticalCenter: parent.verticalCenter
                 }
             }
         }

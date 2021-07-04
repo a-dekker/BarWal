@@ -9,6 +9,7 @@ Page {
     property string barcode_code: ""
     property string barcode_type: ""
     property string zint_code: ""
+    property string barcode_icon: ""
     property bool largeScreen: Screen.sizeCategory === Screen.Large
                                || Screen.sizeCategory === Screen.ExtraLarge
 
@@ -32,6 +33,14 @@ Page {
                 height: Theme.paddingLarge
                 width: Theme.paddingLarge
                 color: "transparent"
+            }
+            Image {
+                id: barcodeIcon
+                source: barcode_icon !== "" ? "data:image/png;base64,"
+                                              + barcode_icon : "image://theme/icon-l-image"
+                sourceSize: Qt.size(Theme.itemSizeSmall, Theme.itemSizeSmall)
+                anchors.horizontalCenter: parent.horizontalCenter
+                visible: barcode_icon !== ""
             }
             Row {
                 width: parent.width
