@@ -134,37 +134,37 @@
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="43"/>
         <source>About</source>
-        <translation type="unfinished">Om</translation>
+        <translation>Om</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="47"/>
         <source>Add code</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till kod</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="142"/>
         <source>Details</source>
-        <translation type="unfinished"></translation>
+        <translation>Detaljerad info</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="160"/>
         <source>Edit</source>
-        <translation type="unfinished">Redigera</translation>
+        <translation>Redigera</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="176"/>
         <source>Remove</source>
-        <translation type="unfinished">Ta bort</translation>
+        <translation>Ta bort</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="198"/>
         <source>No barcodes defined</source>
-        <translation type="unfinished"></translation>
+        <translation>Inga koder definierade</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="199"/>
         <source>Choose &quot;Add code&quot; from the pulley menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj &quot;Lägg till kod&quot; från toppmenyn.</translation>
     </message>
 </context>
 <context>
