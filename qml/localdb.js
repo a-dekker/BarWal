@@ -401,6 +401,22 @@ function readBarcodeGroups() {
   });
 }
 
+function readBarcodeGroupMove() {
+  var db = connectDB();
+
+  db.transaction(function (tx) {
+    var result = tx.executeSql(
+      "SELECT GroupName FROM barcode_group ORDER BY GroupName COLLATE NOCASE;"
+    );
+    for (var i = 0; i < result.rows.length; i++) {
+      move2GroupPage.appendGroup(result.rows.item(i).GroupName);
+      if (mainapp.groupName === result.rows.item(i).GroupName) {
+        mainapp.groupNameIdx = i;
+      }
+    }
+  });
+}
+
 function readBarcodeList() {
   var db = connectDB();
 
@@ -587,5 +603,17 @@ function removeGroupDefault() {
 
   db.transaction(function (tx) {
     var result = tx.executeSql("update barcode_group set isDefault = 0");
+  });
+}
+
+// Move barcode to other group
+function moveBarcode(name, new_group) {
+  var db = connectDB();
+
+  db.transaction(function (tx) {
+    var result = tx.executeSql(
+      "update barcode set GroupName = ? where Name = ?;",
+      [new_group, name]
+    );
   });
 }

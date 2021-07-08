@@ -39,6 +39,7 @@ ApplicationWindow {
     property bool barcodesChanged: false
     property bool barcodeDisplayed: false
     property string groupName: ""
+    property int groupNameIdx: 0
     property string code: ""
     property string codeType: ""
     property string codeDescription: ""

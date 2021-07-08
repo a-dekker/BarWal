@@ -92,6 +92,19 @@
     </message>
 </context>
 <context>
+    <name>BarcodeGroupMovePage</name>
+    <message>
+        <location filename="../qml/pages/BarcodeGroupMovePage.qml" line="50"/>
+        <source>Move to group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/BarcodeGroupMovePage.qml" line="57"/>
+        <source>Moving</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>BarcodeInfoPage</name>
     <message>
         <location filename="../qml/pages/BarcodeInfoPage.qml" line="30"/>
@@ -153,16 +166,21 @@
     </message>
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="176"/>
+        <source>Move</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/BarcodesPage.qml" line="185"/>
         <source>Remove</source>
         <translation>Usuń</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="198"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="207"/>
         <source>No barcodes defined</source>
         <translation>Brak zdefiniowanych kodów</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="199"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="208"/>
         <source>Choose &quot;Add code&quot; from the pulley menu.</source>
         <translation>Wybierz &quot;Dodaj kod&quot; z menu rozwijanego.</translation>
     </message>

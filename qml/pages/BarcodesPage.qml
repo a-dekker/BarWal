@@ -153,7 +153,7 @@ Page {
                                                       "zint_code": barcodeList.model.get(
                                                                        index).ZintCode,
                                                       "barcode_icon": barcodeList.model.get(
-                                                                       index).Icon
+                                                                          index).Icon
                                                   })
                     }
                     MenuItem {
@@ -169,8 +169,17 @@ Page {
                                                       "barcode_code": barcodeList.model.get(
                                                                           index).Code,
                                                       "barcode_icon": barcodeList.model.get(
-                                                                       index).Icon
+                                                                          index).Icon
                                                   })
+                    }
+                    MenuItem {
+                        text: qsTr("Move")
+                        onClicked: pageStack.push(
+                                       Qt.resolvedUrl(
+                                           "BarcodeGroupMovePage.qml"), {
+                                           "barcode_name": barcodeList.model.get(
+                                                               index).Name
+                                       })
                     }
                     MenuItem {
                         text: qsTr("Remove")

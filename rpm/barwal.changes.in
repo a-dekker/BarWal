@@ -8,6 +8,8 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Thu Jul 08 2021 Arno Dekker <jack.tar@example.com> 0.1.0-9
+- Added move to other group option to barcodes
 * Sun Jul 04 2021 Arno Dekker <jack.tar@example.com> 0.1.0-8
 - Polish language updated
 - Show custom icon in details and editpage

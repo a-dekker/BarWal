@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="nl" sourcelanguage="en">
 <context>
     <name>About</name>
     <message>
@@ -92,6 +92,19 @@
     </message>
 </context>
 <context>
+    <name>BarcodeGroupMovePage</name>
+    <message>
+        <location filename="../qml/pages/BarcodeGroupMovePage.qml" line="50"/>
+        <source>Move to group</source>
+        <translation>Verplaats naar groep</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/BarcodeGroupMovePage.qml" line="57"/>
+        <source>Moving</source>
+        <translation>Aan het verplaatsen</translation>
+    </message>
+</context>
+<context>
     <name>BarcodeInfoPage</name>
     <message>
         <location filename="../qml/pages/BarcodeInfoPage.qml" line="30"/>
@@ -134,37 +147,42 @@
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="43"/>
         <source>About</source>
-        <translation type="unfinished">Over</translation>
+        <translation>Over</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="47"/>
         <source>Add code</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="142"/>
-        <source>Details</source>
-        <translation type="unfinished"></translation>
+        <translation>Code toevoegen</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="160"/>
         <source>Edit</source>
-        <translation type="unfinished">Bewerken</translation>
+        <translation>Bewerken</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="176"/>
+        <source>Move</source>
+        <translation>Verplaats</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/BarcodesPage.qml" line="185"/>
         <source>Remove</source>
-        <translation type="unfinished">Verwijderen</translation>
+        <translation>Verwijderen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="198"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="142"/>
+        <source>Details</source>
+        <translation>Details</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/BarcodesPage.qml" line="207"/>
         <source>No barcodes defined</source>
-        <translation type="unfinished"></translation>
+        <translation>Geen code gedefinieerd</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="199"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="208"/>
         <source>Choose &quot;Add code&quot; from the pulley menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kies &quot;Code toevoegen&quot; in het menu.</translation>
     </message>
 </context>
 <context>
@@ -238,12 +256,12 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="55"/>
         <source>Clear auto-open group</source>
-        <translation type="unfinished"></translation>
+        <translation>Verwijder automatisch openen groep</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="57"/>
         <source>Removing</source>
-        <translation type="unfinished">Verwijderen</translation>
+        <translation>Verwijderen</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="84"/>
@@ -258,7 +276,7 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="103"/>
         <source>Auto open this group on start</source>
-        <translation type="unfinished"></translation>
+        <translation>Open deze groep bij het opstarten</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="147"/>
