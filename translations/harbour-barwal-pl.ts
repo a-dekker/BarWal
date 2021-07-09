@@ -101,7 +101,7 @@
     <message>
         <location filename="../qml/pages/BarcodeGroupMovePage.qml" line="57"/>
         <source>Moving</source>
-        <translation>Przenoszę</translation>
+        <translation>Przenoszenie</translation>
     </message>
 </context>
 <context>
@@ -238,7 +238,7 @@
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="183"/>
         <source>Removing</source>
-        <translation>Eltávolítás</translation>
+        <translation>Usuwanie</translation>
     </message>
 </context>
 <context>
@@ -261,7 +261,7 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="57"/>
         <source>Removing</source>
-        <translation>Wyłączanie</translation>
+        <translation>Usuwanie</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="84"/>
