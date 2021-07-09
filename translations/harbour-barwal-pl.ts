@@ -96,12 +96,12 @@
     <message>
         <location filename="../qml/pages/BarcodeGroupMovePage.qml" line="50"/>
         <source>Move to group</source>
-        <translation type="unfinished"></translation>
+        <translation>Przenieś do grupy</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodeGroupMovePage.qml" line="57"/>
         <source>Moving</source>
-        <translation type="unfinished"></translation>
+        <translation>Przenoszę</translation>
     </message>
 </context>
 <context>
@@ -167,7 +167,7 @@
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="176"/>
         <source>Move</source>
-        <translation type="unfinished"></translation>
+        <translation>Przenieś</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="185"/>
