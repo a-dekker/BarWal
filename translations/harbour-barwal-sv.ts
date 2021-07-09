@@ -96,12 +96,12 @@
     <message>
         <location filename="../qml/pages/BarcodeGroupMovePage.qml" line="50"/>
         <source>Move to group</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytta till grupp</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodeGroupMovePage.qml" line="57"/>
         <source>Moving</source>
-        <translation type="unfinished"></translation>
+        <translation>Flyttar</translation>
     </message>
 </context>
 <context>
@@ -167,7 +167,7 @@
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="176"/>
         <source>Move</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytta</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="185"/>
