@@ -134,7 +134,7 @@
     <message>
         <location filename="../qml/pages/BarcodeInfoPage.qml" line="156"/>
         <source>Referring zint code</source>
-        <translation>Refererande zint-kod</translation>
+        <translation>Ref. zint-kod</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodeInfoPage.qml" line="114"/>
