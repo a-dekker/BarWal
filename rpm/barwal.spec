@@ -13,8 +13,8 @@ Name:       harbour-barwal
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Your favourite Barcode Manager
-Version:    1.0
-Release:    9
+Version:    1.1
+Release:    1
 Group:      Qt/Qt
 License:    LICENSE
 URL:        https://github.com/a-dekker/barwal

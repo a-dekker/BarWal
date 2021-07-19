@@ -41,8 +41,8 @@ Page {
     }
 
     function getFileInfo() {
-        var toolCmd = "/usr/bin/zint" + " -o " + "/tmp/barcode.png" + " --scale "
-                + "5" + " -b " + mainapp.codeType + " -d " + '"' + mainapp.code + '"'
+        var toolCmd = "/usr/bin/zint" + " -o " + "/tmp/barcode.png" + " --scale " + "5"
+                + " -b " + mainapp.codeType + " -d " + '"' + mainapp.code + '"'
 
         console.log(toolCmd)
         var zint_result = bar.launch_stderr(toolCmd)
@@ -52,6 +52,14 @@ Page {
             background.color = "Darkred"
         } else {
             imagePath = "/tmp/barcode.png"
+        }
+    }
+
+    function resize_barcode() {
+        if (coverBgImage.scale === 1) {
+            coverBgImage.scale = 0.5
+        } else {
+            coverBgImage.scale = 1
         }
     }
 
@@ -70,13 +78,14 @@ Page {
             id: pageHead
             title: mainapp.codeDescription
             description: mainapp.code
-                extraContent.children: [
-                    Image {
-                        anchors.verticalCenter: parent.verticalCenter
-                        source: mainapp.iconsource
-                        sourceSize: Qt.size(Theme.itemSizeSmall, Theme.itemSizeSmall)
-                    }
-                ]
+            extraContent.children: [
+                Image {
+                    anchors.verticalCenter: parent.verticalCenter
+                    source: mainapp.iconsource
+                    sourceSize: Qt.size(Theme.itemSizeSmall,
+                                        Theme.itemSizeSmall)
+                }
+            ]
         }
         Rectangle {
             color: "white"
@@ -85,9 +94,18 @@ Page {
             anchors.bottom: parent.bottom
             anchors.top: pageHead.bottom
             id: background
+
+            MouseArea {
+                anchors.fill: parent
+                onClicked: {
+                    resize_barcode()
+                }
+            }
+
             Image {
                 id: coverBgImage
                 anchors.fill: background
+                asynchronous: true
                 fillMode: Image.PreserveAspectFit
                 source: imagePath
                 anchors.horizontalCenter: parent.horizontalCenter
