@@ -6,7 +6,7 @@
     <message>
         <location filename="../qml/pages/About.qml" line="20"/>
         <source>About</source>
-        <translation>&Agrave; propos</translation>
+        <translation>À propos</translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="23"/>
@@ -44,7 +44,7 @@
     <message>
         <location filename="../qml/pages/AddBarcodeGroupPage.qml" line="43"/>
         <source>Create group</source>
-        <translation>Cr&eacute;er un groupe</translation>
+        <translation>Créer un groupe</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddBarcodeGroupPage.qml" line="50"/>
@@ -55,7 +55,7 @@
         <location filename="../qml/pages/AddBarcodeGroupPage.qml" line="58"/>
         <location filename="../qml/pages/AddBarcodeGroupPage.qml" line="68"/>
         <source>Could not add group!</source>
-        <translation>Impossible d&apos;ajouter le groupe&nbsp;!</translation>
+        <translation>Impossible d&apos;ajouter le groupe!</translation>
     </message>
 </context>
 <context>
@@ -63,7 +63,7 @@
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="77"/>
         <source>Create code</source>
-        <translation>Cr&eacute;er un code</translation>
+        <translation>Créer un code</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="82"/>
@@ -88,7 +88,7 @@
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="57"/>
         <source>Could not add barcode!</source>
-        <translation>Impossible d&apos;ajouter le code-barre&nbsp;</translation>
+        <translation>Impossible d&apos;ajouter le code-barre!</translation>
     </message>
 </context>
 <context>
@@ -96,12 +96,12 @@
     <message>
         <location filename="../qml/pages/BarcodeGroupMovePage.qml" line="50"/>
         <source>Move to group</source>
-        <translation>D&eacute;placer vers le groupe</translation>
+        <translation>Déplacer vers le groupe</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodeGroupMovePage.qml" line="57"/>
         <source>Moving</source>
-        <translation>D&eacute;placement</translation>
+        <translation>Déplacement</translation>
     </message>
 </context>
 <context>
@@ -134,7 +134,7 @@
     <message>
         <location filename="../qml/pages/BarcodeInfoPage.qml" line="156"/>
         <source>Referring zint code</source>
-        <translation>Code zint de r&eacute;f&eacute;rence</translation>
+        <translation>Code zint de référence</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodeInfoPage.qml" line="114"/>
@@ -147,7 +147,7 @@
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="43"/>
         <source>About</source>
-        <translation>&Agrave; propos</translation>
+        <translation>À propos</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="47"/>
@@ -157,7 +157,7 @@
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="142"/>
         <source>Details</source>
-        <translation>D&eacute;tails</translation>
+        <translation>Détails</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="160"/>
@@ -167,7 +167,7 @@
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="176"/>
         <source>Move</source>
-        <translation>D&eacute;placer</translation>
+        <translation>Déplacer</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="185"/>
@@ -177,12 +177,12 @@
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="207"/>
         <source>No barcodes defined</source>
-        <translation>Aucun code-barre d&eacute;fini</translation>
+        <translation>Aucun code-barre défini</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="208"/>
         <source>Choose &quot;Add code&quot; from the pulley menu.</source>
-        <translation>S&eacute;lectionner &quot;Ajouter un code&quot; du menu haut.</translation>
+        <translation>Sélectionner &quot;Ajouter un code&quot; du menu haut.</translation>
     </message>
 </context>
 <context>
@@ -218,7 +218,7 @@
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="145"/>
         <source>Import custom icon</source>
-        <translation>Importer une ic&ocirc;ne personnalis&eacute;e</translation>
+        <translation>Importer une icône personnalisée</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="155"/>
@@ -233,7 +233,7 @@
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="180"/>
         <source>Remove custom icon</source>
-        <translation>Supprimer l&apos;ic&ocirc;ne personnalis&eacute;e</translation>
+        <translation>Supprimer l&apos;icône personnalisée</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="183"/>
@@ -246,7 +246,7 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="45"/>
         <source>About</source>
-        <translation>&Agrave; propos</translation>
+        <translation>À propos</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="49"/>
@@ -281,12 +281,12 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="147"/>
         <source>No groups defined</source>
-        <translation>Aucun groupe d&eacute;fini</translation>
+        <translation>Aucun groupe défini</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="148"/>
         <source>Choose &quot;Add Group&quot; from the pulley menu.</source>
-        <translation>S&eacute;lectionner &quot;Ajouter un groupe&quot; du menu haut</translation>
+        <translation>Sélectionner &quot;Ajouter un groupe&quot; du menu haut.</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="41"/>
