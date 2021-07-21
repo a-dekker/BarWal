@@ -36,7 +36,7 @@
     <message>
         <location filename="../qml/pages/About.qml" line="73"/>
         <source> as backend</source>
-        <translation> comme serveur</translation>
+        <translation> comme service de génération</translation>
     </message>
 </context>
 <context>
