@@ -114,32 +114,32 @@
     <message>
         <location filename="../qml/pages/BarcodeInfoPage.qml" line="51"/>
         <source>Barcode name</source>
-        <translation>Nom du code-barre</translation>
+        <translation>Nom</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodeInfoPage.qml" line="72"/>
         <source>Barcode description</source>
-        <translation>Description du code-barre</translation>
+        <translation>Description</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodeInfoPage.qml" line="93"/>
         <source>Barcode string</source>
-        <translation>Chaîne du code-barre</translation>
+        <translation>Chaîne</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodeInfoPage.qml" line="135"/>
         <source>Barcode type</source>
-        <translation>Type du code-barre</translation>
+        <translation>Valeur</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodeInfoPage.qml" line="156"/>
         <source>Referring zint code</source>
-        <translation>Code zint de référence</translation>
+        <translation>Réf code zint</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodeInfoPage.qml" line="114"/>
         <source>Barcode group</source>
-        <translation>Groupe du code-barre</translation>
+        <translation>Groupe</translation>
     </message>
 </context>
 <context>
@@ -218,7 +218,7 @@
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="145"/>
         <source>Import custom icon</source>
-        <translation>Importer une icône personnalisée</translation>
+        <translation>Import icône personnalisée</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="155"/>
@@ -233,7 +233,7 @@
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="180"/>
         <source>Remove custom icon</source>
-        <translation>Supprimer l&apos;icône personnalisée</translation>
+        <translation>Supprimer icône personnalisée</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="183"/>
