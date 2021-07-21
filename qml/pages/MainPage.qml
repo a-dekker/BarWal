@@ -91,7 +91,7 @@ Page {
                     }
                     MenuItem {
                         text: qsTr("Remove")
-                        onClicked: Remorse.itemAction(listItem, "Deleting",
+                        onClicked: Remorse.itemAction(listItem, qsTr("Deleting"),
                                                       function () {
                                                           DB.removeBarcodeGroup(
                                                                       GroupName)
@@ -101,7 +101,7 @@ Page {
                     }
                     MenuItem {
                         text: qsTr("Auto open this group on start")
-                        onClicked: Remorse.itemAction(listItem, "Auto open",
+                        onClicked: Remorse.itemAction(listItem, qsTr("Auto open"),
                                                       function () {
                                                           hasStartGroup = true
                                                           DB.setGroupDefault(

@@ -175,6 +175,11 @@
         <translation>Supprimer</translation>
     </message>
     <message>
+        <location filename="../qml/pages/BarcodesPage.qml" line="186"/>
+        <source>Deleting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="207"/>
         <source>No barcodes defined</source>
         <translation>Aucun code-barre défini</translation>
@@ -274,9 +279,19 @@
         <translation>Supprimer</translation>
     </message>
     <message>
+        <location filename="../qml/pages/MainPage.qml" line="94"/>
+        <source>Deleting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../qml/pages/MainPage.qml" line="103"/>
         <source>Auto open this group on start</source>
         <translation>Ouvrir ce groupe au lancement</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="104"/>
+        <source>Auto open</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="147"/>

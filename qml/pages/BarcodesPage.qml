@@ -183,7 +183,7 @@ Page {
                     }
                     MenuItem {
                         text: qsTr("Remove")
-                        onClicked: Remorse.itemAction(listItem, "Deleting",
+                        onClicked: Remorse.itemAction(listItem, qsTr("Deleting"),
                                                       function () {
                                                           DB.removeBarcode(Name)
                                                           barcodeList.model.clear()
