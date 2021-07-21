@@ -44,7 +44,7 @@
     <message>
         <location filename="../qml/pages/AddBarcodeGroupPage.qml" line="43"/>
         <source>Create group</source>
-        <translation>Créer un groupe</translation>
+        <translation>Créer le groupe</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddBarcodeGroupPage.qml" line="50"/>
@@ -63,12 +63,12 @@
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="77"/>
         <source>Create code</source>
-        <translation>Créer un code</translation>
+        <translation>Créer le code</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="82"/>
         <source>Barcode type</source>
-        <translation>Type de code-barre</translation>
+        <translation>Type du code-barre</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="96"/>
@@ -228,7 +228,7 @@
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="165"/>
         <source>&lt;ul&gt;&lt;li&gt;Will import &lt;b&gt;barwal_icon.png&lt;/b&gt; from Pictures&lt;/li&gt;&lt;li&gt;Icon has to be max 128x128px&lt;/li&gt;&lt;li&gt;Width should be exactly 128px&lt;/li&gt;&lt;/ul&gt;</source>
-        <translation>&lt;ul&gt;&lt;li&gt;va importer &lt;b&gt;barwal_icon.png&lt;/b&gt; des images&lt;/li&gt;&lt;li&gt;la taille max est de 128x128px&lt;/li&gt;&lt;li&gt;largeur doit être exactement 128px&lt;/li&gt;&lt;/ul&gt;</translation>
+        <translation>&lt;ul&gt;&lt;li&gt;import &lt;b&gt;barwal_icon.png&lt;/b&gt; du dossier Pictures&lt;/li&gt;&lt;li&gt;la taille max doit être de 128x128px&lt;/li&gt;&lt;li&gt;la largeur doit être de 128px&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="180"/>
