@@ -23,7 +23,7 @@ Page {
         Column {
             id: column
 
-            width: codeInfoPage.width
+            width: codeInfoPage.width - Theme.paddingSmall
             spacing: Theme.paddingLarge
 
             PageHeader {
@@ -98,11 +98,11 @@ Page {
                 }
 
                 Label {
-                    width: parent.width * 0.5
+                    width: parent.width * 0.5 - Theme.paddingSmall
                     text: barcode_code
                     color: Theme.highlightColor
                     font.pixelSize: Theme.fontSizeMedium
-                    wrapMode: Text.Wrap
+                    wrapMode: Text.WrapAnywhere
                 }
             }
             Row {

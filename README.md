@@ -1,10 +1,9 @@
 # BarWal
-BarWal is a (bar)code wallet app for Sailfish OS.
+BarWal is a (BAR)code WALlet app for Sailfish OS and can be downloaded from [OpenRepos.net](https://openrepos.net/content/ade/barwal).
 
-It uses [zint](https://openrepos.net/content/ade/zint) for generating the images
+It uses [zint](https://sourceforge.net/projects/zint/) for generating the (bar)code images
 
 *Supported codes:*
-
 - Code 11
 - Standard 2of5
 - Interleaved 2of5
