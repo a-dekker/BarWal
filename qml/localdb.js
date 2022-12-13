@@ -37,10 +37,13 @@ function initializeDB() {
     if (rs.rows.length === 0) {
       initZintCodes();
     }
-    // temporary remove the old "zint code: " prefix
-    tx.executeSql(
-      "UPDATE barcode set Type = substr(Type,instr(Type,':')+2) where Type like '%: %'"
-    );
+    if (rs.rows.length === 95) {
+      // old amount of records, let's re-add
+      tx.executeSql(
+        "delete from zint_codes"
+      );
+      initZintCodes();
+    }
     try {
       tx.executeSql("ALTER TABLE barcode_group ADD COLUMN IsDefault INTEGER");
     } catch (sqlErr) {
@@ -157,6 +160,9 @@ function initZintCodes() {
     );
     tx.executeSql(
       'insert into zint_codes (ZintCode, Description) values (53, "Pharma Two-Track")'
+    );
+    tx.executeSql(
+      'insert into zint_codes (ZintCode, Description) values (54, "Brazilian CEPNet")'
     );
     tx.executeSql(
       'insert into zint_codes (ZintCode, Description) values (55, "PDF417")'
@@ -285,6 +291,9 @@ function initZintCodes() {
       'insert into zint_codes (ZintCode, Description) values (116, "Han Xin Code")'
     );
     tx.executeSql(
+      'insert into zint_codes (ZintCode, Description) values (119, "Royal Mail 2D Mailmark (CMDM)")'
+    );
+    tx.executeSql(
       'insert into zint_codes (ZintCode, Description) values (121, "RM Mailmark")'
     );
     tx.executeSql(
@@ -340,6 +349,9 @@ function initZintCodes() {
     );
     tx.executeSql(
       'insert into zint_codes (ZintCode, Description) values (145, "rMQR")'
+    );
+    tx.executeSql(
+      'insert into zint_codes (ZintCode, Description) values (146, "IBM BC412 (SEMI T1-95)")'
     );
   });
 }

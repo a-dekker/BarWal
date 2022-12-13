@@ -13,10 +13,10 @@ Name:       harbour-barwal
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Your favourite Barcode Manager
-Version:    1.3
+Version:    1.4
 Release:    1
 Group:      Qt/Qt
-License:    LICENSE
+License:    MIT
 URL:        https://github.com/a-dekker/barwal
 Source0:    %{name}-%{version}.tar.bz2
 Requires:   sailfishsilica-qt5 >= 0.10.9
@@ -28,7 +28,7 @@ BuildRequires:  pkgconfig(Qt5Quick)
 BuildRequires:  desktop-file-utils
 
 %description
-Wallet for codes
+Wallet for (bar)codes using zint as backend
 
 
 %prep
@@ -63,11 +63,10 @@ desktop-file-install --delete-original       \
 
 %files
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_bindir}
+%attr(755,root,root) %{_bindir}/*
 %{_datadir}/%{name}/qml
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/icons/hicolor/*/apps/%{name}.png
-/usr/bin
 /usr/share/harbour-barwal
 /usr/share/applications
 /usr/share/icons/hicolor/86x86/apps

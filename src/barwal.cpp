@@ -33,12 +33,10 @@ modification, are permitted provided that the following conditions are met:
 #endif
 
 #include <QtQml>
-#include <QProcess>
 #include <qqml.h>
 #include <QtGui>
 #include <QQuickView>
 #include "osread.h"
-// #include "settings.h"
 #include <sailfishapp.h>
 
 int main(int argc, char *argv[])
@@ -50,19 +48,10 @@ int main(int argc, char *argv[])
     //   - SailfishApp::createView() to get a new QQuickView * instance
     //   - SailfishApp::pathTo(QString) to get a QUrl to a resource file
     //
-    QProcess appinfo;
-    QString appversion;
-    // QLocale::setDefault(QLocale(QLocale::English, QLocale::UnitedStates));
-    // read app version from rpm database on startup
-    appinfo.start("/bin/rpm", QStringList() << "-qa" << "--queryformat" << "%{version}-%{RELEASE}" << "harbour-barwal");
-    appinfo.waitForFinished(-1);
-    if (appinfo.bytesAvailable() > 0) {
-        appversion = appinfo.readAll();
-    }
+
     QString homepath;
     homepath = QDir::homePath();
     qmlRegisterType<Launcher>("harbour.barwal.Launcher", 1 , 0 , "App");
-    // qmlRegisterType<Settings>("harbour.barwal.Settings", 1 , 0 , "MySettings");
     // To display the view, call "show()" (will show fullscreen on device).
 
     QGuiApplication* app = SailfishApp::application(argc, argv);
@@ -71,7 +60,8 @@ int main(int argc, char *argv[])
 
     QQuickView* view = SailfishApp::createView();
     view->rootContext()->setContextProperty("homedir", homepath);
-    view->rootContext()->setContextProperty("version", appversion);
+    view->rootContext()->setContextProperty("version", APP_VERSION);
+    view->rootContext()->setContextProperty("buildyear", BUILD_YEAR);
     view->setSource(SailfishApp::pathTo("qml/barwal.qml"));
     view->show();
     return app->exec();

@@ -59,6 +59,13 @@ TRANSLATIONS = translations/harbour-barwal-sv.ts \
     translations/harbour-barwal-fr.ts \
     translations/harbour-barwal-nl.ts
 
+isEmpty(VERSION) {
+    VERSION = $$system( egrep "^Version:\|^Release:" rpm/barwal.spec |tr -d "[A-Z][a-z]: " | tr "\\\n" "-" | sed "s/\.$//g"| tr -d "[:space:]")
+    message("VERSION is unset, assuming $$VERSION")
+}
+DEFINES += APP_VERSION=\\\"$$VERSION\\\"
+DEFINES += BUILD_YEAR=$$system(date '+%Y')
+
 # only include these files for translation:
 lupdate_only {
     SOURCES = qml/*.qml \
