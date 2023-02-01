@@ -2,6 +2,7 @@ import QtQuick 2.5
 import Sailfish.Silica 1.0
 import harbour.barwal.Launcher 1.0
 import Nemo.Notifications 1.0
+import "../components"
 
 Page {
     id: barcodeDisplayPage
@@ -74,19 +75,13 @@ Page {
 
         VerticalScrollDecorator {}
 
-        PageHeader {
+        FancyPageHeader {
             id: pageHead
             title: mainapp.codeDescription
-            description: mainapp.code
-            extraContent.children: [
-                Image {
-                    anchors.verticalCenter: parent.verticalCenter
-                    source: mainapp.iconsource
-                    sourceSize: Qt.size(Theme.itemSizeSmall,
-                                        Theme.itemSizeSmall)
-                }
-            ]
+            description:  mainapp.code
+            iconSource: mainapp.iconsource
         }
+
         Rectangle {
             color: "white"
             anchors.left: parent.left

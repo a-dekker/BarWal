@@ -1,9 +1,24 @@
 import QtQuick 2.5
 import Sailfish.Silica 1.0
+import harbour.barwal.Launcher 1.0
 
 Page {
     id: aboutPage
     property bool largeScreen: Screen.width > 540
+    property string zint_version: ""
+
+    App {
+        id: bar
+    }
+
+    Component.onCompleted: {
+        getZintVersion()
+    }
+
+    function getZintVersion() {
+        zint_version = bar.launch("/usr/bin/zint --version").replace(
+                    /(\r\n|\n|\r)/gm, "").replace("Zint ", "")
+    }
 
     SilicaFlickable {
         anchors.fill: parent
@@ -28,6 +43,7 @@ Page {
                 width: parent.width
                 anchors.horizontalCenter: parent.horizontalCenter
                 horizontalAlignment: Qt.AlignHCenter
+                visible: isPortrait || (largeScreen && Screen.width > 1080)
             }
             Label {
                 text: "BarWal"
@@ -70,8 +86,8 @@ Page {
                 x: Theme.paddingLarge
                 color: Theme.primaryColor
                 font.pixelSize: Theme.fontSizeTiny
-                text: qsTr("Using ") + "<a href=\"https://sourceforge.net/p/zint/code/ci/master/tree/\">zint</a>" + qsTr(
-                          " as backend")
+                text: qsTr("Using ") + "<a href=\"https://sourceforge.net/p/zint/code/ci/master/tree/\">Zint</a>" + qsTr(
+                          " as backend (" + zint_version + ")")
                 linkColor: Theme.highlightColor
                 onLinkActivated: Qt.openUrlExternally(link)
                 anchors.horizontalCenter: parent.horizontalCenter

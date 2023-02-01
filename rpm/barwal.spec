@@ -13,7 +13,7 @@ Name:       harbour-barwal
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Your favourite Barcode Manager
-Version:    1.4
+Version:    1.5
 Release:    1
 Group:      Qt/Qt
 License:    MIT
@@ -69,8 +69,4 @@ desktop-file-install --delete-original       \
 %{_datadir}/icons/hicolor/*/apps/%{name}.png
 /usr/share/harbour-barwal
 /usr/share/applications
-/usr/share/icons/hicolor/86x86/apps
-/usr/share/icons/hicolor/108x108/apps
-/usr/share/icons/hicolor/128x128/apps
-/usr/share/icons/hicolor/172x172/apps
-/usr/share/icons/hicolor/256x256/apps
+/usr/share/icons/hicolor/*/apps

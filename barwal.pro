@@ -40,6 +40,7 @@ OTHER_FILES += qml/barwal.qml \
     qml/pages/EditBarcodePage.qml \
     qml/pages/BarcodeInfoPage.qml \
     qml/pages/BarcodeGroupMovePage.qml \
+    qml/components/FancyPageHeader.qml \
     qml/icons/aztec-icon.png \
     qml/icons/barcode-icon.png \
     qml/icons/datamatrix-icon.png \
