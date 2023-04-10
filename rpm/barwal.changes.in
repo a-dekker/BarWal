@@ -8,7 +8,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
-* Wed Feb 01 2032 Arno Dekker <jack.tar@example.com> 0.1.5-1
+* Mon Apr 10 2023 Arno Dekker <jack.tar@example.com> 0.1.6-1
+- Switch from png to svg format to improve barcode image quality
+* Wed Feb 01 2023 Arno Dekker <jack.tar@example.com> 0.1.5-1
 - Move icon to the right in barcode display page
 - Also add Zint version in about page
 * Tue Dec 13 2022 Arno Dekker <jack.tar@example.com> 0.1.4-1

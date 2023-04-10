@@ -96,7 +96,7 @@ CoverBackground {
     Image {
         anchors.top: barcodeText.bottom
         anchors.topMargin: Theme.paddingMedium
-        source: mainapp.barcodeDisplayed ? "/tmp/barcode.png" : "/usr/share/icons/hicolor/128x128/apps/harbour-barwal.png"
+        source: mainapp.barcodeDisplayed ? "/tmp/barcode.svg" : "/usr/share/icons/hicolor/128x128/apps/harbour-barwal.png"
         anchors.horizontalCenter: parent.horizontalCenter
         cache: false
         fillMode: Image.PreserveAspectFit

@@ -42,7 +42,7 @@ Page {
     }
 
     function getFileInfo() {
-        var toolCmd = "/usr/bin/zint" + " -o " + "/tmp/barcode.png" + " --scale " + "5"
+        var toolCmd = "/usr/bin/zint" + " -o " + "/tmp/barcode.svg" + " --scale " + "5" + " --filetype=SVG"
                 + " -b " + mainapp.codeType + " -d " + '"' + mainapp.code + '"'
 
         console.log(toolCmd)
@@ -52,7 +52,7 @@ Page {
             imagePath = "image://theme/icon-l-attention"
             background.color = "Darkred"
         } else {
-            imagePath = "/tmp/barcode.png"
+            imagePath = "/tmp/barcode.svg"
         }
     }
 
