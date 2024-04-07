@@ -4,39 +4,38 @@
 <context>
     <name>About</name>
     <message>
-        <location filename="../qml/pages/About.qml" line="20"/>
+        <location filename="../qml/pages/About.qml" line="35"/>
         <source>About</source>
         <translation>O programie</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="23"/>
+        <location filename="../qml/pages/About.qml" line="38"/>
         <source>Info</source>
         <translation>Informacje</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="42"/>
+        <location filename="../qml/pages/About.qml" line="58"/>
         <source>Version</source>
         <translation>Wersja</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="47"/>
+        <location filename="../qml/pages/About.qml" line="63"/>
         <source>Your wallet for all your scannable codes</source>
         <translation>Twój portfel na wszystkie Twoje kody kreskowe</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="56"/>
+        <location filename="../qml/pages/About.qml" line="72"/>
         <source>Author</source>
         <translation>Autor</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="73"/>
+        <location filename="../qml/pages/About.qml" line="89"/>
         <source>Using </source>
         <translation>Używa </translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="73"/>
         <source> as backend</source>
-        <translation> jako backend</translation>
+        <translation type="vanished"> jako backend</translation>
     </message>
 </context>
 <context>
@@ -61,32 +60,42 @@
 <context>
     <name>AddBarcodePage</name>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="77"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="78"/>
         <source>Create code</source>
         <translation>Dodaj kod</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="82"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="83"/>
         <source>Barcode type</source>
         <translation>Format kodu</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="96"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="84"/>
+        <source>pick code type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="99"/>
         <source>Name</source>
         <translation>Nazwa</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="106"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="109"/>
         <source>Description</source>
         <translation>Opis</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="115"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="118"/>
         <source>Code</source>
         <translation>Kod</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="57"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="135"/>
+        <source>The app &apos;BarCode&apos; can be used to scan images to extract the code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="58"/>
         <source>Could not add barcode!</source>
         <translation>Nie można dodać kodu!</translation>
     </message>

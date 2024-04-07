@@ -4,39 +4,38 @@
 <context>
     <name>About</name>
     <message>
-        <location filename="../qml/pages/About.qml" line="20"/>
+        <location filename="../qml/pages/About.qml" line="35"/>
         <source>About</source>
         <translation>À propos</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="23"/>
+        <location filename="../qml/pages/About.qml" line="38"/>
         <source>Info</source>
         <translation>Info</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="42"/>
+        <location filename="../qml/pages/About.qml" line="58"/>
         <source>Version</source>
         <translation>Version</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="47"/>
+        <location filename="../qml/pages/About.qml" line="63"/>
         <source>Your wallet for all your scannable codes</source>
         <translation>Un portefeuille pour tous vos codes scannables</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="56"/>
+        <location filename="../qml/pages/About.qml" line="72"/>
         <source>Author</source>
         <translation>Auteur</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="73"/>
+        <location filename="../qml/pages/About.qml" line="89"/>
         <source>Using </source>
         <translation>Utilise </translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="73"/>
         <source> as backend</source>
-        <translation> comme service de génération</translation>
+        <translation type="vanished"> comme service de génération</translation>
     </message>
 </context>
 <context>
@@ -61,32 +60,42 @@
 <context>
     <name>AddBarcodePage</name>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="77"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="78"/>
         <source>Create code</source>
         <translation>Créer le code</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="82"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="83"/>
         <source>Barcode type</source>
         <translation>Type du code-barre</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="96"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="84"/>
+        <source>pick code type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="99"/>
         <source>Name</source>
         <translation>Nom</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="106"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="109"/>
         <source>Description</source>
         <translation>Description</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="115"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="118"/>
         <source>Code</source>
         <translation>Code</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="57"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="135"/>
+        <source>The app &apos;BarCode&apos; can be used to scan images to extract the code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="58"/>
         <source>Could not add barcode!</source>
         <translation>Impossible d&apos;ajouter le code-barre!</translation>
     </message>

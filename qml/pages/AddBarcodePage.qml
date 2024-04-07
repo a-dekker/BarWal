@@ -5,7 +5,8 @@ import "../localdb.js" as DB
 
 Dialog {
     id: addCodePage
-    canAccept: name.text.trim().length > 0
+    canAccept: name.text.trim().length > 0 && code.text !== ""
+               && description.text !== "" && barcodetype.currentIndex !== -1
 
     property var dataModel: ListModel {}
 
@@ -80,6 +81,7 @@ Dialog {
             ComboBox {
                 id: barcodetype
                 label: qsTr("Barcode type")
+                value: currentIndex === -1 ? qsTr("pick code type") : currentItem.text
                 menu: ContextMenu {
                     Repeater {
                         model: dataModel
@@ -88,6 +90,7 @@ Dialog {
                         }
                     }
                 }
+                currentIndex: -1
             }
 
             TextField {
@@ -118,6 +121,26 @@ Dialog {
                 text: ""
 
                 EnterKey.onClicked: accept()
+            }
+            Row {
+                width: parent.width - Theme.paddingLarge
+                x: Theme.paddingSmall
+                y: Theme.paddingMedium
+                Image {
+                    id: infoIcon
+                    source: "image://theme/icon-m-about"
+                    anchors.verticalCenter: parent.verticalCenter
+                }
+                Label {
+                    text: qsTr("The app 'BarCode' can be used to scan images to extract the code")
+                    width: col.width - (Theme.paddingMedium + Theme.paddingSmall + infoIcon.width)
+                    wrapMode: Text.Wrap
+                    font {
+                        italic: true
+                        pixelSize: Theme.fontSizeSmall
+                    }
+                    color: Theme.secondaryColor
+                }
             }
         }
     }

@@ -4,39 +4,38 @@
 <context>
     <name>About</name>
     <message>
-        <location filename="../qml/pages/About.qml" line="20"/>
+        <location filename="../qml/pages/About.qml" line="35"/>
         <source>About</source>
         <translation>Névjegy</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="23"/>
+        <location filename="../qml/pages/About.qml" line="38"/>
         <source>Info</source>
         <translation>Infó</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="42"/>
+        <location filename="../qml/pages/About.qml" line="58"/>
         <source>Version</source>
         <translation>Verzió</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="47"/>
+        <location filename="../qml/pages/About.qml" line="63"/>
         <source>Your wallet for all your scannable codes</source>
         <translation>Saját tárca minden szkennelhető kódod számára</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="56"/>
+        <location filename="../qml/pages/About.qml" line="72"/>
         <source>Author</source>
         <translation>Készítette</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="73"/>
+        <location filename="../qml/pages/About.qml" line="89"/>
         <source>Using </source>
         <translation>A</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="73"/>
         <source> as backend</source>
-        <translation>-et használja backendként</translation>
+        <translation type="vanished">-et használja backendként</translation>
     </message>
 </context>
 <context>
@@ -61,32 +60,42 @@
 <context>
     <name>AddBarcodePage</name>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="77"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="78"/>
         <source>Create code</source>
         <translation>Kód létrehozása</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="82"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="83"/>
         <source>Barcode type</source>
         <translation>Vonalkód típusa</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="96"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="84"/>
+        <source>pick code type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="99"/>
         <source>Name</source>
         <translation>Név</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="106"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="109"/>
         <source>Description</source>
         <translation>Leírás</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="115"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="118"/>
         <source>Code</source>
         <translation>Kód</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="57"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="135"/>
+        <source>The app &apos;BarCode&apos; can be used to scan images to extract the code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="58"/>
         <source>Could not add barcode!</source>
         <translation>A vonalkód nem adható hozzá!</translation>
     </message>
