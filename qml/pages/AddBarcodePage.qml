@@ -102,6 +102,7 @@ Dialog {
                 text: ""
                 EnterKey.iconSource: "image://theme/icon-m-enter-next"
                 EnterKey.onClicked: description.focus = true
+                readOnly: barcodetype.currentIndex === -1
             }
 
             TextField {
@@ -112,6 +113,7 @@ Dialog {
                 text: ""
                 EnterKey.iconSource: "image://theme/icon-m-enter-next"
                 EnterKey.onClicked: code.focus = true
+                readOnly: barcodetype.currentIndex === -1
             }
             TextField {
                 id: code
@@ -119,8 +121,8 @@ Dialog {
                 label: placeholderText
                 width: parent.width
                 text: ""
-
                 EnterKey.onClicked: accept()
+                readOnly: barcodetype.currentIndex === -1
             }
             Row {
                 width: parent.width - Theme.paddingLarge

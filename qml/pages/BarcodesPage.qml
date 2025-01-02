@@ -94,6 +94,7 @@ Page {
                 contentHeight: Theme.itemSizeMedium // two line delegate
                 Item {
                     anchors.verticalCenter: parent.verticalCenter
+                    width: barcodeList.width
                     Image {
                         id: image
                         source: img_src()
@@ -108,9 +109,11 @@ Page {
                         anchors.bottom: sublabel.top
                         text: Name
                         anchors.left: image.right
+                        anchors.right: parent.right
                         anchors.leftMargin: Theme.paddingMedium
                         font.pixelSize: Theme.fontSizeMedium
                         color: listItem.highlighted ? Theme.highlightColor : Theme.primaryColor
+                        truncationMode: TruncationMode.Fade
                     }
                     Label {
                         id: sublabel
@@ -119,6 +122,8 @@ Page {
                         color: listItem.highlighted ? Theme.highlightColor : Theme.secondaryColor
                         anchors.leftMargin: Theme.paddingMedium
                         anchors.left: image.right
+                        anchors.right: parent.right
+                        truncationMode: TruncationMode.Fade
                     }
                 }
                 onClicked: {
@@ -183,7 +188,8 @@ Page {
                     }
                     MenuItem {
                         text: qsTr("Remove")
-                        onClicked: Remorse.itemAction(listItem, qsTr("Deleting"),
+                        onClicked: Remorse.itemAction(listItem,
+                                                      qsTr("Deleting"),
                                                       function () {
                                                           DB.removeBarcode(Name)
                                                           barcodeList.model.clear()
