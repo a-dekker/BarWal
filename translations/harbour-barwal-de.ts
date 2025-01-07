@@ -81,17 +81,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="109"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="110"/>
         <source>Description</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="118"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="120"/>
         <source>Code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="135"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="137"/>
         <source>The app &apos;BarCode&apos; can be used to scan images to extract the code</source>
         <translation type="unfinished"></translation>
     </message>
@@ -160,37 +160,37 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="142"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="147"/>
         <source>Details</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="160"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="165"/>
         <source>Edit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="176"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="181"/>
         <source>Move</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="185"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="190"/>
         <source>Remove</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="186"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="192"/>
         <source>Deleting</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="207"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="213"/>
         <source>No barcodes defined</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="208"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="214"/>
         <source>Choose &quot;Add code&quot; from the pulley menu.</source>
         <translation type="unfinished"></translation>
     </message>

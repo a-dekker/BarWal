@@ -1,42 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="fi">
 <context>
     <name>About</name>
     <message>
-        <location filename="../qml/pages/About.qml" line="20"/>
+        <location filename="../qml/pages/About.qml" line="35"/>
         <source>About</source>
         <translation>Tietoja</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="23"/>
+        <location filename="../qml/pages/About.qml" line="38"/>
         <source>Info</source>
         <translation>Info</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="42"/>
+        <location filename="../qml/pages/About.qml" line="58"/>
         <source>Version</source>
         <translation>Versio</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="47"/>
+        <location filename="../qml/pages/About.qml" line="63"/>
         <source>Your wallet for all your scannable codes</source>
         <translation>Lompakkosi kaikille viivakoodeillesi</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="56"/>
+        <location filename="../qml/pages/About.qml" line="72"/>
         <source>Author</source>
         <translation>Tekijä</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="73"/>
+        <location filename="../qml/pages/About.qml" line="89"/>
         <source>Using </source>
         <translation>Taustaohjelmana käytetään</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="73"/>
         <source> as backend</source>
-        <translation>-kirjastoa</translation>
+        <translation type="vanished">-kirjastoa</translation>
     </message>
 </context>
 <context>
@@ -61,32 +60,42 @@
 <context>
     <name>AddBarcodePage</name>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="77"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="78"/>
         <source>Create code</source>
         <translation>Luo viivakoodi</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="82"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="83"/>
         <source>Barcode type</source>
         <translation>Viivakoodin tyyppi</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="96"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="84"/>
+        <source>pick code type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="99"/>
         <source>Name</source>
         <translation>Nimi</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="106"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="110"/>
         <source>Description</source>
         <translation>Kuvaus</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="115"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="120"/>
         <source>Code</source>
         <translation>Merkkijono</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="57"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="137"/>
+        <source>The app &apos;BarCode&apos; can be used to scan images to extract the code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="58"/>
         <source>Could not add barcode!</source>
         <translation>Viivakoodia ei voitu luoda!</translation>
     </message>
@@ -155,37 +164,37 @@
         <translation>Lisää viivakoodi</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="142"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="147"/>
         <source>Details</source>
         <translation>Tiedot</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="160"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="165"/>
         <source>Edit</source>
         <translation>Muokkaa</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="176"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="181"/>
         <source>Move</source>
         <translation>Siirrä</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="185"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="190"/>
         <source>Remove</source>
         <translation>Poista</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="186"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="192"/>
         <source>Deleting</source>
         <translation>Poistetaan</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="207"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="213"/>
         <source>No barcodes defined</source>
         <translation>Viivakoodeja ei ole määritetty</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="208"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="214"/>
         <source>Choose &quot;Add code&quot; from the pulley menu.</source>
         <translation>Valitse vetovalikosta &quot;Lisää viivakoodi&quot;.</translation>
     </message>
@@ -291,7 +300,7 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="104"/>
         <source>Auto open</source>
-        <translatio>Automaattinen avaus</translation>
+        <translation>Automaattinen avaus</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="147"/>
