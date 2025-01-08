@@ -81,7 +81,7 @@ Page {
                     id: menu
 
                     MenuItem {
-                        text: qsTr("Edit")
+                        text: qsTr("Rename")
                         onClicked: pageStack.push(
                                        Qt.resolvedUrl(
                                            "EditBarcodeGroupPage.qml"), {
