@@ -8,6 +8,8 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Wed Jan 08 2025 Arno Dekker <jack.tar@example.com> 0.1.9-1
+- Added Finnish translation by tuplasuhveli
 * Wed Jan 01 2025 Arno Dekker <jack.tar@example.com> 0.1.8-1
 - Added fading for long texts on barcode list page
 - Allow adding barcode only after picking type first

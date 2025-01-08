@@ -58,6 +58,7 @@ TRANSLATIONS = translations/harbour-barwal-sv.ts \
     translations/harbour-barwal-pl.ts \
     translations/harbour-barwal-hu.ts \
     translations/harbour-barwal-fr.ts \
+    translations/harbour-barwal-fi.ts \
     translations/harbour-barwal-nl.ts
 
 isEmpty(VERSION) {

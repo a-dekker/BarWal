@@ -284,7 +284,7 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="84"/>
         <source>Rename</source>
-        <translation type="unfinished"></translation>
+        <translation>Hernoem</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="93"/>
