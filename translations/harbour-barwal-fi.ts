@@ -72,7 +72,7 @@
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="84"/>
         <source>pick code type</source>
-        <translation type="unfinished"></translation>
+        <translation>valitse</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="99"/>
@@ -92,7 +92,7 @@
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="137"/>
         <source>The app &apos;BarCode&apos; can be used to scan images to extract the code</source>
-        <translation type="unfinished"></translation>
+        <translation>Voit käyttää BarCode-sovellusta viivakoodin sisällön lukemiseen</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="58"/>
