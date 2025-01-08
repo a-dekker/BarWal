@@ -278,9 +278,13 @@
         <translation>Verwijderen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="84"/>
         <source>Edit</source>
-        <translation>Bewerken</translation>
+        <translation type="vanished">Bewerken</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="84"/>
+        <source>Rename</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="93"/>

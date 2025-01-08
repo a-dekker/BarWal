@@ -278,9 +278,13 @@
         <translation>Tar bort</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="84"/>
         <source>Edit</source>
-        <translation>Redigera</translation>
+        <translation type="vanished">Redigera</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="84"/>
+        <source>Rename</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="93"/>

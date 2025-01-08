@@ -278,9 +278,13 @@
         <translation>Poistetaan</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="84"/>
         <source>Edit</source>
-        <translation>Muokkaa</translation>
+        <translation type="vanished">Muokkaa</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="84"/>
+        <source>Rename</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="93"/>

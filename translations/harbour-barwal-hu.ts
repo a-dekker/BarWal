@@ -278,9 +278,13 @@
         <translation type="unfinished">Eltávolítás</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="84"/>
         <source>Edit</source>
-        <translation>Szerkesztés</translation>
+        <translation type="vanished">Szerkesztés</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="84"/>
+        <source>Rename</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="93"/>
