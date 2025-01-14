@@ -24,18 +24,14 @@
         <translation>Lompakkosi kaikille viivakoodeillesi</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="72"/>
+        <location filename="../qml/pages/About.qml" line="78"/>
         <source>Author</source>
         <translation>Tekijä</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="89"/>
-        <source>Using </source>
-        <translation>Taustaohjelmana käytetään</translation>
-    </message>
-    <message>
-        <source> as backend</source>
-        <translation type="vanished">-kirjastoa</translation>
+        <location filename="../qml/pages/About.qml" line="86"/>
+        <source>Backend</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -276,10 +272,6 @@
         <location filename="../qml/pages/MainPage.qml" line="57"/>
         <source>Removing</source>
         <translation>Poistetaan</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation type="vanished">Muokkaa</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="84"/>

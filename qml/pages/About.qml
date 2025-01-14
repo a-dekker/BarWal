@@ -16,8 +16,8 @@ Page {
     }
 
     function getZintVersion() {
-        zint_version = bar.launch("/usr/bin/zint --version").replace(
-                    /(\r\n|\n|\r)/gm, "").replace("Zint ", "")
+        zint_version = bar.launch("/usr/bin/zint -v").replace(
+                    /(\r\n|\n|\r)/gm, "").replace("Zint version ", "")
     }
 
     SilicaFlickable {
@@ -68,26 +68,29 @@ Page {
                 wrapMode: Text.Wrap
                 color: Theme.secondaryColor
             }
-            SectionHeader {
-                text: qsTr("Author")
-                visible: isPortrait || (largeScreen && Screen.width > 1080)
-            }
             Separator {
                 color: Theme.primaryColor
                 width: parent.width
                 anchors.horizontalCenter: parent.horizontalCenter
                 horizontalAlignment: Qt.AlignHCenter
             }
+            SectionHeader {
+                text: qsTr("Author")
+                visible: isPortrait || (largeScreen && Screen.width > 1080)
+            }
             Label {
                 text: "© Arno Dekker 2021-" + buildyear
                 anchors.horizontalCenter: parent.horizontalCenter
             }
+            SectionHeader {
+                text: qsTr("Backend")
+                visible: isPortrait || (largeScreen && Screen.width > 1080)
+            }
             Label {
                 x: Theme.paddingLarge
                 color: Theme.primaryColor
-                font.pixelSize: Theme.fontSizeTiny
-                text: qsTr("Using ") + "<a href=\"https://sourceforge.net/p/zint/code/ci/master/tree/\">Zint</a>" + qsTr(
-                          " as backend (" + zint_version + ")")
+                text: "<a href=\"https://sourceforge.net/p/zint/code/ci/master/tree/\">Zint</a>" + " "
+                          + zint_version
                 linkColor: Theme.highlightColor
                 onLinkActivated: Qt.openUrlExternally(link)
                 anchors.horizontalCenter: parent.horizontalCenter

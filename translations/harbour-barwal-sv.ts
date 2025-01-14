@@ -24,18 +24,14 @@
         <translation>Plånbok för alla dina skanningsbara coder</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="72"/>
+        <location filename="../qml/pages/About.qml" line="78"/>
         <source>Author</source>
         <translation>Utvecklare</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="89"/>
-        <source>Using </source>
-        <translation>Använder </translation>
-    </message>
-    <message>
-        <source> as backend</source>
-        <translation type="vanished"> som serverdel</translation>
+        <location filename="../qml/pages/About.qml" line="86"/>
+        <source>Backend</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -276,10 +272,6 @@
         <location filename="../qml/pages/MainPage.qml" line="57"/>
         <source>Removing</source>
         <translation>Tar bort</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation type="vanished">Redigera</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="84"/>

@@ -24,18 +24,14 @@
         <translation>Saját tárca minden szkennelhető kódod számára</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="72"/>
+        <location filename="../qml/pages/About.qml" line="78"/>
         <source>Author</source>
         <translation>Készítette</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="89"/>
-        <source>Using </source>
-        <translation>A</translation>
-    </message>
-    <message>
-        <source> as backend</source>
-        <translation type="vanished">-et használja backendként</translation>
+        <location filename="../qml/pages/About.qml" line="86"/>
+        <source>Backend</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -276,10 +272,6 @@
         <location filename="../qml/pages/MainPage.qml" line="57"/>
         <source>Removing</source>
         <translation type="unfinished">Eltávolítás</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation type="vanished">Szerkesztés</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="84"/>

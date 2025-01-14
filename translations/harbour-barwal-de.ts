@@ -24,13 +24,13 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="72"/>
+        <location filename="../qml/pages/About.qml" line="78"/>
         <source>Author</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="89"/>
-        <source>Using </source>
+        <location filename="../qml/pages/About.qml" line="86"/>
+        <source>Backend</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

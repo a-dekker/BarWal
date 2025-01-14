@@ -24,18 +24,14 @@
         <translation>Jouw portemonnee voor alle scanbare codes</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="72"/>
+        <location filename="../qml/pages/About.qml" line="78"/>
         <source>Author</source>
         <translation>Auteur</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="89"/>
-        <source>Using </source>
-        <translation>Gebruikt </translation>
-    </message>
-    <message>
-        <source> as backend</source>
-        <translation type="vanished"> als backend</translation>
+        <location filename="../qml/pages/About.qml" line="86"/>
+        <source>Backend</source>
+        <translation>Backend</translation>
     </message>
 </context>
 <context>
@@ -276,10 +272,6 @@
         <location filename="../qml/pages/MainPage.qml" line="57"/>
         <source>Removing</source>
         <translation>Verwijderen</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation type="vanished">Bewerken</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="84"/>
