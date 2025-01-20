@@ -31,7 +31,7 @@
     <message>
         <location filename="../qml/pages/About.qml" line="86"/>
         <source>Backend</source>
-        <translation type="unfinished"></translation>
+        <translation>Taustaohjelma</translation>
     </message>
 </context>
 <context>
