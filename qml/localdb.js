@@ -37,7 +37,7 @@ function initializeDB() {
     if (rs.rows.length === 0) {
       initZintCodes();
     }
-    if (rs.rows.length === 95) {
+    if (rs.rows.length <= 98) {
       // old amount of records, let's re-add
       tx.executeSql(
         "delete from zint_codes"
@@ -352,6 +352,9 @@ function initZintCodes() {
     );
     tx.executeSql(
       'insert into zint_codes (ZintCode, Description) values (146, "IBM BC412 (SEMI T1-95)")'
+    );
+    tx.executeSql(
+      'insert into zint_codes (ZintCode, Description) values (147, "DX Film Edge Barcode")'
     );
   });
 }
