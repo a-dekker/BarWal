@@ -78,7 +78,7 @@ Page {
         FancyPageHeader {
             id: pageHead
             title: mainapp.codeDescription
-            description:  mainapp.code
+            description:  mainapp.code.split("\n")[0]
             iconSource: mainapp.iconsource
         }
 

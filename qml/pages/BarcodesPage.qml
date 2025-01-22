@@ -44,6 +44,11 @@ Page {
                     onClicked: pageStack.push(Qt.resolvedUrl("About.qml"))
                 }
                 MenuItem {
+                    text: qsTr("Add standard form")
+                    onClicked: pageStack.push(Qt.resolvedUrl(
+                                                  "TemplateBarcodeListPage.qml"))
+                }
+                MenuItem {
                     text: qsTr("Add code")
                     onClicked: pageStack.push(Qt.resolvedUrl(
                                                   "AddBarcodePage.qml"))

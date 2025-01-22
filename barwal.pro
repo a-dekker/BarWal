@@ -40,7 +40,18 @@ OTHER_FILES += qml/barwal.qml \
     qml/pages/EditBarcodePage.qml \
     qml/pages/BarcodeInfoPage.qml \
     qml/pages/BarcodeGroupMovePage.qml \
+    qml/pages/Mail.qml \
+    qml/pages/Geolocation.qml \
+    qml/pages/Sms.qml \
+    qml/pages/Telephone.qml \
+    qml/pages/VEvent.qml \
+    qml/pages/VCard.qml \
+    qml/pages/Wifi.qml \
+    qml/pages/TimeDialog.qml \
+    qml/pages/TimePickerSeconds.qml \
+    qml/pages/TemplateBarcodeListPage.qml \
     qml/components/FancyPageHeader.qml \
+    qml/components/MainPageButton.qml \
     qml/icons/aztec-icon.png \
     qml/icons/barcode-icon.png \
     qml/icons/datamatrix-icon.png \
@@ -50,7 +61,11 @@ OTHER_FILES += qml/barwal.qml \
     qml/icons/datamatrix-icon-black.png \
     qml/icons/qrcode-icon-black.png \
     qml/cover/cover_background.png \
+    qml/images/coverbg.png
+    qml/images/TimePickerSeconds.png
+    qml/images/timepicker.png
     qml/localdb.js
+
 
 INSTALLS += translations
 
