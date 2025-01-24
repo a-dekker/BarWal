@@ -120,7 +120,7 @@ Dialog {
                 label: placeholderText
                 width: parent.width
                 text: ""
-                inputMethodHints: Qt.ImhUrlCharactersOnly
+                inputMethodHints: Qt.ImhEmailCharactersOnly
                 EnterKey.iconSource: "image://theme/icon-m-enter-next"
                 EnterKey.onClicked: company.focus = true
             }

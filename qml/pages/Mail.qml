@@ -87,7 +87,7 @@ Dialog {
             TextField {
                 id: mailaddr
                 placeholderText: qsTr("Email address")
-                inputMethodHints: Qt.ImhUrlCharactersOnly
+                inputMethodHints: Qt.ImhEmailCharactersOnly
                 label: placeholderText
                 width: parent.width
                 text: ""
