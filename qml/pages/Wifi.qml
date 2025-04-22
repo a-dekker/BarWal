@@ -119,14 +119,14 @@ Dialog {
             }
             ComboBox {
                 id: ssidvisible
-                label: qsTr("SSID visible")
+                label: qsTr("SSID hidden")
                 description: qsTr("Visibility network access point")
                 menu: ContextMenu {
                     MenuItem {
-                        text: "true"
+                        text: "false"
                     }
                     MenuItem {
-                        text: "false"
+                        text: "true"
                     }
                     MenuItem {
                         text: "blank"
