@@ -6,7 +6,7 @@ import "../localdb.js" as DB
 Dialog {
     id: addCodePage
     canAccept: name.text.trim().length > 0 && code.text !== ""
-               && description.text !== "" && barcodetype.currentIndex !== -1
+               && barcodetype.currentIndex !== -1
 
     property var dataModel: ListModel {}
 
