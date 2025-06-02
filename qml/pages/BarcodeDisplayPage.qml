@@ -42,8 +42,14 @@ Page {
     }
 
     function getFileInfo() {
-        var toolCmd = "/usr/bin/zint" + " -o " + "/tmp/barcode.svg" + " --scale " + "5" + " --filetype=SVG"
-                + " -b " + mainapp.codeType + " -d " + '"' + mainapp.code + '"'
+        // write barcode text using base64 to file to avoid quote issues
+        var code2file = "/bin/sh -c \"echo " + Qt.btoa(
+                    mainapp.code) + " > /tmp/barcode.base64\""
+        bar.launch(code2file)
+        code2file = "/bin/sh -c \"cat /tmp/barcode.base64 | base64 -d > /tmp/barcode.txt\""
+        bar.launch(code2file)
+        var toolCmd = "/usr/bin/zint" + " -o " + "/tmp/barcode.svg" + " --scale " + "5"
+                + " --filetype=SVG" + " -b " + mainapp.codeType + " -i /tmp/barcode.txt"
 
         console.log(toolCmd)
         var zint_result = bar.launch_stderr(toolCmd)
@@ -78,7 +84,7 @@ Page {
         FancyPageHeader {
             id: pageHead
             title: mainapp.codeDescription
-            description:  mainapp.code.split("\n")[0]
+            description: mainapp.code.split("\n")[0]
             iconSource: mainapp.iconsource
         }
 
