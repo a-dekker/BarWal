@@ -8,6 +8,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Wed Jun 04 2025 Arno Dekker <jack.tar@example.com> 0.1.12-1
+- Make description field optional while adding a code
+- Added more hints while adding a code
 * Wed Apr 23 2025 Arno Dekker <jack.tar@example.com> 0.1.11-1
 - Fix SSID hidden/visible in WiFi template
 - Fix for possible issues with double quotes in barcode string

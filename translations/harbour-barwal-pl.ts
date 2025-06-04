@@ -77,8 +77,8 @@
     </message>
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="110"/>
-        <source>Description</source>
-        <translation>Opis</translation>
+        <source>Optional description</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="120"/>
@@ -87,7 +87,12 @@
     </message>
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="137"/>
-        <source>The app &apos;BarCode&apos; can be used to scan images to extract the code</source>
+        <source>The app &apos;BarCode&apos; can be used to scan images on your device to extract the code and indicate the potential barcode type used.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="161"/>
+        <source>Formats like QR code can generate a different image than the original one without affecting the embedded text.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -692,7 +697,7 @@
     </message>
     <message>
         <location filename="../qml/pages/Wifi.qml" line="122"/>
-        <source>SSID visible</source>
+        <source>SSID hidden</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

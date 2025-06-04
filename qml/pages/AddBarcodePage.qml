@@ -107,7 +107,7 @@ Dialog {
 
             TextField {
                 id: description
-                placeholderText: qsTr("Description")
+                placeholderText: qsTr("Optional description")
                 label: placeholderText
                 width: parent.width
                 text: ""
@@ -134,7 +134,31 @@ Dialog {
                     anchors.verticalCenter: parent.verticalCenter
                 }
                 Label {
-                    text: qsTr("The app 'BarCode' can be used to scan images to extract the code")
+                    text: qsTr("The app 'BarCode' can be used to scan images on your device to extract the code and indicate the potential barcode type used.")
+                    width: col.width - (Theme.paddingMedium + Theme.paddingSmall + infoIcon.width)
+                    wrapMode: Text.Wrap
+                    font {
+                        italic: true
+                        pixelSize: Theme.fontSizeSmall
+                    }
+                    color: Theme.secondaryColor
+                }
+            }
+            Separator {
+                color: Theme.primaryColor
+                x: Theme.paddingLarge
+                width: parent.width / 3
+            }
+            Row {
+                width: parent.width - Theme.paddingLarge
+                x: Theme.paddingSmall
+                y: Theme.paddingMedium
+                Image {
+                    source: "image://theme/icon-m-about"
+                    anchors.verticalCenter: parent.verticalCenter
+                }
+                Label {
+                    text: qsTr("Formats like QR code can generate a different image than the original one without affecting the embedded text.")
                     width: col.width - (Theme.paddingMedium + Theme.paddingSmall + infoIcon.width)
                     wrapMode: Text.Wrap
                     font {

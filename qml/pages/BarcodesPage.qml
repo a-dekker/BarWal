@@ -111,8 +111,8 @@ Page {
                     }
                     Label {
                         id: barcode
-                        anchors.bottom: sublabel.top
                         text: Name
+                        anchors.bottom: sublabel.top
                         anchors.left: image.right
                         anchors.right: parent.right
                         anchors.leftMargin: Theme.paddingMedium

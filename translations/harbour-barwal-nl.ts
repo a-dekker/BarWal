@@ -77,8 +77,8 @@
     </message>
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="110"/>
-        <source>Description</source>
-        <translation>Omschrijving</translation>
+        <source>Optional description</source>
+        <translation>Optionele beschrijving</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="120"/>
@@ -87,8 +87,13 @@
     </message>
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="137"/>
-        <source>The app &apos;BarCode&apos; can be used to scan images to extract the code</source>
-        <translation>Het programma &apos;Barcode&apos; kan gebruikt worden om codes uit afbeeldingen te halen</translation>
+        <source>The app &apos;BarCode&apos; can be used to scan images on your device to extract the code and indicate the potential barcode type used.</source>
+        <translation>De applicatie &apos;BarCode&apos; kan worden gebruikt om afbeeldingen te scannen op het apparaat om de tekst er uit te halen en een aanwijzing wat betreft het barcode type.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="161"/>
+        <source>Formats like QR code can generate a different image than the original one without affecting the embedded text.</source>
+        <translation>QR codes kunnen verschillen wat betreft de oorspronkelijke afbeelding en de gegenereerde. Dit moet geen invloed hebben op de tekst zelf.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="58"/>
@@ -692,8 +697,8 @@
     </message>
     <message>
         <location filename="../qml/pages/Wifi.qml" line="122"/>
-        <source>SSID visible</source>
-        <translation>SSID zichtbaar</translation>
+        <source>SSID hidden</source>
+        <translation>SSID verborgen</translation>
     </message>
     <message>
         <location filename="../qml/pages/Wifi.qml" line="123"/>
