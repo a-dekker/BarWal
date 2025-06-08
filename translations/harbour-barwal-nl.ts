@@ -96,6 +96,11 @@
         <translation>QR codes kunnen verschillen wat betreft de oorspronkelijke afbeelding en de gegenereerde. Dit moet geen invloed hebben op de tekst zelf.</translation>
     </message>
     <message>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="172"/>
+        <source>Example code</source>
+        <translation>Voorbeeld van code</translation>
+    </message>
+    <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="58"/>
         <source>Could not add barcode!</source>
         <translation>Kan code niet toevoegen!</translation>

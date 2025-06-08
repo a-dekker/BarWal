@@ -100,6 +100,11 @@
         <source>Formats like QR code can generate a different image than the original one without affecting the embedded text.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="172"/>
+        <source>Example code</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>BarcodeGroupMovePage</name>

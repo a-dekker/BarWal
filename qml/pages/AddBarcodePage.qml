@@ -168,6 +168,19 @@ Dialog {
                     color: Theme.secondaryColor
                 }
             }
+            SectionHeader {
+                text: qsTr("Example code")
+                visible: barcodetype.currentIndex !== -1
+            }
+            Image {
+                id: barcodeExample
+                source: barcodetype.currentIndex
+                        !== -1 ? "/usr/share/harbour-barwal/qml/images/"
+                                 + barcodetype.currentItem.text + ".svg" : "/usr/share/icons/hicolor/128x128/apps/harbour-barwal.png"
+                visible: barcodetype.currentIndex !== -1
+                fillMode: Image.PreserveAspectFit
+                anchors.horizontalCenter: parent.horizontalCenter
+            }
         }
     }
 }

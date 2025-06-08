@@ -96,6 +96,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="172"/>
+        <source>Example code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="58"/>
         <source>Could not add barcode!</source>
         <translation>A vonalkód nem adható hozzá!</translation>
