@@ -8,6 +8,8 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Sun Sep 14 2025 Arno Dekker <jack.tar@example.com> 0.1.14-1
+- Always ignore check digit for ITF-14/EAN-14 if added.
 * Sun Jun 08 2025 Arno Dekker <jack.tar@example.com> 0.1.13-1
 - Added example images when adding a code
 * Wed Jun 04 2025 Arno Dekker <jack.tar@example.com> 0.1.12-1

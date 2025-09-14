@@ -41,7 +41,22 @@ Page {
         itemCount: 1
     }
 
+    function stripCheckDigit() {
+        // Remove checkdigit if needed to avoid length error message
+        // Zint will add it by default for some codes
+        var affected_zint_codes = ["89", "72"]
+        for (var i = 0; i < affected_zint_codes.length; i++) {
+            if (mainapp.codeType === affected_zint_codes[i]) {
+                if (mainapp.code.length === 14) {
+                    mainapp.code = mainapp.code.substring(
+                                0, mainapp.code.length - 1)
+                }
+            }
+        }
+    }
+
     function getFileInfo() {
+        stripCheckDigit()
         // write barcode text using base64 to file to avoid quote issues
         var code2file = "/bin/sh -c \"echo " + Qt.btoa(
                     mainapp.code) + " > /tmp/barcode.base64\""
@@ -50,7 +65,6 @@ Page {
         bar.launch(code2file)
         var toolCmd = "/usr/bin/zint" + " -o " + "/tmp/barcode.svg" + " --scale " + "5"
                 + " --filetype=SVG" + " -b " + mainapp.codeType + " -i /tmp/barcode.txt"
-
         console.log(toolCmd)
         var zint_result = bar.launch_stderr(toolCmd)
         if (zint_result !== "") {
