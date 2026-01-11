@@ -40,8 +40,8 @@ Page {
                 onClicked: pageStack.push(Qt.resolvedUrl("Sms.qml"))
             }
             MainPageButton {
-                text: qsTr("Mail") + " ✉"
-                onClicked: pageStack.push(Qt.resolvedUrl("Mail.qml"))
+                text: qsTr("Email") + " ✉"
+                onClicked: pageStack.push(Qt.resolvedUrl("Email.qml"))
             }
             MainPageButton {
                 text: qsTr("Geolocation") + " 🌐"

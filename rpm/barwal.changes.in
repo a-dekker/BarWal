@@ -8,6 +8,8 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Sun Jan 11 2026 Arno Dekker <jack.tar@example.com> 0.1.15-1
+- Updated Finnish translation
 * Sun Sep 14 2025 Arno Dekker <jack.tar@example.com> 0.1.14-1
 - Always ignore check digit for ITF-14/EAN-14 if added.
 * Sun Jun 08 2025 Arno Dekker <jack.tar@example.com> 0.1.13-1

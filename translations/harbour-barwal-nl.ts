@@ -267,6 +267,44 @@
     </message>
 </context>
 <context>
+    <name>Email</name>
+    <message>
+        <location filename="../qml/pages/Email.qml" line="44"/>
+        <source>Could not add barcode!</source>
+        <translation>Kan code niet toevoegen!</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Email.qml" line="64"/>
+        <source>Create code</source>
+        <translation>Code toevoegen</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Email.qml" line="70"/>
+        <source>Name</source>
+        <translation>Naam</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Email.qml" line="80"/>
+        <source>Description</source>
+        <translation>Omschrijving</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Email.qml" line="89"/>
+        <source>Email address</source>
+        <translation>Email adres</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Email.qml" line="98"/>
+        <source>Email subject</source>
+        <translation>Email onderwerp</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Email.qml" line="106"/>
+        <source>Email text</source>
+        <translation>Email tekst</translation>
+    </message>
+</context>
+<context>
     <name>Geolocation</name>
     <message>
         <location filename="../qml/pages/Geolocation.qml" line="44"/>
@@ -297,44 +335,6 @@
         <location filename="../qml/pages/Geolocation.qml" line="95"/>
         <source>Longitude</source>
         <translation>Lengtegraad</translation>
-    </message>
-</context>
-<context>
-    <name>Mail</name>
-    <message>
-        <location filename="../qml/pages/Mail.qml" line="44"/>
-        <source>Could not add barcode!</source>
-        <translation>Kan code niet toevoegen!</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Mail.qml" line="64"/>
-        <source>Create code</source>
-        <translation>Code toevoegen</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Mail.qml" line="70"/>
-        <source>Name</source>
-        <translation>Naam</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Mail.qml" line="80"/>
-        <source>Description</source>
-        <translation>Omschrijving</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Mail.qml" line="89"/>
-        <source>Email address</source>
-        <translation>Email adres</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Mail.qml" line="98"/>
-        <source>Email subject</source>
-        <translation>Email onderwerp</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Mail.qml" line="106"/>
-        <source>Email text</source>
-        <translation>Email tekst</translation>
     </message>
 </context>
 <context>
@@ -495,8 +495,8 @@
     </message>
     <message>
         <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="43"/>
-        <source>Mail</source>
-        <translation>Mail</translation>
+        <source>Email</source>
+        <translation>Email</translation>
     </message>
     <message>
         <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="47"/>

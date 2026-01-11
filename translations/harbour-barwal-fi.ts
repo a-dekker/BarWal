@@ -267,6 +267,44 @@
     </message>
 </context>
 <context>
+    <name>Email</name>
+    <message>
+        <location filename="../qml/pages/Email.qml" line="44"/>
+        <source>Could not add barcode!</source>
+        <translation>Viivakoodia ei voitu luoda!</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Email.qml" line="64"/>
+        <source>Create code</source>
+        <translation>Luo viivakoodi</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Email.qml" line="70"/>
+        <source>Name</source>
+        <translation>Nimi</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Email.qml" line="80"/>
+        <source>Description</source>
+        <translation>Kuvaus</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Email.qml" line="89"/>
+        <source>Email address</source>
+        <translation>Sähköpostiosoite</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Email.qml" line="98"/>
+        <source>Email subject</source>
+        <translation>Aihe</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Email.qml" line="106"/>
+        <source>Email text</source>
+        <translation>Teksti</translation>
+    </message>
+</context>
+<context>
     <name>Geolocation</name>
     <message>
         <location filename="../qml/pages/Geolocation.qml" line="44"/>
@@ -297,44 +335,6 @@
         <location filename="../qml/pages/Geolocation.qml" line="95"/>
         <source>Longitude</source>
         <translation>Pituusaste</translation>
-    </message>
-</context>
-<context>
-    <name>Mail</name>
-    <message>
-        <location filename="../qml/pages/Mail.qml" line="44"/>
-        <source>Could not add barcode!</source>
-        <translation>Viivakoodia ei voitu luoda!</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Mail.qml" line="64"/>
-        <source>Create code</source>
-        <translation>Luo viivakoodi</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Mail.qml" line="70"/>
-        <source>Name</source>
-        <translation>Nimi</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Mail.qml" line="80"/>
-        <source>Description</source>
-        <translation>Kuvaus</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Mail.qml" line="89"/>
-        <source>Email address</source>
-        <translation>Sähköpostiosoite</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Mail.qml" line="98"/>
-        <source>Email subject</source>
-        <translation>Aihe</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Mail.qml" line="106"/>
-        <source>Email text</source>
-        <translation>Teksti</translation>
     </message>
 </context>
 <context>
@@ -495,7 +495,7 @@
     </message>
     <message>
         <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="43"/>
-        <source>Mail</source>
+        <source>Email</source>
         <translation>Sähköposti</translation>
     </message>
     <message>

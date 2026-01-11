@@ -4,38 +4,33 @@
 <context>
     <name>About</name>
     <message>
-        <location filename="../qml/pages/About.qml" line="20"/>
+        <location filename="../qml/pages/About.qml" line="35"/>
         <source>About</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="23"/>
+        <location filename="../qml/pages/About.qml" line="38"/>
         <source>Info</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="42"/>
+        <location filename="../qml/pages/About.qml" line="58"/>
         <source>Version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="47"/>
+        <location filename="../qml/pages/About.qml" line="63"/>
         <source>Your wallet for all your scannable codes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="56"/>
+        <location filename="../qml/pages/About.qml" line="78"/>
         <source>Author</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="73"/>
-        <source>Using </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/About.qml" line="73"/>
-        <source> as backend</source>
+        <location filename="../qml/pages/About.qml" line="86"/>
+        <source>Backend</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -61,32 +56,52 @@
 <context>
     <name>AddBarcodePage</name>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="77"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="78"/>
         <source>Create code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="82"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="83"/>
         <source>Barcode type</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="96"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="84"/>
+        <source>pick code type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="99"/>
         <source>Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="106"/>
-        <source>Description</source>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="110"/>
+        <source>Optional description</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="115"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="137"/>
+        <source>The app &apos;BarCode&apos; can be used to scan images on your device to extract the code and indicate the potential barcode type used.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="161"/>
+        <source>Formats like QR code can generate a different image than the original one without affecting the embedded text.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="172"/>
+        <source>Example code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="120"/>
         <source>Code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AddBarcodePage.qml" line="57"/>
+        <location filename="../qml/pages/AddBarcodePage.qml" line="58"/>
         <source>Could not add barcode!</source>
         <translation type="unfinished"></translation>
     </message>
@@ -151,41 +166,46 @@
     </message>
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="47"/>
+        <source>Add standard form</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/BarcodesPage.qml" line="52"/>
         <source>Add code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="142"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="152"/>
         <source>Details</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="160"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="170"/>
         <source>Edit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="176"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="186"/>
         <source>Move</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="185"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="195"/>
         <source>Remove</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="186"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="197"/>
         <source>Deleting</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="207"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="218"/>
         <source>No barcodes defined</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/BarcodesPage.qml" line="208"/>
+        <location filename="../qml/pages/BarcodesPage.qml" line="219"/>
         <source>Choose &quot;Add code&quot; from the pulley menu.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -247,6 +267,77 @@
     </message>
 </context>
 <context>
+    <name>Email</name>
+    <message>
+        <location filename="../qml/pages/Email.qml" line="44"/>
+        <source>Could not add barcode!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Email.qml" line="64"/>
+        <source>Create code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Email.qml" line="70"/>
+        <source>Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Email.qml" line="80"/>
+        <source>Description</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Email.qml" line="89"/>
+        <source>Email address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Email.qml" line="98"/>
+        <source>Email subject</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Email.qml" line="106"/>
+        <source>Email text</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Geolocation</name>
+    <message>
+        <location filename="../qml/pages/Geolocation.qml" line="44"/>
+        <source>Could not add barcode!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Geolocation.qml" line="64"/>
+        <source>Create code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Geolocation.qml" line="70"/>
+        <source>Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Geolocation.qml" line="79"/>
+        <source>Description</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Geolocation.qml" line="87"/>
+        <source>Latitude</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Geolocation.qml" line="95"/>
+        <source>Longitude</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>MainPage</name>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="45"/>
@@ -270,7 +361,7 @@
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="84"/>
-        <source>Edit</source>
+        <source>Rename</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -306,6 +397,317 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="41"/>
         <source>BarWal</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Sms</name>
+    <message>
+        <location filename="../qml/pages/Sms.qml" line="44"/>
+        <source>Could not add barcode!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Sms.qml" line="65"/>
+        <source>Create code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Sms.qml" line="71"/>
+        <source>Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Sms.qml" line="81"/>
+        <source>Description</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Sms.qml" line="90"/>
+        <source>Telephone number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Sms.qml" line="99"/>
+        <source>Optional text body</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Telephone</name>
+    <message>
+        <location filename="../qml/pages/Telephone.qml" line="44"/>
+        <source>Could not add barcode!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Telephone.qml" line="65"/>
+        <source>Create code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Telephone.qml" line="71"/>
+        <source>Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Telephone.qml" line="81"/>
+        <source>Description</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Telephone.qml" line="90"/>
+        <source>Telephone number</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TemplateBarcodeListPage</name>
+    <message>
+        <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="19"/>
+        <source>Form template (QR Code)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="23"/>
+        <source>Telephone number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="27"/>
+        <source>vCard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="31"/>
+        <source>Calendar event</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="35"/>
+        <source>WiFi</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="39"/>
+        <source>SMS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="43"/>
+        <source>Email</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="47"/>
+        <source>Geolocation</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TimeDialog</name>
+    <message>
+        <location filename="../qml/pages/TimeDialog.qml" line="51"/>
+        <source>Save</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/TimeDialog.qml" line="52"/>
+        <source>Cancel</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>VCard</name>
+    <message>
+        <location filename="../qml/pages/VCard.qml" line="44"/>
+        <source>Could not add barcode!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/VCard.qml" line="64"/>
+        <source>Create code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/VCard.qml" line="70"/>
+        <source>Barcode name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/VCard.qml" line="80"/>
+        <source>Barcode description</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/VCard.qml" line="89"/>
+        <source>First name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/VCard.qml" line="99"/>
+        <source>Last name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/VCard.qml" line="109"/>
+        <source>Mobile number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/VCard.qml" line="119"/>
+        <source>E-mail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/VCard.qml" line="129"/>
+        <source>Company</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/VCard.qml" line="138"/>
+        <source>Job title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/VCard.qml" line="147"/>
+        <source>Street</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/VCard.qml" line="156"/>
+        <source>City</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/VCard.qml" line="165"/>
+        <source>ZIP</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/VCard.qml" line="174"/>
+        <source>State</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/VCard.qml" line="183"/>
+        <source>Country</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/VCard.qml" line="192"/>
+        <source>Website</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>VEvent</name>
+    <message>
+        <location filename="../qml/pages/VEvent.qml" line="87"/>
+        <source>Could not add barcode!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/VEvent.qml" line="107"/>
+        <source>Create code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/VEvent.qml" line="117"/>
+        <source>Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/VEvent.qml" line="127"/>
+        <source>Description</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/VEvent.qml" line="136"/>
+        <source>Event name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/VEvent.qml" line="145"/>
+        <source>Event description</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/VEvent.qml" line="154"/>
+        <source>Location</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/VEvent.qml" line="162"/>
+        <source>Pick start date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/VEvent.qml" line="188"/>
+        <source>Pick start time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/VEvent.qml" line="218"/>
+        <source>Pick end date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/VEvent.qml" line="244"/>
+        <source>Pick end time</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Wifi</name>
+    <message>
+        <location filename="../qml/pages/Wifi.qml" line="43"/>
+        <source>Could not add barcode!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Wifi.qml" line="63"/>
+        <source>Create code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Wifi.qml" line="69"/>
+        <source>Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Wifi.qml" line="79"/>
+        <source>Description</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Wifi.qml" line="88"/>
+        <source>SSID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Wifi.qml" line="97"/>
+        <source>Wifi protection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Wifi.qml" line="98"/>
+        <source>Choose the security protocol</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Wifi.qml" line="113"/>
+        <source>Password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Wifi.qml" line="122"/>
+        <source>SSID hidden</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Wifi.qml" line="123"/>
+        <source>Visibility network access point</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
