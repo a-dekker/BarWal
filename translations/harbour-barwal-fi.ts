@@ -6,7 +6,7 @@
     <message>
         <location filename="../qml/pages/About.qml" line="35"/>
         <source>About</source>
-        <translation>Tietoja</translation>
+        <translation>Tietoja sovelluksesta</translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="38"/>
@@ -78,7 +78,7 @@
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="110"/>
         <source>Optional description</source>
-        <translation type="unfinished"></translation>
+        <translation>Valinnainen kuvaus</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="120"/>
@@ -88,17 +88,17 @@
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="137"/>
         <source>The app &apos;BarCode&apos; can be used to scan images on your device to extract the code and indicate the potential barcode type used.</source>
-        <translation type="unfinished"></translation>
+        <translation>BarCode-sovelluksella voit skannata laitteeltasi löytyviä kuvia viivakoodin sisällön ja -tyypin selvittämiseksi.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="161"/>
         <source>Formats like QR code can generate a different image than the original one without affecting the embedded text.</source>
-        <translation type="unfinished"></translation>
+        <translation>QR-koodien kaltaiset viivakoodit saattavat erota alkuperäisestä, mutta tämä ei vaikuta koodin sisältöön.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="172"/>
         <source>Example code</source>
-        <translation type="unfinished"></translation>
+        <translation>Esimerkkikoodi</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="58"/>
@@ -162,12 +162,12 @@
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="43"/>
         <source>About</source>
-        <translation>Tietoja</translation>
+        <translation>Tietoja sovelluksesta</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="47"/>
         <source>Add standard form</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisää standardilomake</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="52"/>
@@ -202,12 +202,12 @@
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="218"/>
         <source>No barcodes defined</source>
-        <translation>Viivakoodeja ei ole määritetty</translation>
+        <translation>Ei viivakoodeja</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="219"/>
         <source>Choose &quot;Add code&quot; from the pulley menu.</source>
-        <translation>Valitse vetovalikosta &quot;Lisää viivakoodi&quot;.</translation>
+        <translation>Valitse &quot;Lisää viivakoodi&quot; vetovalikosta.</translation>
     </message>
 </context>
 <context>
@@ -253,7 +253,7 @@
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="165"/>
         <source>&lt;ul&gt;&lt;li&gt;Will import &lt;b&gt;barwal_icon.png&lt;/b&gt; from Pictures&lt;/li&gt;&lt;li&gt;Icon has to be max 128x128px&lt;/li&gt;&lt;li&gt;Width should be exactly 128px&lt;/li&gt;&lt;/ul&gt;</source>
-        <translation>&lt;ul&gt;&lt;li&gt;Tuo Kuvista tiedoston &lt;b&gt;barwal_icon.png&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Kuvakkeen enimmäiskoko on 128x128px&lt;/li&gt;&lt;li&gt;Leveyden tulee olla tasan 128px&lt;/li&gt;&lt;/ul&gt;</translation>
+        <translation>&lt;ul&gt;&lt;li&gt;Tuo Kuvista &lt;b&gt;barwal_icon.png&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Kuvakkeen enimmäiskoko on 128x128px&lt;/li&gt;&lt;li&gt;Leveyden tulee olla tasan 128px&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditBarcodePage.qml" line="180"/>
@@ -271,32 +271,32 @@
     <message>
         <location filename="../qml/pages/Geolocation.qml" line="44"/>
         <source>Could not add barcode!</source>
-        <translation type="unfinished">Viivakoodia ei voitu luoda!</translation>
+        <translation>Viivakoodia ei voitu luoda!</translation>
     </message>
     <message>
         <location filename="../qml/pages/Geolocation.qml" line="64"/>
         <source>Create code</source>
-        <translation type="unfinished">Luo viivakoodi</translation>
+        <translation>Luo viivakoodi</translation>
     </message>
     <message>
         <location filename="../qml/pages/Geolocation.qml" line="70"/>
         <source>Name</source>
-        <translation type="unfinished">Nimi</translation>
+        <translation>Nimi</translation>
     </message>
     <message>
         <location filename="../qml/pages/Geolocation.qml" line="79"/>
         <source>Description</source>
-        <translation type="unfinished">Kuvaus</translation>
+        <translation>Kuvaus</translation>
     </message>
     <message>
         <location filename="../qml/pages/Geolocation.qml" line="87"/>
         <source>Latitude</source>
-        <translation type="unfinished"></translation>
+        <translation>Leveysaste</translation>
     </message>
     <message>
         <location filename="../qml/pages/Geolocation.qml" line="95"/>
         <source>Longitude</source>
-        <translation type="unfinished"></translation>
+        <translation>Pituusaste</translation>
     </message>
 </context>
 <context>
@@ -304,37 +304,37 @@
     <message>
         <location filename="../qml/pages/Mail.qml" line="44"/>
         <source>Could not add barcode!</source>
-        <translation type="unfinished">Viivakoodia ei voitu luoda!</translation>
+        <translation>Viivakoodia ei voitu luoda!</translation>
     </message>
     <message>
         <location filename="../qml/pages/Mail.qml" line="64"/>
         <source>Create code</source>
-        <translation type="unfinished">Luo viivakoodi</translation>
+        <translation>Luo viivakoodi</translation>
     </message>
     <message>
         <location filename="../qml/pages/Mail.qml" line="70"/>
         <source>Name</source>
-        <translation type="unfinished">Nimi</translation>
+        <translation>Nimi</translation>
     </message>
     <message>
         <location filename="../qml/pages/Mail.qml" line="80"/>
         <source>Description</source>
-        <translation type="unfinished">Kuvaus</translation>
+        <translation>Kuvaus</translation>
     </message>
     <message>
         <location filename="../qml/pages/Mail.qml" line="89"/>
         <source>Email address</source>
-        <translation type="unfinished"></translation>
+        <translation>Sähköpostiosoite</translation>
     </message>
     <message>
         <location filename="../qml/pages/Mail.qml" line="98"/>
         <source>Email subject</source>
-        <translation type="unfinished"></translation>
+        <translation>Aihe</translation>
     </message>
     <message>
         <location filename="../qml/pages/Mail.qml" line="106"/>
         <source>Email text</source>
-        <translation type="unfinished"></translation>
+        <translation>Teksti</translation>
     </message>
 </context>
 <context>
@@ -405,32 +405,32 @@
     <message>
         <location filename="../qml/pages/Sms.qml" line="44"/>
         <source>Could not add barcode!</source>
-        <translation type="unfinished">Viivakoodia ei voitu luoda!</translation>
+        <translation>Viivakoodia ei voitu luoda!</translation>
     </message>
     <message>
         <location filename="../qml/pages/Sms.qml" line="65"/>
         <source>Create code</source>
-        <translation type="unfinished">Luo viivakoodi</translation>
+        <translation>Luo viivakoodi</translation>
     </message>
     <message>
         <location filename="../qml/pages/Sms.qml" line="71"/>
         <source>Name</source>
-        <translation type="unfinished">Nimi</translation>
+        <translation>Nimi</translation>
     </message>
     <message>
         <location filename="../qml/pages/Sms.qml" line="81"/>
         <source>Description</source>
-        <translation type="unfinished">Kuvaus</translation>
+        <translation>Kuvaus</translation>
     </message>
     <message>
         <location filename="../qml/pages/Sms.qml" line="90"/>
         <source>Telephone number</source>
-        <translation type="unfinished"></translation>
+        <translation>Puhelinnumero</translation>
     </message>
     <message>
         <location filename="../qml/pages/Sms.qml" line="99"/>
         <source>Optional text body</source>
-        <translation type="unfinished"></translation>
+        <translation>Valinnainen oletusteksti</translation>
     </message>
 </context>
 <context>
@@ -438,27 +438,27 @@
     <message>
         <location filename="../qml/pages/Telephone.qml" line="44"/>
         <source>Could not add barcode!</source>
-        <translation type="unfinished">Viivakoodia ei voitu luoda!</translation>
+        <translation>Viivakoodia ei voitu luoda!</translation>
     </message>
     <message>
         <location filename="../qml/pages/Telephone.qml" line="65"/>
         <source>Create code</source>
-        <translation type="unfinished">Luo viivakoodi</translation>
+        <translation>Luo viivakoodi</translation>
     </message>
     <message>
         <location filename="../qml/pages/Telephone.qml" line="71"/>
         <source>Name</source>
-        <translation type="unfinished">Nimi</translation>
+        <translation>Nimi</translation>
     </message>
     <message>
         <location filename="../qml/pages/Telephone.qml" line="81"/>
         <source>Description</source>
-        <translation type="unfinished">Kuvaus</translation>
+        <translation>Kuvaus</translation>
     </message>
     <message>
         <location filename="../qml/pages/Telephone.qml" line="90"/>
         <source>Telephone number</source>
-        <translation type="unfinished"></translation>
+        <translation>Puhelinnumero</translation>
     </message>
 </context>
 <context>
@@ -466,42 +466,42 @@
     <message>
         <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="23"/>
         <source>Telephone number</source>
-        <translation type="unfinished"></translation>
+        <translation>Puhelinnumero</translation>
     </message>
     <message>
         <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="27"/>
         <source>vCard</source>
-        <translation type="unfinished"></translation>
+        <translation>vCard</translation>
     </message>
     <message>
         <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="19"/>
         <source>Form template (QR Code)</source>
-        <translation type="unfinished"></translation>
+        <translation>Lomakkeen malli (QR-koodi)</translation>
     </message>
     <message>
         <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="31"/>
         <source>Calendar event</source>
-        <translation type="unfinished"></translation>
+        <translation>Kalenteritapahtuma</translation>
     </message>
     <message>
         <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="35"/>
         <source>WiFi</source>
-        <translation type="unfinished"></translation>
+        <translation>WiFi</translation>
     </message>
     <message>
         <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="39"/>
         <source>SMS</source>
-        <translation type="unfinished"></translation>
+        <translation>SMS</translation>
     </message>
     <message>
         <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="43"/>
         <source>Mail</source>
-        <translation type="unfinished"></translation>
+        <translation>Sähköposti</translation>
     </message>
     <message>
         <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="47"/>
         <source>Geolocation</source>
-        <translation type="unfinished"></translation>
+        <translation>Geopaikannus</translation>
     </message>
 </context>
 <context>
@@ -509,12 +509,12 @@
     <message>
         <location filename="../qml/pages/TimeDialog.qml" line="51"/>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Tallenna</translation>
     </message>
     <message>
         <location filename="../qml/pages/TimeDialog.qml" line="52"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Peruuta</translation>
     </message>
 </context>
 <context>
@@ -522,82 +522,82 @@
     <message>
         <location filename="../qml/pages/VCard.qml" line="44"/>
         <source>Could not add barcode!</source>
-        <translation type="unfinished">Viivakoodia ei voitu luoda!</translation>
+        <translation>Viivakoodia ei voitu luoda!</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="64"/>
         <source>Create code</source>
-        <translation type="unfinished">Luo viivakoodi</translation>
+        <translation>Luo viivakoodi</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="70"/>
         <source>Barcode name</source>
-        <translation type="unfinished">Nimi</translation>
+        <translation>Nimi</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="80"/>
         <source>Barcode description</source>
-        <translation type="unfinished">Kuvaus</translation>
+        <translation>Kuvaus</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="89"/>
         <source>First name</source>
-        <translation type="unfinished"></translation>
+        <translation>Etunimi</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="99"/>
         <source>Last name</source>
-        <translation type="unfinished"></translation>
+        <translation>Sukunimi</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="109"/>
         <source>Mobile number</source>
-        <translation type="unfinished"></translation>
+        <translation>Matkapuhelinnumero</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="119"/>
         <source>E-mail</source>
-        <translation type="unfinished"></translation>
+        <translation>Sähköposti</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="129"/>
         <source>Company</source>
-        <translation type="unfinished"></translation>
+        <translation>Yritys</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="138"/>
         <source>Job title</source>
-        <translation type="unfinished"></translation>
+        <translation>Tehtävänimike</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="147"/>
         <source>Street</source>
-        <translation type="unfinished"></translation>
+        <translation>Katuosoite</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="156"/>
         <source>City</source>
-        <translation type="unfinished"></translation>
+        <translation>Kaupunki</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="165"/>
         <source>ZIP</source>
-        <translation type="unfinished"></translation>
+        <translation>Postinumero</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="174"/>
         <source>State</source>
-        <translation type="unfinished"></translation>
+        <translation>Osavaltio</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="183"/>
         <source>Country</source>
-        <translation type="unfinished"></translation>
+        <translation>Maa</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="192"/>
         <source>Website</source>
-        <translation type="unfinished"></translation>
+        <translation>Verkkosivusto</translation>
     </message>
 </context>
 <context>
@@ -605,57 +605,57 @@
     <message>
         <location filename="../qml/pages/VEvent.qml" line="87"/>
         <source>Could not add barcode!</source>
-        <translation type="unfinished">Viivakoodia ei voitu luoda!</translation>
+        <translation>Viivakoodia ei voitu luoda!</translation>
     </message>
     <message>
         <location filename="../qml/pages/VEvent.qml" line="107"/>
         <source>Create code</source>
-        <translation type="unfinished">Luo viivakoodi</translation>
+        <translation>Luo viivakoodi</translation>
     </message>
     <message>
         <location filename="../qml/pages/VEvent.qml" line="117"/>
         <source>Name</source>
-        <translation type="unfinished">Nimi</translation>
+        <translation>Nimi</translation>
     </message>
     <message>
         <location filename="../qml/pages/VEvent.qml" line="127"/>
         <source>Description</source>
-        <translation type="unfinished">Kuvaus</translation>
+        <translation>Kuvaus</translation>
     </message>
     <message>
         <location filename="../qml/pages/VEvent.qml" line="136"/>
         <source>Event name</source>
-        <translation type="unfinished"></translation>
+        <translation>Tapahtuman nimi</translation>
     </message>
     <message>
         <location filename="../qml/pages/VEvent.qml" line="145"/>
         <source>Event description</source>
-        <translation type="unfinished"></translation>
+        <translation>Tapahtuman kuvaus</translation>
     </message>
     <message>
         <location filename="../qml/pages/VEvent.qml" line="154"/>
         <source>Location</source>
-        <translation type="unfinished"></translation>
+        <translation>Sijainti</translation>
     </message>
     <message>
         <location filename="../qml/pages/VEvent.qml" line="162"/>
         <source>Pick start date</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse alkamispäivä</translation>
     </message>
     <message>
         <location filename="../qml/pages/VEvent.qml" line="188"/>
         <source>Pick start time</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse alkamisaika</translation>
     </message>
     <message>
         <location filename="../qml/pages/VEvent.qml" line="218"/>
         <source>Pick end date</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse päättymispäivä</translation>
     </message>
     <message>
         <location filename="../qml/pages/VEvent.qml" line="244"/>
         <source>Pick end time</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse päättymispäivä</translation>
     </message>
 </context>
 <context>
@@ -663,52 +663,52 @@
     <message>
         <location filename="../qml/pages/Wifi.qml" line="43"/>
         <source>Could not add barcode!</source>
-        <translation type="unfinished">Viivakoodia ei voitu luoda!</translation>
+        <translation>Viivakoodia ei voitu luoda!</translation>
     </message>
     <message>
         <location filename="../qml/pages/Wifi.qml" line="63"/>
         <source>Create code</source>
-        <translation type="unfinished">Luo viivakoodi</translation>
+        <translation>Luo viivakoodi</translation>
     </message>
     <message>
         <location filename="../qml/pages/Wifi.qml" line="69"/>
         <source>Name</source>
-        <translation type="unfinished">Nimi</translation>
+        <translation>Nimi</translation>
     </message>
     <message>
         <location filename="../qml/pages/Wifi.qml" line="79"/>
         <source>Description</source>
-        <translation type="unfinished">Kuvaus</translation>
+        <translation>Kuvaus</translation>
     </message>
     <message>
         <location filename="../qml/pages/Wifi.qml" line="88"/>
         <source>SSID</source>
-        <translation type="unfinished"></translation>
+        <translation>SSID</translation>
     </message>
     <message>
         <location filename="../qml/pages/Wifi.qml" line="97"/>
         <source>Wifi protection</source>
-        <translation type="unfinished"></translation>
+        <translation>Tietoturva</translation>
     </message>
     <message>
         <location filename="../qml/pages/Wifi.qml" line="98"/>
         <source>Choose the security protocol</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse salausprotokolla</translation>
     </message>
     <message>
         <location filename="../qml/pages/Wifi.qml" line="113"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Salasana</translation>
     </message>
     <message>
         <location filename="../qml/pages/Wifi.qml" line="122"/>
         <source>SSID hidden</source>
-        <translation type="unfinished"></translation>
+        <translation>Piilotettu verkko</translation>
     </message>
     <message>
         <location filename="../qml/pages/Wifi.qml" line="123"/>
         <source>Visibility network access point</source>
-        <translation type="unfinished"></translation>
+        <translation>Wifi-yhteyspisteen näkyvyys</translation>
     </message>
 </context>
 </TS>
