@@ -31,7 +31,7 @@
     <message>
         <location filename="../qml/pages/About.qml" line="86"/>
         <source>Backend</source>
-        <translation type="unfinished"></translation>
+        <translation>Servergränssnitt</translation>
     </message>
 </context>
 <context>
@@ -68,7 +68,7 @@
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="84"/>
         <source>pick code type</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj kodtyp</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="99"/>
@@ -78,7 +78,7 @@
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="110"/>
         <source>Optional description</source>
-        <translation type="unfinished"></translation>
+        <translation>Valfri beskrivning</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="120"/>
@@ -88,17 +88,17 @@
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="137"/>
         <source>The app &apos;BarCode&apos; can be used to scan images on your device to extract the code and indicate the potential barcode type used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Appen &quot;BarCode&quot; kan användas för att skanna bilder på din enhet för att extrahera koden och ange den potentiella streckkodstyp som används.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="161"/>
         <source>Formats like QR code can generate a different image than the original one without affecting the embedded text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Format som QR-kod kan generera en annan bild än den ursprungliga utan att påverka den inbäddade texten.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="172"/>
         <source>Example code</source>
-        <translation type="unfinished"></translation>
+        <translation>Exempelkod</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddBarcodePage.qml" line="58"/>
@@ -167,7 +167,7 @@
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="47"/>
         <source>Add standard form</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till standardformulär</translation>
     </message>
     <message>
         <location filename="../qml/pages/BarcodesPage.qml" line="52"/>
@@ -271,37 +271,37 @@
     <message>
         <location filename="../qml/pages/Email.qml" line="44"/>
         <source>Could not add barcode!</source>
-        <translation type="unfinished">Kunde inte lägga till kod!</translation>
+        <translation>Kunde inte lägga till kod!</translation>
     </message>
     <message>
         <location filename="../qml/pages/Email.qml" line="64"/>
         <source>Create code</source>
-        <translation type="unfinished">Skapa kod</translation>
+        <translation>Skapa kod</translation>
     </message>
     <message>
         <location filename="../qml/pages/Email.qml" line="70"/>
         <source>Name</source>
-        <translation type="unfinished">Namn</translation>
+        <translation>Namn</translation>
     </message>
     <message>
         <location filename="../qml/pages/Email.qml" line="80"/>
         <source>Description</source>
-        <translation type="unfinished">Beskrivning</translation>
+        <translation>Beskrivning</translation>
     </message>
     <message>
         <location filename="../qml/pages/Email.qml" line="89"/>
         <source>Email address</source>
-        <translation type="unfinished"></translation>
+        <translation>E-postadress</translation>
     </message>
     <message>
         <location filename="../qml/pages/Email.qml" line="98"/>
         <source>Email subject</source>
-        <translation type="unfinished"></translation>
+        <translation>E-postämne</translation>
     </message>
     <message>
         <location filename="../qml/pages/Email.qml" line="106"/>
         <source>Email text</source>
-        <translation type="unfinished"></translation>
+        <translation>E-posttext</translation>
     </message>
 </context>
 <context>
@@ -309,32 +309,32 @@
     <message>
         <location filename="../qml/pages/Geolocation.qml" line="44"/>
         <source>Could not add barcode!</source>
-        <translation type="unfinished">Kunde inte lägga till kod!</translation>
+        <translation>Kunde inte lägga till kod!</translation>
     </message>
     <message>
         <location filename="../qml/pages/Geolocation.qml" line="64"/>
         <source>Create code</source>
-        <translation type="unfinished">Skapa kod</translation>
+        <translation>Skapa kod</translation>
     </message>
     <message>
         <location filename="../qml/pages/Geolocation.qml" line="70"/>
         <source>Name</source>
-        <translation type="unfinished">Namn</translation>
+        <translation>Namn</translation>
     </message>
     <message>
         <location filename="../qml/pages/Geolocation.qml" line="79"/>
         <source>Description</source>
-        <translation type="unfinished">Beskrivning</translation>
+        <translation>Beskrivning</translation>
     </message>
     <message>
         <location filename="../qml/pages/Geolocation.qml" line="87"/>
         <source>Latitude</source>
-        <translation type="unfinished"></translation>
+        <translation>Latitud</translation>
     </message>
     <message>
         <location filename="../qml/pages/Geolocation.qml" line="95"/>
         <source>Longitude</source>
-        <translation type="unfinished"></translation>
+        <translation>Longitud</translation>
     </message>
 </context>
 <context>
@@ -362,7 +362,7 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="84"/>
         <source>Rename</source>
-        <translation type="unfinished"></translation>
+        <translation>Byt namn</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="93"/>
@@ -405,32 +405,32 @@
     <message>
         <location filename="../qml/pages/Sms.qml" line="44"/>
         <source>Could not add barcode!</source>
-        <translation type="unfinished">Kunde inte lägga till kod!</translation>
+        <translation>Kunde inte lägga till kod!</translation>
     </message>
     <message>
         <location filename="../qml/pages/Sms.qml" line="65"/>
         <source>Create code</source>
-        <translation type="unfinished">Skapa kod</translation>
+        <translation>Skapa kod</translation>
     </message>
     <message>
         <location filename="../qml/pages/Sms.qml" line="71"/>
         <source>Name</source>
-        <translation type="unfinished">Namn</translation>
+        <translation>Namn</translation>
     </message>
     <message>
         <location filename="../qml/pages/Sms.qml" line="81"/>
         <source>Description</source>
-        <translation type="unfinished">Beskrivning</translation>
+        <translation>Beskrivning</translation>
     </message>
     <message>
         <location filename="../qml/pages/Sms.qml" line="90"/>
         <source>Telephone number</source>
-        <translation type="unfinished"></translation>
+        <translation>Telefonnummer</translation>
     </message>
     <message>
         <location filename="../qml/pages/Sms.qml" line="99"/>
         <source>Optional text body</source>
-        <translation type="unfinished"></translation>
+        <translation>Valfri brödtext</translation>
     </message>
 </context>
 <context>
@@ -438,27 +438,27 @@
     <message>
         <location filename="../qml/pages/Telephone.qml" line="44"/>
         <source>Could not add barcode!</source>
-        <translation type="unfinished">Kunde inte lägga till kod!</translation>
+        <translation>Kunde inte lägga till kod!</translation>
     </message>
     <message>
         <location filename="../qml/pages/Telephone.qml" line="65"/>
         <source>Create code</source>
-        <translation type="unfinished">Skapa kod</translation>
+        <translation>Skapa kod</translation>
     </message>
     <message>
         <location filename="../qml/pages/Telephone.qml" line="71"/>
         <source>Name</source>
-        <translation type="unfinished">Namn</translation>
+        <translation>Namn</translation>
     </message>
     <message>
         <location filename="../qml/pages/Telephone.qml" line="81"/>
         <source>Description</source>
-        <translation type="unfinished">Beskrivning</translation>
+        <translation>Beskrivning</translation>
     </message>
     <message>
         <location filename="../qml/pages/Telephone.qml" line="90"/>
         <source>Telephone number</source>
-        <translation type="unfinished"></translation>
+        <translation>Telefonnummer</translation>
     </message>
 </context>
 <context>
@@ -466,42 +466,42 @@
     <message>
         <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="23"/>
         <source>Telephone number</source>
-        <translation type="unfinished"></translation>
+        <translation>Telefonnummer</translation>
     </message>
     <message>
         <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="27"/>
         <source>vCard</source>
-        <translation type="unfinished"></translation>
+        <translation>vCard</translation>
     </message>
     <message>
         <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="19"/>
         <source>Form template (QR Code)</source>
-        <translation type="unfinished"></translation>
+        <translation>Formatmall (QR-kod)</translation>
     </message>
     <message>
         <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="31"/>
         <source>Calendar event</source>
-        <translation type="unfinished"></translation>
+        <translation>Kalenderhändelse</translation>
     </message>
     <message>
         <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="35"/>
         <source>WiFi</source>
-        <translation type="unfinished"></translation>
+        <translation>WiFi</translation>
     </message>
     <message>
         <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="39"/>
         <source>SMS</source>
-        <translation type="unfinished"></translation>
+        <translation>SMS</translation>
     </message>
     <message>
         <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="43"/>
         <source>Email</source>
-        <translation type="unfinished"></translation>
+        <translation>E-post</translation>
     </message>
     <message>
         <location filename="../qml/pages/TemplateBarcodeListPage.qml" line="47"/>
         <source>Geolocation</source>
-        <translation type="unfinished"></translation>
+        <translation>Geolokalisering</translation>
     </message>
 </context>
 <context>
@@ -509,12 +509,12 @@
     <message>
         <location filename="../qml/pages/TimeDialog.qml" line="51"/>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara</translation>
     </message>
     <message>
         <location filename="../qml/pages/TimeDialog.qml" line="52"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
 </context>
 <context>
@@ -522,82 +522,82 @@
     <message>
         <location filename="../qml/pages/VCard.qml" line="44"/>
         <source>Could not add barcode!</source>
-        <translation type="unfinished">Kunde inte lägga till kod!</translation>
+        <translation>Kunde inte lägga till kod!</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="64"/>
         <source>Create code</source>
-        <translation type="unfinished">Skapa kod</translation>
+        <translation>Skapa kod</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="70"/>
         <source>Barcode name</source>
-        <translation type="unfinished">Kodnamn</translation>
+        <translation>Kodnamn</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="80"/>
         <source>Barcode description</source>
-        <translation type="unfinished">Kodbeskrivning</translation>
+        <translation>Kodbeskrivning</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="89"/>
         <source>First name</source>
-        <translation type="unfinished"></translation>
+        <translation>Förnamn</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="99"/>
         <source>Last name</source>
-        <translation type="unfinished"></translation>
+        <translation>Efternamn</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="109"/>
         <source>Mobile number</source>
-        <translation type="unfinished"></translation>
+        <translation>Mobilnummer</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="119"/>
         <source>E-mail</source>
-        <translation type="unfinished"></translation>
+        <translation>E-post</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="129"/>
         <source>Company</source>
-        <translation type="unfinished"></translation>
+        <translation>Företag</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="138"/>
         <source>Job title</source>
-        <translation type="unfinished"></translation>
+        <translation>Jobbtitel</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="147"/>
         <source>Street</source>
-        <translation type="unfinished"></translation>
+        <translation>Gata</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="156"/>
         <source>City</source>
-        <translation type="unfinished"></translation>
+        <translation>Stad</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="165"/>
         <source>ZIP</source>
-        <translation type="unfinished"></translation>
+        <translation>Postnummer</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="174"/>
         <source>State</source>
-        <translation type="unfinished"></translation>
+        <translation>Stat</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="183"/>
         <source>Country</source>
-        <translation type="unfinished"></translation>
+        <translation>Land</translation>
     </message>
     <message>
         <location filename="../qml/pages/VCard.qml" line="192"/>
         <source>Website</source>
-        <translation type="unfinished"></translation>
+        <translation>Webbsida</translation>
     </message>
 </context>
 <context>
@@ -605,57 +605,57 @@
     <message>
         <location filename="../qml/pages/VEvent.qml" line="87"/>
         <source>Could not add barcode!</source>
-        <translation type="unfinished">Kunde inte lägga till kod!</translation>
+        <translation>Kunde inte lägga till kod!</translation>
     </message>
     <message>
         <location filename="../qml/pages/VEvent.qml" line="107"/>
         <source>Create code</source>
-        <translation type="unfinished">Skapa kod</translation>
+        <translation>Skapa kod</translation>
     </message>
     <message>
         <location filename="../qml/pages/VEvent.qml" line="117"/>
         <source>Name</source>
-        <translation type="unfinished">Namn</translation>
+        <translation>Namn</translation>
     </message>
     <message>
         <location filename="../qml/pages/VEvent.qml" line="127"/>
         <source>Description</source>
-        <translation type="unfinished">Beskrivning</translation>
+        <translation>Beskrivning</translation>
     </message>
     <message>
         <location filename="../qml/pages/VEvent.qml" line="136"/>
         <source>Event name</source>
-        <translation type="unfinished"></translation>
+        <translation>Händelsenamn</translation>
     </message>
     <message>
         <location filename="../qml/pages/VEvent.qml" line="145"/>
         <source>Event description</source>
-        <translation type="unfinished"></translation>
+        <translation>Händelsebeskrivning</translation>
     </message>
     <message>
         <location filename="../qml/pages/VEvent.qml" line="154"/>
         <source>Location</source>
-        <translation type="unfinished"></translation>
+        <translation>Plats</translation>
     </message>
     <message>
         <location filename="../qml/pages/VEvent.qml" line="162"/>
         <source>Pick start date</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj startdatum</translation>
     </message>
     <message>
         <location filename="../qml/pages/VEvent.qml" line="188"/>
         <source>Pick start time</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj starttid</translation>
     </message>
     <message>
         <location filename="../qml/pages/VEvent.qml" line="218"/>
         <source>Pick end date</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj slutdatum</translation>
     </message>
     <message>
         <location filename="../qml/pages/VEvent.qml" line="244"/>
         <source>Pick end time</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj sluttid</translation>
     </message>
 </context>
 <context>
@@ -663,52 +663,52 @@
     <message>
         <location filename="../qml/pages/Wifi.qml" line="43"/>
         <source>Could not add barcode!</source>
-        <translation type="unfinished">Kunde inte lägga till kod!</translation>
+        <translation>Kunde inte lägga till kod!</translation>
     </message>
     <message>
         <location filename="../qml/pages/Wifi.qml" line="63"/>
         <source>Create code</source>
-        <translation type="unfinished">Skapa kod</translation>
+        <translation>Skapa kod</translation>
     </message>
     <message>
         <location filename="../qml/pages/Wifi.qml" line="69"/>
         <source>Name</source>
-        <translation type="unfinished">Namn</translation>
+        <translation>Namn</translation>
     </message>
     <message>
         <location filename="../qml/pages/Wifi.qml" line="79"/>
         <source>Description</source>
-        <translation type="unfinished">Beskrivning</translation>
+        <translation>Beskrivning</translation>
     </message>
     <message>
         <location filename="../qml/pages/Wifi.qml" line="88"/>
         <source>SSID</source>
-        <translation type="unfinished"></translation>
+        <translation>SSID</translation>
     </message>
     <message>
         <location filename="../qml/pages/Wifi.qml" line="97"/>
         <source>Wifi protection</source>
-        <translation type="unfinished"></translation>
+        <translation>Wifi-skydd</translation>
     </message>
     <message>
         <location filename="../qml/pages/Wifi.qml" line="98"/>
         <source>Choose the security protocol</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj säkerhetsprotokoll</translation>
     </message>
     <message>
         <location filename="../qml/pages/Wifi.qml" line="113"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Lösenord</translation>
     </message>
     <message>
         <location filename="../qml/pages/Wifi.qml" line="122"/>
         <source>SSID hidden</source>
-        <translation type="unfinished"></translation>
+        <translation>SSID dold</translation>
     </message>
     <message>
         <location filename="../qml/pages/Wifi.qml" line="123"/>
         <source>Visibility network access point</source>
-        <translation type="unfinished"></translation>
+        <translation>Synlighet för nätverkets åtkomstpunkt</translation>
     </message>
 </context>
 </TS>
