@@ -27,6 +27,21 @@ BuildRequires:  desktop-file-utils
 %description
 Wallet for (bar)codes using zint as backend
 
+%if "%{?vendor}" == "chum"
+PackageName: BarWal
+Type: desktop-application
+DeveloperName: arno
+Categories:
+ - Utility
+Custom:
+  Repo: https://github.com/a-dekker/BarWal
+Icon: https://raw.githubusercontent.com/a-dekker/BarWal/refs/heads/main/icons/harbour-barwal.svg
+Url:
+  Homepage: https://github.com/a-dekker/BarWal
+  Bugtracker: https://github.com/a-dekker/BarWal/issues
+%endif
+
+
 %prep
 %setup -q -n %{name}-%{version}
 
